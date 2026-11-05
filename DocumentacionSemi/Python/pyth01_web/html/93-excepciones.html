@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mw3p57mi-uz8fv13i8">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<title>9.3 Excepciones | PYTH01</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Unidad 1">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../idevices/casestudy/casestudy.js"></script><link rel="stylesheet" href="../idevices/casestudy/casestudy.css">
+<script src="../libs/exe_highlighter/exe_highlighter.js"> </script>
+<link rel="stylesheet" href="../libs/exe_highlighter/exe_highlighter.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mw3p57mi-uz8fv13i8" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Fundamentos de python y estructuras avanzadas</a>
+</li>
+<li> <a href="../html/1-introduccion.html" class="no-ch">1. Introducción</a>
+</li>
+<li> <a href="../html/2-entornos-de-desarrollo.html" class="daddy">2. Entornos de desarrollo</a>
+<ul class="other-section">
+<li> <a href="../html/21-instalacion-del-interprete-de-python.html" class="no-ch">2.1 Instalación del intérprete de Python</a>
+</li>
+<li> <a href="../html/22-gestion-de-paquetes.html" class="no-ch">2.2 Gestión de paquetes</a>
+</li>
+<li> <a href="../html/23-entornos-virtuales.html" class="no-ch">2.3 Entornos virtuales</a>
+</li>
+<li> <a href="../html/24-editores-para-python-ides.html" class="no-ch">2.4 Editores para Python (IDEs)</a>
+</li>
+<li> <a href="../html/25-jupyter-notebook.html" class="no-ch">2.5 Jupyter Notebook</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/3-datos.html" class="daddy">3. Datos</a>
+<ul class="other-section">
+<li> <a href="../html/31-tipos-de-datos.html" class="no-ch">3.1 Tipos de datos</a>
+</li>
+<li> <a href="../html/32-variables.html" class="no-ch">3.2 Variables</a>
+</li>
+<li> <a href="../html/33-asignacion.html" class="no-ch">3.3 Asignación</a>
+</li>
+<li> <a href="../html/34-mutabilidad.html" class="no-ch">3.4 Mutabilidad</a>
+</li>
+<li> <a href="../html/35-funciones-built-in.html" class="no-ch">3.5 Funciones built-in</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/4-numeros.html" class="daddy">4. Números</a>
+<ul class="other-section">
+<li> <a href="../html/41-booleanos.html" class="no-ch">4.1 Booleanos</a>
+</li>
+<li> <a href="../html/42-enteros.html" class="no-ch">4.2 Enteros</a>
+</li>
+<li> <a href="../html/43-flotantes.html" class="no-ch">4.3 Flotantes</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/5-cadenas-de-texto.html" class="daddy">5. Cadenas de texto</a>
+<ul class="other-section">
+<li> <a href="../html/51-entrada-y-salida-por-teclado.html" class="no-ch">5.1 Entrada y salida por teclado</a>
+</li>
+<li> <a href="../html/52-operaciones-principales.html" class="no-ch">5.2 Operaciones principales</a>
+</li>
+<li> <a href="../html/53-caracteres-unicode.html" class="no-ch">5.3 Caracteres UNICODE</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/6-condicionales.html" class="daddy">6. Condicionales</a>
+<ul class="other-section">
+<li> <a href="../html/61-bloques-de-codigo.html" class="no-ch">6.1 Bloques de código</a>
+</li>
+<li> <a href="../html/62-comentarios.html" class="no-ch">6.2 Comentarios</a>
+</li>
+<li> <a href="../html/63-la-sentencia-if.html" class="no-ch">6.3 La sentencia if</a>
+</li>
+<li> <a href="../html/64-operadores-de-comparacion.html" class="no-ch">6.4 Operadores de comparación</a>
+</li>
+<li> <a href="../html/65-sentencias-match-case.html" class="no-ch">6.5 Sentencias match-case</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/7-estructuras-de-repeticion.html" class="daddy">7. Estructuras de repetición</a>
+<ul class="other-section">
+<li> <a href="../html/71-la-sentencia-while.html" class="no-ch">7.1 La sentencia while</a>
+</li>
+<li> <a href="../html/72-la-sentencia-for.html" class="no-ch">7.2 La sentencia for</a>
+</li>
+<li> <a href="../html/73-bucles-anidados.html" class="no-ch">7.3 Bucles anidados</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/8-estructuras-avanzadas.html" class="daddy">8. Estructuras avanzadas</a>
+<ul class="other-section">
+<li> <a href="../html/81-listas.html" class="daddy">8.1 Listas</a>
+<ul class="other-section">
+<li> <a href="../html/811-creando-listas.html" class="no-ch">8.1.1 Creando listas</a>
+</li>
+<li> <a href="../html/812-conversion.html" class="no-ch">8.1.2 Conversión</a>
+</li>
+<li> <a href="../html/813-operaciones-con-listas.html" class="no-ch">8.1.3 Operaciones con listas</a>
+</li>
+<li> <a href="../html/814-copias-en-listas-mutabilidad.html" class="no-ch">8.1.4 Copias en listas (mutabilidad)</a>
+</li>
+<li> <a href="../html/815-veracidad-multiple.html" class="no-ch">8.1.5 Veracidad múltiple</a>
+</li>
+<li> <a href="../html/816-listas-por-comprension.html" class="no-ch">8.1.6 Listas por comprensión</a>
+</li>
+<li> <a href="../html/817-ejecucion-desde-linea-de-comandos.html" class="no-ch">8.1.7 Ejecución desde línea de comandos</a>
+</li>
+<li> <a href="../html/818-funciones-matematicas.html" class="no-ch">8.1.8 Funciones matemáticas</a>
+</li>
+<li> <a href="../html/819-listas-de-listas.html" class="no-ch">8.1.9 Listas de listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/82-tuplas.html" class="daddy">8.2 Tuplas</a>
+<ul class="other-section">
+<li> <a href="../html/821-creando-tuplas.html" class="no-ch">8.2.1 Creando tuplas</a>
+</li>
+<li> <a href="../html/822-modificar-una-tupla.html" class="no-ch">8.2.2 Modificar una tupla</a>
+</li>
+<li> <a href="../html/823-conversion.html" class="no-ch">8.2.3 Conversión</a>
+</li>
+<li> <a href="../html/824-operaciones-con-tuplas.html" class="no-ch">8.2.4 Operaciones con tuplas</a>
+</li>
+<li> <a href="../html/825-tupas-vs-listas.html" class="no-ch">8.2.5 Tupas vs. Listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/83-diccionarios.html" class="daddy">8.3 Diccionarios</a>
+<ul class="other-section">
+<li> <a href="../html/831-creando-diccionarios.html" class="no-ch">8.3.1 Creando diccionarios</a>
+</li>
+<li> <a href="../html/832-conversion.html" class="no-ch">8.3.2 Conversión</a>
+</li>
+<li> <a href="../html/833-operaciones-con-diccionarios.html" class="no-ch">8.3.3 Operaciones con diccionarios</a>
+</li>
+<li> <a href="../html/834-copias-en-diccionarios-mutabilidad.html" class="no-ch">8.3.4 Copias en diccionarios (mutabilidad)</a>
+</li>
+<li> <a href="../html/835-diccionarios-por-comprension.html" class="no-ch">8.3.5 Diccionarios por comprensión</a>
+</li>
+<li> <a href="../html/836-objetos-hashables.html" class="no-ch">8.3.6 Objetos &quot;hashables&quot;</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/9-modularidad.html" class="daddy">9. Modularidad</a>
+<ul class="other-section">
+<li> <a href="../html/91-funciones.html" class="no-ch">9.1 Funciones</a>
+</li>
+<li> <a href="../html/92-objetos-y-clases.html" class="no-ch">9.2 Objetos y clases</a>
+</li>
+<li class="active"> <a href="../html/93-excepciones.html" class="active no-ch">9.3 Excepciones</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav><main id="page-mw3p57mi-uz8fv13i8" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">PYTH01</p></div>
+<div class="page-header"><h1 class="page-title">9.3 Excepciones</h1></div>
+</header><div id="page-content-page-mw3p57mi-uz8fv13i8" class="page-content">
+<article id="block-mw3p57mo-0fcj39zre" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">FPD - Free Text</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mo-3frlnr1ch" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mo-3frlnr1ch&quot;}">
+<p>Una <strong>excepción</strong> es un bloque de código que se ejecuta cuando ocurre un error en la ejecución de un programa Python. Ya se han visto algunas excepciones comunes: accesos fuera de rango a listas o tuplas, accesos a claves inexistentes en diccionarios, entre otros. Cuando se ejecuta código que podría fallar, es necesario manejar adecuadamente las excepciones que se generan.</p>
+<p style="text-align: center;"><a href="../content/resources/PYTH01_CONT_R61_excepciones.jpg" target="_blank" rel="noopener"><img src="../content/resources/PYTH01_CONT_R61_excepciones.jpg" alt="Representación conceptual de una excepción en cualquier lenguaje de programación." title="Representación conceptual de una excepción" width="300" height="187" /></a></p>
+<p style="text-align: center;"><span style="font-size: 10pt;">Elaboración propia. Clic para ampliar.</span></p>
+<h3>Manejando errores</h3>
+<p>Si una excepción ocurre y no es capturada en el punto donde se produce, ésta se propaga (burbujea) hasta que es capturada en alguna función que haya hecho la llamada. Si en toda la «pila» de llamadas no existe un control de la excepción, Python muestra un mensaje de error con información adicional:</p>
+<div class="highlighted-code language-python">
+<pre><code>def intdiv(a, b):
+    return a // b
+
+intdiv(10, 0)
+# Traceback (most recent call last):
+#   File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;
+#   File &quot;&lt;stdin&gt;&quot;, line 2, in intdiv
+# ZeroDivisionError: integer division or modulo by zero
+</code></pre>
+</div>
+<p>Para capturar excepciones se utiliza un bloque <code>try-except</code>:</p>
+<div class="highlighted-code language-python">
+<pre><code>def intdiv(a, b):
+    try:
+        return a // b
+    except:
+        print(&quot;No se puede dividir entre cero&quot;)
+
+intdiv(10, 0)
+# Salida: No se puede dividir entre cero
+</code></pre>
+</div>
+<p>El código dentro de <code>try</code> se ejecuta normalmente si no ocurre ningún error. Si ocurre una excepción, se ejecuta el bloque <code>except</code>.</p>
+<div class="destacado">
+<p>Consejo: no es recomendable usar <code>except</code> sin especificar el tipo de excepción. Es más seguro capturar tipos concretos para evitar comportamientos inesperados.</p>
+</div>
+<h4>Especificando excepciones</h4>
+<p>Se pueden capturar distintos tipos de excepciones para manejar casos específicos:</p>
+<div class="highlighted-code language-python">
+<pre><code>def intdiv(a, b):
+    try:
+        result = a // b
+    except TypeError:
+        print(&quot;Revisar operandos, alguno no es un número&quot;)
+    except ZeroDivisionError:
+        print(&quot;No se puede dividir entre cero&quot;)
+    except Exception:
+        print(&quot;Ups, ocurrió un error inesperado&quot;)
+
+intdiv(10, 0)
+# Salida: No se puede dividir entre cero
+
+intdiv(10, &quot;0&quot;)
+# Salida: Revisar operandos, alguno no es un número
+</code></pre>
+</div>
+<p>Las excepciones predefinidas de Python se pueden usar directamente sin importarlas.</p>
+<h4>Cubriendo más casos: else y finally</h4>
+<p>Python proporciona las cláusulas <code>else</code> y <code>finally</code>. <code>else</code> se ejecuta si no ocurre ninguna excepción, y <code>finally</code> se ejecuta siempre, independientemente de si hay error o no:</p>
+<div class="highlighted-code language-python">
+<pre><code>valores = [5, 3, 8]
+indice_usuario = 5
+
+try:
+    resultado = valores[indice_usuario]
+except IndexError:
+    print(&quot;Error: índice fuera de rango&quot;)
+else:
+    print(f&quot;El valor solicitado es: {resultado}&quot;)
+finally:
+    print(&quot;Fin del intento&quot;)
+
+# Salida:
+# Error: índice fuera de rango
+# Fin del intento
+</code></pre>
+</div>
+<h3>Excepciones propias</h3>
+<p>Python permite crear excepciones personalizadas heredando de la clase <code>Exception</code>. Esto es útil para validar condiciones específicas en un programa.</p>
+<div class="highlighted-code language-python">
+<pre><code>class SoloEnterosError(Exception):
+    pass
+
+valores = (4, 7, 2.5, 9)
+for v in valores:
+    if not isinstance(v, int):
+        raise SoloEnterosError(v)
+# Traceback (most recent call last):
+#   ...
+# __main__.SoloEnterosError: 2.5
+</code></pre>
+</div>
+<p>Se puede personalizar el mensaje de la excepción:</p>
+<div class="highlighted-code language-python">
+<pre><code>class SoloEnterosError(Exception):
+    def __init__(self, valor, mensaje=&quot;Este módulo solo funciona con enteros&quot;):
+        self.valor = valor
+        self.mensaje = mensaje
+        super().__init__(self.mensaje)
+    def __str__(self):
+        return f&quot;{self.valor} -&gt; {self.mensaje}&quot;
+
+raise SoloEnterosError(2.5)
+# Traceback (most recent call last):
+#   ...
+# __main__.SoloEnterosError: 2.5 -&gt; Este módulo solo funciona con enteros
+</code></pre>
+</div>
+<h3>Aserciones</h3>
+<p>La sentencia <code>assert</code> permite comprobar que se cumplen ciertas condiciones en el programa. Si no se cumplen, se lanza un <code>AssertionError</code>:</p>
+<div class="highlighted-code language-python">
+<pre><code>resultado = 15
+assert resultado &gt; 0
+print(resultado)
+# Salida: 15
+
+resultado = -5
+assert resultado &gt; 0, &quot;El resultado debe ser positivo&quot;
+# Traceback (most recent call last):
+#   ...
+# AssertionError: El resultado debe ser positivo
+</code></pre>
+</div>
+<p>Si la condición de <code>assert</code> se cumple, el programa continúa normalmente. Si no, se lanza una excepción con un mensaje opcional para indicar la causa.</p>
+</div>
+</div>
+</article><article id="block-mw3p57mo-d5jjg1v60" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/parasabermasfpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">A Step Ahead</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mo-kcbo1ca5a" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mo-kcbo1ca5a&quot;}">
+<p>Para profundizar en el manejo de errores y excepciones en Python, se pueden consultar los siguientes recursos oficiales:</p>
+<ul>
+<li><a href="https://docs.python.org/3/tutorial/errors.html" target="_blank" rel="noopener">Tutorial de Python: Manejo de excepciones</a> – Explica cómo capturar, propagar y personalizar excepciones, con ejemplos prácticos.</li>
+<li><a href="https://docs.python.org/3/library/exceptions.html" target="_blank" rel="noopener">Referencias de excepciones predefinidas</a> – Lista completa de las excepciones integradas en Python, con su descripción y uso.</li>
+<li><a href="https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement" target="_blank" rel="noopener">Aserciones en Python (assert)</a> – Documentación oficial sobre la sentencia assert, su sintaxis y ejemplos de uso.</li>
+<li><a href="https://docs.python.org/3/library/functions.html#super" target="_blank" rel="noopener">Uso de raise y excepciones personalizadas</a> – Explica cómo crear excepciones propias y lanzarlas con raise.</li>
+<li><a href="https://docs.python.org/3/library/traceback.html" target="_blank" rel="noopener">Módulo traceback</a> – Permite manipular la información de error y depurar excepciones de manera avanzada.</li>
+</ul>
+<p>Estos recursos permiten a los alumnos explorar más ejemplos, tipos de excepciones y técnicas avanzadas para manejar errores de forma segura y clara en Python.</p>
+</div>
+</div>
+</article><article id="block-mw3p57mo-xesp4osth" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/ejercicioresueltofpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Caso practico</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mo-7yz4yrqog" class="idevice_node casestudy db-no-data" data-idevice-path="../idevices/casestudy/" data-idevice-type="casestudy" data-idevice-component-type="json" data-idevice-json-data="{&quot;history&quot;:&quot;&quot;,&quot;activities&quot;:[{&quot;activity&quot;:&quot;&lt;p&gt;Se desea ampliar la calculadora de la sección 9.1 sobre funciones introduciendo validaciones con &lt;strong&gt;assertions&lt;/strong&gt; además de excepciones. Se pide:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Mostrar un menú con 5 opciones: sumar, restar, multiplicar, dividir y salir.&lt;/li&gt;\n&lt;li&gt;Solicitar al usuario que introduzca la opción deseada y lanzar una &lt;strong&gt;excepción propia&lt;/strong&gt; si no es válida.&lt;/li&gt;\n&lt;li&gt;Ejecutar la operación seleccionada, pidiendo dos números y controlando:\n&lt;ul&gt;\n&lt;li&gt;Que los operandos sean válidos (&lt;code&gt;int&lt;/code&gt; o &lt;code&gt;float&lt;/code&gt;).&lt;/li&gt;\n&lt;li&gt;Que no se produzca división por cero.&lt;/li&gt;\n&lt;li&gt;Que los números cumplan condiciones específicas (por ejemplo, positivos) mediante &lt;code&gt;assert&lt;/code&gt;.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;Repetir el proceso hasta que el usuario seleccione salir.&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;feedback&quot;:&quot;&lt;div class=\&quot;highlighted-code language-python\&quot;&gt;\n&lt;pre&gt;&lt;code&gt;# Excepción propia para opción inválida\nclass InvalidOptionError(Exception):\n    \&quot;\&quot;\&quot;Se lanza cuando la opción del menú no es válida\&quot;\&quot;\&quot;\n    def __init__(self, option, message=\&quot;Opción no válida. Elija entre 1 y 5.\&quot;):\n        self.option = option\n        self.message = message\n        super().__init__(f\&quot;{option} -&gt; {message}\&quot;)\n\n# Funciones de operaciones\ndef sumar(a, b):\n    assert a &gt;= 0 and b &gt;= 0, \&quot;Los números deben ser positivos\&quot;\n    return a + b\n\ndef restar(a, b):\n    return a - b\n\ndef multiplicar(a, b):\n    return a * b\n\ndef dividir(a, b):\n    try:\n        assert b != 0, \&quot;No se puede dividir entre cero\&quot;\n        return a / b\n    except AssertionError as e:\n        print(f\&quot;Error: {e}\&quot;)\n        return None\n\n# Función para pedir dos números\ndef pedir_numeros():\n    while True:\n        try:\n            a = float(input(\&quot;Introduzca el primer número: \&quot;))\n            b = float(input(\&quot;Introduzca el segundo número: \&quot;))\n            return a, b\n        except ValueError:\n            print(\&quot;Error: Debe introducir un número válido.\&quot;)\n\n# Función para mostrar el menú y leer opción\ndef leer_opcion():\n    opcion = input(\n        \&quot;\nSeleccione una opción:\n\&quot;\n        \&quot;1. Sumar\n\&quot;\n        \&quot;2. Restar\n\&quot;\n        \&quot;3. Multiplicar\n\&quot;\n        \&quot;4. Dividir\n\&quot;\n        \&quot;5. Salir\n\&quot;\n        \&quot;Opción: \&quot;\n    )\n    if opcion not in ('1', '2', '3', '4', '5'):\n        raise InvalidOptionError(opcion)\n    return opcion\n\n# Función principal\ndef calculadora():\n    while True:\n        try:\n            opcion = leer_opcion()\n        except InvalidOptionError as e:\n            print(e)\n            continue\n\n        if opcion == '5':\n            print(\&quot;Saliendo de la calculadora...\&quot;)\n            break\n\n        a, b = pedir_numeros()\n\n        try:\n            if opcion == '1':\n                resultado = sumar(a, b)\n            elif opcion == '2':\n                resultado = restar(a, b)\n            elif opcion == '3':\n                resultado = multiplicar(a, b)\n            elif opcion == '4':\n                resultado = dividir(a, b)\n\n            if resultado is not None:\n                print(f\&quot;Resultado: {resultado}\&quot;)\n\n        except AssertionError as e:\n            print(f\&quot;Error de aserción: {e}\&quot;)\n&lt;/code&gt;&lt;/pre&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;strong&gt;Explicación:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Se usa la &lt;strong&gt;excepción propia&lt;/strong&gt; &lt;code&gt;InvalidOptionError&lt;/code&gt; para controlar opciones del menú.&lt;/li&gt;\n&lt;li&gt;Las funciones de operaciones ahora pueden usar &lt;code&gt;assert&lt;/code&gt; para validar condiciones de los operandos (por ejemplo, que sean positivos).&lt;/li&gt;\n&lt;li&gt;La división controla tanto la &lt;strong&gt;división entre cero&lt;/strong&gt; como posibles errores de tipo usando &lt;code&gt;assert&lt;/code&gt;.&lt;/li&gt;\n&lt;li&gt;La función &lt;code&gt;pedir_numeros()&lt;/code&gt; asegura que los datos introducidos sean numéricos (&lt;strong&gt;ValueError&lt;/strong&gt;).&lt;/li&gt;\n&lt;li&gt;La función principal &lt;code&gt;calculadora()&lt;/code&gt; gestiona todos los errores y aserciones sin interrumpir la ejecución, mostrando mensajes claros al usuario.&lt;/li&gt;\n&lt;li&gt;Este enfoque combina &lt;strong&gt;excepciones propias&lt;/strong&gt;, &lt;strong&gt;excepciones predefinidas&lt;/strong&gt; y &lt;strong&gt;assertions&lt;/strong&gt;, demostrando buenas prácticas en control de errores y robustez de programas.&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;buttonCaption&quot;:&quot;Mostrar retroalimentación&quot;}],&quot;textInfoDurationInput&quot;:&quot;&quot;,&quot;textInfoDurationTextInput&quot;:&quot;&quot;,&quot;textInfoParticipantsInput&quot;:&quot;&quot;,&quot;textInfoParticipantsTextInput&quot;:&quot;&quot;}" data-idevice-template="casestudy.html">
+
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/92-objetos-y-clases.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<span class="nav-button nav-button-right" aria-hidden="true"><span>Siguiente</span></span>
+</div>
+<footer id="siteFooter" class="siteFooter-empty"><div id="siteFooterContent"></div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

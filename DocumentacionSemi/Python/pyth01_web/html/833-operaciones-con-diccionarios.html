@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mw3p57mi-wt0mw16g1">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<title>8.3.3 Operaciones con diccionarios | PYTH01</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Unidad 1">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../idevices/casestudy/casestudy.js"></script><link rel="stylesheet" href="../idevices/casestudy/casestudy.css">
+<script src="../libs/exe_highlighter/exe_highlighter.js"> </script>
+<link rel="stylesheet" href="../libs/exe_highlighter/exe_highlighter.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mw3p57mi-wt0mw16g1" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Fundamentos de python y estructuras avanzadas</a>
+</li>
+<li> <a href="../html/1-introduccion.html" class="no-ch">1. Introducción</a>
+</li>
+<li> <a href="../html/2-entornos-de-desarrollo.html" class="daddy">2. Entornos de desarrollo</a>
+<ul class="other-section">
+<li> <a href="../html/21-instalacion-del-interprete-de-python.html" class="no-ch">2.1 Instalación del intérprete de Python</a>
+</li>
+<li> <a href="../html/22-gestion-de-paquetes.html" class="no-ch">2.2 Gestión de paquetes</a>
+</li>
+<li> <a href="../html/23-entornos-virtuales.html" class="no-ch">2.3 Entornos virtuales</a>
+</li>
+<li> <a href="../html/24-editores-para-python-ides.html" class="no-ch">2.4 Editores para Python (IDEs)</a>
+</li>
+<li> <a href="../html/25-jupyter-notebook.html" class="no-ch">2.5 Jupyter Notebook</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/3-datos.html" class="daddy">3. Datos</a>
+<ul class="other-section">
+<li> <a href="../html/31-tipos-de-datos.html" class="no-ch">3.1 Tipos de datos</a>
+</li>
+<li> <a href="../html/32-variables.html" class="no-ch">3.2 Variables</a>
+</li>
+<li> <a href="../html/33-asignacion.html" class="no-ch">3.3 Asignación</a>
+</li>
+<li> <a href="../html/34-mutabilidad.html" class="no-ch">3.4 Mutabilidad</a>
+</li>
+<li> <a href="../html/35-funciones-built-in.html" class="no-ch">3.5 Funciones built-in</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/4-numeros.html" class="daddy">4. Números</a>
+<ul class="other-section">
+<li> <a href="../html/41-booleanos.html" class="no-ch">4.1 Booleanos</a>
+</li>
+<li> <a href="../html/42-enteros.html" class="no-ch">4.2 Enteros</a>
+</li>
+<li> <a href="../html/43-flotantes.html" class="no-ch">4.3 Flotantes</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/5-cadenas-de-texto.html" class="daddy">5. Cadenas de texto</a>
+<ul class="other-section">
+<li> <a href="../html/51-entrada-y-salida-por-teclado.html" class="no-ch">5.1 Entrada y salida por teclado</a>
+</li>
+<li> <a href="../html/52-operaciones-principales.html" class="no-ch">5.2 Operaciones principales</a>
+</li>
+<li> <a href="../html/53-caracteres-unicode.html" class="no-ch">5.3 Caracteres UNICODE</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/6-condicionales.html" class="daddy">6. Condicionales</a>
+<ul class="other-section">
+<li> <a href="../html/61-bloques-de-codigo.html" class="no-ch">6.1 Bloques de código</a>
+</li>
+<li> <a href="../html/62-comentarios.html" class="no-ch">6.2 Comentarios</a>
+</li>
+<li> <a href="../html/63-la-sentencia-if.html" class="no-ch">6.3 La sentencia if</a>
+</li>
+<li> <a href="../html/64-operadores-de-comparacion.html" class="no-ch">6.4 Operadores de comparación</a>
+</li>
+<li> <a href="../html/65-sentencias-match-case.html" class="no-ch">6.5 Sentencias match-case</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/7-estructuras-de-repeticion.html" class="daddy">7. Estructuras de repetición</a>
+<ul class="other-section">
+<li> <a href="../html/71-la-sentencia-while.html" class="no-ch">7.1 La sentencia while</a>
+</li>
+<li> <a href="../html/72-la-sentencia-for.html" class="no-ch">7.2 La sentencia for</a>
+</li>
+<li> <a href="../html/73-bucles-anidados.html" class="no-ch">7.3 Bucles anidados</a>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/8-estructuras-avanzadas.html" class="daddy">8. Estructuras avanzadas</a>
+<ul class="other-section">
+<li> <a href="../html/81-listas.html" class="daddy">8.1 Listas</a>
+<ul class="other-section">
+<li> <a href="../html/811-creando-listas.html" class="no-ch">8.1.1 Creando listas</a>
+</li>
+<li> <a href="../html/812-conversion.html" class="no-ch">8.1.2 Conversión</a>
+</li>
+<li> <a href="../html/813-operaciones-con-listas.html" class="no-ch">8.1.3 Operaciones con listas</a>
+</li>
+<li> <a href="../html/814-copias-en-listas-mutabilidad.html" class="no-ch">8.1.4 Copias en listas (mutabilidad)</a>
+</li>
+<li> <a href="../html/815-veracidad-multiple.html" class="no-ch">8.1.5 Veracidad múltiple</a>
+</li>
+<li> <a href="../html/816-listas-por-comprension.html" class="no-ch">8.1.6 Listas por comprensión</a>
+</li>
+<li> <a href="../html/817-ejecucion-desde-linea-de-comandos.html" class="no-ch">8.1.7 Ejecución desde línea de comandos</a>
+</li>
+<li> <a href="../html/818-funciones-matematicas.html" class="no-ch">8.1.8 Funciones matemáticas</a>
+</li>
+<li> <a href="../html/819-listas-de-listas.html" class="no-ch">8.1.9 Listas de listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/82-tuplas.html" class="daddy">8.2 Tuplas</a>
+<ul class="other-section">
+<li> <a href="../html/821-creando-tuplas.html" class="no-ch">8.2.1 Creando tuplas</a>
+</li>
+<li> <a href="../html/822-modificar-una-tupla.html" class="no-ch">8.2.2 Modificar una tupla</a>
+</li>
+<li> <a href="../html/823-conversion.html" class="no-ch">8.2.3 Conversión</a>
+</li>
+<li> <a href="../html/824-operaciones-con-tuplas.html" class="no-ch">8.2.4 Operaciones con tuplas</a>
+</li>
+<li> <a href="../html/825-tupas-vs-listas.html" class="no-ch">8.2.5 Tupas vs. Listas</a>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/83-diccionarios.html" class="daddy">8.3 Diccionarios</a>
+<ul class="other-section">
+<li> <a href="../html/831-creando-diccionarios.html" class="no-ch">8.3.1 Creando diccionarios</a>
+</li>
+<li> <a href="../html/832-conversion.html" class="no-ch">8.3.2 Conversión</a>
+</li>
+<li class="active"> <a href="../html/833-operaciones-con-diccionarios.html" class="active no-ch">8.3.3 Operaciones con diccionarios</a>
+</li>
+<li> <a href="../html/834-copias-en-diccionarios-mutabilidad.html" class="no-ch">8.3.4 Copias en diccionarios (mutabilidad)</a>
+</li>
+<li> <a href="../html/835-diccionarios-por-comprension.html" class="no-ch">8.3.5 Diccionarios por comprensión</a>
+</li>
+<li> <a href="../html/836-objetos-hashables.html" class="no-ch">8.3.6 Objetos &quot;hashables&quot;</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> <a href="../html/9-modularidad.html" class="daddy">9. Modularidad</a>
+<ul class="other-section">
+<li> <a href="../html/91-funciones.html" class="no-ch">9.1 Funciones</a>
+</li>
+<li> <a href="../html/92-objetos-y-clases.html" class="no-ch">9.2 Objetos y clases</a>
+</li>
+<li> <a href="../html/93-excepciones.html" class="no-ch">9.3 Excepciones</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav><main id="page-mw3p57mi-wt0mw16g1" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">PYTH01</p></div>
+<div class="page-header"><h1 class="page-title">8.3.3 Operaciones con diccionarios</h1></div>
+</header><div id="page-content-page-mw3p57mi-wt0mw16g1" class="page-content">
+<article id="block-mw3p57mn-ntwrrgn62" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">FPD - Free Text</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mn-oo87dt8bg" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mn-oo87dt8bg&quot;}">
+<p><strong>Obtener un elemento</strong></p>
+<p>Para obtener un elemento de un diccionario, se indica la clave entre corchetes:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>glosario = {
+    &#039;efímero&#039;: &#039;Que dura poco tiempo&#039;,
+    &#039;abigarrado&#039;: &#039;Que tiene muchos colores o elementos juntos&#039;,
+    &#039;solapado&#039;: &#039;Que actúa con disimulo&#039;
+}
+
+glosario[&#039;abigarrado&#039;]
+# &#039;Que tiene muchos colores o elementos juntos&#039;
+</code></pre>
+</div>
+</div>
+<p class="destacado">Nota: Intentar acceder a una clave inexistente produce un <code>KeyError</code>.</p>
+<p><strong>Uso de <code>get()</code></strong></p>
+<p>El método <code>get()</code> permite acceder a un valor sin riesgo de error si la clave no existe.</p>
+<p style="text-align: center;"><a href="../content/resources/PYTH01_CONT_R54_operacion_get.jpg" target="_blank" rel="noopener"><img src="../content/resources/PYTH01_CONT_R54_operacion_get.jpg" alt="Representación gráfica del acceso a un elemento del diccionario por su clave usando el método get()." title="Acceso a un elemento con get()" width="300" height="215" /></a></p>
+<p style="text-align: center;"><span style="font-size: 10pt;">Elaboración propia. Clic para ampliar.</span></p>
+<p>Se puede indicar un valor por defecto:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>glosario.get(&#039;efímero&#039;)
+# &#039;Que dura poco tiempo&#039;
+
+glosario.get(&#039;inexistente&#039;)
+# None
+
+glosario.get(&#039;inexistente&#039;, &#039;No disponible&#039;)
+# &#039;No disponible&#039;</code></pre>
+</div>
+</div>
+<p><strong>Añadir o modificar elementos</strong></p>
+<p>Se puede asignar un valor a una clave para añadirla o modificarla:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>glosario[&#039;audaz&#039;] = &#039;Que se atreve con facilidad&#039;
+glosario[&#039;audaz&#039;] = &#039;Que actúa con valor y decisión&#039;
+glosario
+# {&#039;efímero&#039;: &#039;Que dura poco tiempo&#039;,
+#  &#039;abigarrado&#039;: &#039;Que tiene muchos colores o elementos juntos&#039;,
+#  &#039;solapado&#039;: &#039;Que actúa con disimulo&#039;,
+#  &#039;audaz&#039;: &#039;Que actúa con valor y decisión&#039;}</code></pre>
+</div>
+</div>
+<p><strong>Creación desde vacío</strong></p>
+<p>Se puede construir un diccionario vacío e ir añadiendo elementos progresivamente:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>vowels = &#039;aeiou&#039;
+posiciones = {}
+for i, letra in enumerate(vowels):
+    posiciones[letra] = i + 1
+
+posiciones
+# {&#039;a&#039;: 1, &#039;e&#039;: 2, &#039;i&#039;: 3, &#039;o&#039;: 4, &#039;u&#039;: 5}</code></pre>
+</div>
+</div>
+<p><strong>Pertenencia de una clave</strong></p>
+<p>El operador <code>in</code> permite comprobar la existencia de una clave:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>&#039;efímero&#039; in glosario
+# True
+
+&#039;colérico&#039; in glosario
+# False
+
+&#039;solapado&#039; not in glosario
+# False</code></pre>
+</div>
+</div>
+<p><strong>Obtener todos los elementos</strong></p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>glosario.keys()
+# dict_keys([&#039;efímero&#039;, &#039;abigarrado&#039;, &#039;solapado&#039;, &#039;audaz&#039;])
+
+glosario.values()
+# dict_values([&#039;Que dura poco tiempo&#039;,
+#              &#039;Que tiene muchos colores o elementos juntos&#039;,
+#              &#039;Que actúa con disimulo&#039;,
+#              &#039;Que actúa con valor y decisión&#039;])
+
+glosario.items()
+# dict_items([
+#   (&#039;efímero&#039;, &#039;Que dura poco tiempo&#039;),
+#   (&#039;abigarrado&#039;, &#039;Que tiene muchos colores o elementos juntos&#039;),
+#   (&#039;solapado&#039;, &#039;Que actúa con disimulo&#039;),
+#   (&#039;audaz&#039;, &#039;Que actúa con valor y decisión&#039;)
+# ])</code></pre>
+</div>
+</div>
+<p><strong>Longitud de un diccionario</strong></p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>len(glosario)
+# 4</code></pre>
+</div>
+</div>
+<p><strong>Iterar sobre un diccionario</strong></p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code># Iterar sobre claves
+for palabra in glosario.keys():
+    print(palabra)
+
+# Iterar sobre valores
+for significado in glosario.values():
+    print(significado)
+
+# Iterar sobre clave-valor
+for palabra, significado in glosario.items():
+    print(f&#039;{palabra}: {significado}&#039;)</code></pre>
+</div>
+</div>
+<p class="destacado">Nota: En la iteración sobre clave-valor se utilizan f-strings para formatear las cadenas.</p>
+<p><strong>Combinar diccionarios</strong></p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>dic1 = {&#039;a&#039;: 1, &#039;b&#039;: 2}
+dic2 = {&#039;b&#039;: 3, &#039;c&#039;: 4}
+
+# Sin modificar los originales
+{**dic1, **dic2}
+# {&#039;a&#039;: 1, &#039;b&#039;: 3, &#039;c&#039;: 4}
+
+# A partir de Python 3.9
+dic1 | dic2
+# {&#039;a&#039;: 1, &#039;b&#039;: 3, &#039;c&#039;: 4}
+
+# Modificando dic1
+dic1.update(dic2)
+dic1
+# {&#039;a&#039;: 1, &#039;b&#039;: 3, &#039;c&#039;: 4}</code></pre>
+</div>
+</div>
+<p><strong>Borrar elementos</strong></p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>glosario = {&#039;efímero&#039;: &#039;Que dura poco tiempo&#039;, &#039;abigarrado&#039;: &#039;Que tiene muchos colores&#039;, &#039;solapado&#039;: &#039;Que actúa con disimulo&#039;}
+
+# Por clave
+del(glosario[&#039;efímero&#039;])
+
+# Extracción con pop
+glosario.pop(&#039;abigarrado&#039;)
+
+# Borrado completo
+glosario.clear()
+# o reinicializando
+glosario = {}</code></pre>
+</div>
+</div>
+<p class="destacado">Nota: La diferencia entre <code>clear()</code> y reinicializar con {} afecta a la gestión interna de memoria y rendimiento.</p>
+</div>
+</div>
+</article><article id="block-mw3p57mn-v5ra3l9kt" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/debesconocerfpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">You Should Know</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mn-8ipm5advx" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mn-8ipm5advx&quot;}">
+<h2>Errores comunes en operaciones con diccionarios</h2>
+<p>Al trabajar con diccionarios, pueden producirse errores si no se tienen en cuenta ciertas condiciones. A continuación se muestran los más frecuentes.</p>
+<p><strong>1. Acceso a una clave inexistente</strong></p>
+<p>Intentar acceder a una clave que no existe provoca un <code>KeyError</code>:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>glosario = {&#039;python&#039;: &#039;Lenguaje de programación&#039;, &#039;java&#039;: &#039;Otro lenguaje&#039;}
+
+glosario[&#039;c++&#039;]
+# KeyError: &#039;c++&#039;</code></pre>
+</div>
+</div>
+<p><strong>2. Uso de tipos no hashables como clave</strong></p>
+<p>Las claves de un diccionario deben ser inmutables. Intentar usar una lista o un diccionario como clave genera un <code>TypeError</code>:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>mi_dic = {}
+mi_dic[[&#039;a&#039;, &#039;b&#039;]] = 1
+# TypeError: unhashable type: &#039;list&#039;</code></pre>
+</div>
+</div>
+<p><strong>3. Uso incorrecto de <code>pop()</code> con clave inexistente</strong></p>
+<p>Si se intenta extraer un elemento con <code>pop()</code> y la clave no existe, se obtiene un <code>KeyError</code>:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>glosario.pop(&#039;ruby&#039;)
+# KeyError: &#039;ruby&#039;</code></pre>
+</div>
+</div>
+<p>Truco: Para evitar errores con <code>pop()</code>, se puede indicar un valor por defecto: <code>glosario.pop('ruby', 'No existe')</code>.</p>
+<p><strong>4. Asignación con paréntesis mal usada</strong></p>
+<p>Intentar borrar un elemento usando paréntesis incorrectos genera un <code>SyntaxError</code>:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>del(glosario[&#039;python&#039;])
+# Esto es correcto
+
+del glosario(&#039;python&#039;)
+# SyntaxError: cannot delete function call</code></pre>
+</div>
+</div>
+<p>Nota: Siempre se debe utilizar la sintaxis correcta para borrar claves: <code>del diccionario['clave']</code>.</p>
+</div>
+</div>
+</article><article id="block-mw3p57mo-cxq3h9g17" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/parasabermasfpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">A Step Ahead</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mo-a6qne5ixi" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mo-a6qne5ixi&quot;}">
+<h2>Resumen de operaciones con diccionarios</h2>
+<p>Se presenta un resumen de las operaciones más habituales con diccionarios, así como algunas menos frecuentes. Para más información, se puede consultar la <a href="https://docs.python.org/3/tutorial/datastructures.html#dictionaries" target="_blank" rel="noopener">documentación oficial de Python sobre diccionarios</a>.</p>
+<table border="1" cellpadding="5" cellspacing="0" summary="Esta tabla organiza las operaciones principales disponibles para manipular diccionarios en Python, como acceso, inserción y eliminación de pares clave-valor.">
+<thead>
+<tr>
+<th>Operación</th>
+<th>Descripción</th>
+<th>Ejemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Acceso por clave</td>
+<td>Obtiene el valor asociado a una clave existente.</td>
+<td><code>d['clave']</code></td>
+</tr>
+<tr>
+<td>get()</td>
+<td>Obtiene el valor de una clave. Devuelve None o un valor por defecto si no existe.</td>
+<td><code>d.get('clave', 'No existe')</code></td>
+</tr>
+<tr>
+<td>Asignación</td>
+<td>Añade un elemento nuevo o modifica uno existente.</td>
+<td><code>d['clave'] = valor</code></td>
+</tr>
+<tr>
+<td>update()</td>
+<td>Actualiza un diccionario con otro, añadiendo o sobrescribiendo claves.</td>
+<td><code>d.update({'nueva': 10})</code></td>
+</tr>
+<tr>
+<td>keys()</td>
+<td>Devuelve un iterable con todas las claves.</td>
+<td><code>d.keys()</code></td>
+</tr>
+<tr>
+<td>values()</td>
+<td>Devuelve un iterable con todos los valores.</td>
+<td><code>d.values()</code></td>
+</tr>
+<tr>
+<td>items()</td>
+<td>Devuelve un iterable de pares clave-valor como tuplas.</td>
+<td><code>d.items()</code></td>
+</tr>
+<tr>
+<td>pop()</td>
+<td>Elimina y devuelve el valor de una clave. Se puede dar valor por defecto.</td>
+<td><code>d.pop('clave', None)</code></td>
+</tr>
+<tr>
+<td>popitem()</td>
+<td>Elimina y devuelve el último par clave-valor agregado (Python 3.7+).</td>
+<td><code>d.popitem()</code></td>
+</tr>
+<tr>
+<td>clear()</td>
+<td>Elimina todos los elementos del diccionario.</td>
+<td><code>d.clear()</code></td>
+</tr>
+<tr>
+<td>copy()</td>
+<td>Devuelve una copia superficial del diccionario.</td>
+<td><code>copia = d.copy()</code></td>
+</tr>
+<tr>
+<td>fromkeys()</td>
+<td>Crea un diccionario a partir de un iterable, asignando un mismo valor a todas las claves.</td>
+<td><code>dict.fromkeys(['a','b'], 0)</code></td>
+</tr>
+<tr>
+<td>setdefault()</td>
+<td>Devuelve el valor de una clave si existe; si no, la añade con un valor por defecto.</td>
+<td><code>d.setdefault('clave', 0)</code></td>
+</tr>
+<tr>
+<td>Comprobación de pertenencia</td>
+<td>Comprueba si una clave está presente en el diccionario.</td>
+<td><code>'clave' in d</code></td>
+</tr>
+<tr>
+<td>Iteración</td>
+<td>Permite recorrer claves, valores o pares clave-valor.</td>
+<td><code>for k, v in d.items(): ...</code></td>
+</tr>
+<tr>
+<td>Combinación de diccionarios</td>
+<td>Une dos diccionarios. Con <code>|</code> (Python 3.9+) o <code>**</code>.</td>
+<td><code>d3 = d1 | d2</code></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>Muchas de estas operaciones devuelven vistas dinámicas del diccionario (como <code>keys()</code>, <code>values()</code>, <code>items()</code>), por lo que reflejan los cambios que se realicen posteriormente en el diccionario.</p>
+</div>
+</div>
+</article><article id="block-mw3p57mo-7ugmy7ofo" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/ejercicioresueltofpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Caso practico</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mo-9xtzpjcbl" class="idevice_node casestudy" data-idevice-path="../idevices/casestudy/" data-idevice-type="casestudy" data-idevice-component-type="json" data-idevice-json-data="{&quot;history&quot;:&quot;&lt;p&gt;Se dispone del siguiente diccionario con nombres de estudiantes y sus edades:&lt;/p&gt;\n&lt;div class=\&quot;highlighted-code language-python\&quot;&gt;\n&lt;div&gt;\n&lt;pre&gt;&lt;code&gt;students = {\n    'Alice': 25,\n    'Bob': 30,\n    'Charlie': 25,\n    'David': 40,\n    'Eve': 30,\n    'Frank': 25\n}&lt;/code&gt;&lt;/pre&gt;\n&lt;/div&gt;\n&lt;/div&gt;&quot;,&quot;activities&quot;:[{&quot;activity&quot;:&quot;&lt;p&gt;Realice las siguientes operaciones:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Contar cuántas veces aparece la edad 25.&lt;/li&gt;\n&lt;li&gt;Obtener la primera clave cuyo valor sea 40.&lt;/li&gt;\n&lt;li&gt;Verificar si hay algún estudiante con edad 35.&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;feedback&quot;:&quot;&lt;div class=\&quot;highlighted-code language-python\&quot;&gt;\n&lt;div&gt;\n&lt;pre&gt;&lt;code&gt;# Contar cuántas veces aparece la edad 25\ncount_25 = list(students.values()).count(25)\nprint(count_25)\n# Salida: 3\n\n# Obtener la primera clave cuyo valor sea 40\nkey_40 = [k for k, v in students.items() if v == 40][0]\nprint(key_40)\n# Salida: 'David'\n\n# Verificar si existe la edad 35\nis_35_present = 35 in students.values()\nprint(is_35_present)\n# Salida: False&lt;/code&gt;&lt;/pre&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;strong&gt;Explicación:&lt;/strong&gt; Se ha utilizado:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;code&gt;values()&lt;/code&gt; para obtener los valores del diccionario y &lt;code&gt;count()&lt;/code&gt; para contar las ocurrencias de un valor.&lt;/li&gt;\n&lt;li&gt;Una lista por comprensión sobre &lt;code&gt;items()&lt;/code&gt; para encontrar la primera clave que cumple una condición.&lt;/li&gt;\n&lt;li&gt;El operador &lt;code&gt;in&lt;/code&gt; sobre los valores del diccionario para verificar la presencia de un valor.&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;buttonCaption&quot;:&quot;Mostrar retroalimentación&quot;},{&quot;activity&quot;:&quot;&lt;p&gt;Se dispone del siguiente diccionario que representa las puntuaciones de un grupo de estudiantes en un examen:&lt;/p&gt;\n&lt;div class=\&quot;highlighted-code language-python\&quot;&gt;\n&lt;div&gt;\n&lt;pre&gt;&lt;code&gt;scores = {\n    'Alice': 85,\n    'Bob': 78,\n    'Charlie': 92,\n    'David': 85,\n    'Eve': 90\n}&lt;/code&gt;&lt;/pre&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;p&gt;Realice las siguientes operaciones:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Añadir un nuevo estudiante 'Frank' con puntuación 88.&lt;/li&gt;\n&lt;li&gt;Modificar la puntuación de 'Bob' a 82.&lt;/li&gt;\n&lt;li&gt;Eliminar al estudiante 'Alice' del diccionario.&lt;/li&gt;\n&lt;li&gt;Obtener todas las claves y valores del diccionario.&lt;/li&gt;\n&lt;li&gt;Verificar si 'Grace' está en el diccionario.&lt;/li&gt;\n&lt;li&gt;Combinar este diccionario con otro diccionario &lt;code&gt;extra_scores = {'Grace': 95, 'Henry': 87}&lt;/code&gt;.&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;feedback&quot;:&quot;&lt;div class=\&quot;highlighted-code language-python\&quot;&gt;\n&lt;div&gt;\n&lt;pre&gt;&lt;code&gt;extra_scores = {'Grace': 95, 'Henry': 87}\n\n# Añadir nuevo estudiante\nscores['Frank'] = 88\n\n# Modificar puntuación de Bob\nscores['Bob'] = 82\n\n# Eliminar a Alice\ndel scores['Alice']\n\n# Obtener todas las claves y valores\nall_keys = scores.keys()\nall_values = scores.values()\nall_items = scores.items()\n\nprint(all_keys)\n# Salida: dict_keys(['Bob', 'Charlie', 'David', 'Eve', 'Frank'])\nprint(all_values)\n# Salida: dict_values([82, 92, 85, 90, 88])\nprint(all_items)\n# Salida: dict_items([('Bob', 82), ('Charlie', 92), ('David', 85), ('Eve', 90), ('Frank', 88)])\n\n# Verificar si Grace está en el diccionario\nis_grace_present = 'Grace' in scores\nprint(is_grace_present)\n# Salida: False\n\n# Combinar con otro diccionario\nscores.update(extra_scores)\nprint(scores)\n# Salida: {'Bob': 82, 'Charlie': 92, 'David': 85, 'Eve': 90, 'Frank': 88, 'Grace': 95, 'Henry': 87}&lt;/code&gt;&lt;/pre&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;strong&gt;Explicación:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Se ha añadido un elemento asignando un valor a una nueva clave: &lt;code&gt;scores['Frank'] = 88&lt;/code&gt;.&lt;/li&gt;\n&lt;li&gt;Se ha modificado un valor existente de la misma manera: &lt;code&gt;scores['Bob'] = 82&lt;/code&gt;.&lt;/li&gt;\n&lt;li&gt;Se ha eliminado un elemento usando &lt;code&gt;del&lt;/code&gt;.&lt;/li&gt;\n&lt;li&gt;Se han obtenido las claves, valores y pares clave-valor con &lt;code&gt;keys()&lt;/code&gt;, &lt;code&gt;values()&lt;/code&gt; y &lt;code&gt;items()&lt;/code&gt;.&lt;/li&gt;\n&lt;li&gt;Se ha comprobado la existencia de una clave con el operador &lt;code&gt;in&lt;/code&gt;.&lt;/li&gt;\n&lt;li&gt;Se ha combinado el diccionario original con otro usando &lt;code&gt;update()&lt;/code&gt;, sobrescribiendo o añadiendo claves según corresponda.&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;buttonCaption&quot;:&quot;Mostrar retroalimentación&quot;}],&quot;textInfoDurationInput&quot;:&quot;&quot;,&quot;textInfoDurationTextInput&quot;:&quot;&quot;,&quot;textInfoParticipantsInput&quot;:&quot;&quot;,&quot;textInfoParticipantsTextInput&quot;:&quot;&quot;}" data-idevice-template="casestudy.html">
+<p>Se dispone del siguiente diccionario con nombres de estudiantes y sus edades:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>students = {
+    &#039;Alice&#039;: 25,
+    &#039;Bob&#039;: 30,
+    &#039;Charlie&#039;: 25,
+    &#039;David&#039;: 40,
+    &#039;Eve&#039;: 30,
+    &#039;Frank&#039;: 25
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/832-conversion.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/834-copias-en-diccionarios-mutabilidad.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter" class="siteFooter-empty"><div id="siteFooterContent"></div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

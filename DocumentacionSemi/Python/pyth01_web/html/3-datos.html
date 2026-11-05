@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mw3p57mh-p6dbroidi">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<title>3. Datos | PYTH01</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Unidad 1">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mw3p57mh-p6dbroidi" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Fundamentos de python y estructuras avanzadas</a>
+</li>
+<li> <a href="../html/1-introduccion.html" class="no-ch">1. Introducción</a>
+</li>
+<li> <a href="../html/2-entornos-de-desarrollo.html" class="daddy">2. Entornos de desarrollo</a>
+<ul class="other-section">
+<li> <a href="../html/21-instalacion-del-interprete-de-python.html" class="no-ch">2.1 Instalación del intérprete de Python</a>
+</li>
+<li> <a href="../html/22-gestion-de-paquetes.html" class="no-ch">2.2 Gestión de paquetes</a>
+</li>
+<li> <a href="../html/23-entornos-virtuales.html" class="no-ch">2.3 Entornos virtuales</a>
+</li>
+<li> <a href="../html/24-editores-para-python-ides.html" class="no-ch">2.4 Editores para Python (IDEs)</a>
+</li>
+<li> <a href="../html/25-jupyter-notebook.html" class="no-ch">2.5 Jupyter Notebook</a>
+</li>
+</ul>
+</li>
+<li class="active"> <a href="../html/3-datos.html" class="active daddy">3. Datos</a>
+<ul class="other-section">
+<li> <a href="../html/31-tipos-de-datos.html" class="no-ch">3.1 Tipos de datos</a>
+</li>
+<li> <a href="../html/32-variables.html" class="no-ch">3.2 Variables</a>
+</li>
+<li> <a href="../html/33-asignacion.html" class="no-ch">3.3 Asignación</a>
+</li>
+<li> <a href="../html/34-mutabilidad.html" class="no-ch">3.4 Mutabilidad</a>
+</li>
+<li> <a href="../html/35-funciones-built-in.html" class="no-ch">3.5 Funciones built-in</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/4-numeros.html" class="daddy">4. Números</a>
+<ul class="other-section">
+<li> <a href="../html/41-booleanos.html" class="no-ch">4.1 Booleanos</a>
+</li>
+<li> <a href="../html/42-enteros.html" class="no-ch">4.2 Enteros</a>
+</li>
+<li> <a href="../html/43-flotantes.html" class="no-ch">4.3 Flotantes</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/5-cadenas-de-texto.html" class="daddy">5. Cadenas de texto</a>
+<ul class="other-section">
+<li> <a href="../html/51-entrada-y-salida-por-teclado.html" class="no-ch">5.1 Entrada y salida por teclado</a>
+</li>
+<li> <a href="../html/52-operaciones-principales.html" class="no-ch">5.2 Operaciones principales</a>
+</li>
+<li> <a href="../html/53-caracteres-unicode.html" class="no-ch">5.3 Caracteres UNICODE</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/6-condicionales.html" class="daddy">6. Condicionales</a>
+<ul class="other-section">
+<li> <a href="../html/61-bloques-de-codigo.html" class="no-ch">6.1 Bloques de código</a>
+</li>
+<li> <a href="../html/62-comentarios.html" class="no-ch">6.2 Comentarios</a>
+</li>
+<li> <a href="../html/63-la-sentencia-if.html" class="no-ch">6.3 La sentencia if</a>
+</li>
+<li> <a href="../html/64-operadores-de-comparacion.html" class="no-ch">6.4 Operadores de comparación</a>
+</li>
+<li> <a href="../html/65-sentencias-match-case.html" class="no-ch">6.5 Sentencias match-case</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/7-estructuras-de-repeticion.html" class="daddy">7. Estructuras de repetición</a>
+<ul class="other-section">
+<li> <a href="../html/71-la-sentencia-while.html" class="no-ch">7.1 La sentencia while</a>
+</li>
+<li> <a href="../html/72-la-sentencia-for.html" class="no-ch">7.2 La sentencia for</a>
+</li>
+<li> <a href="../html/73-bucles-anidados.html" class="no-ch">7.3 Bucles anidados</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/8-estructuras-avanzadas.html" class="daddy">8. Estructuras avanzadas</a>
+<ul class="other-section">
+<li> <a href="../html/81-listas.html" class="daddy">8.1 Listas</a>
+<ul class="other-section">
+<li> <a href="../html/811-creando-listas.html" class="no-ch">8.1.1 Creando listas</a>
+</li>
+<li> <a href="../html/812-conversion.html" class="no-ch">8.1.2 Conversión</a>
+</li>
+<li> <a href="../html/813-operaciones-con-listas.html" class="no-ch">8.1.3 Operaciones con listas</a>
+</li>
+<li> <a href="../html/814-copias-en-listas-mutabilidad.html" class="no-ch">8.1.4 Copias en listas (mutabilidad)</a>
+</li>
+<li> <a href="../html/815-veracidad-multiple.html" class="no-ch">8.1.5 Veracidad múltiple</a>
+</li>
+<li> <a href="../html/816-listas-por-comprension.html" class="no-ch">8.1.6 Listas por comprensión</a>
+</li>
+<li> <a href="../html/817-ejecucion-desde-linea-de-comandos.html" class="no-ch">8.1.7 Ejecución desde línea de comandos</a>
+</li>
+<li> <a href="../html/818-funciones-matematicas.html" class="no-ch">8.1.8 Funciones matemáticas</a>
+</li>
+<li> <a href="../html/819-listas-de-listas.html" class="no-ch">8.1.9 Listas de listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/82-tuplas.html" class="daddy">8.2 Tuplas</a>
+<ul class="other-section">
+<li> <a href="../html/821-creando-tuplas.html" class="no-ch">8.2.1 Creando tuplas</a>
+</li>
+<li> <a href="../html/822-modificar-una-tupla.html" class="no-ch">8.2.2 Modificar una tupla</a>
+</li>
+<li> <a href="../html/823-conversion.html" class="no-ch">8.2.3 Conversión</a>
+</li>
+<li> <a href="../html/824-operaciones-con-tuplas.html" class="no-ch">8.2.4 Operaciones con tuplas</a>
+</li>
+<li> <a href="../html/825-tupas-vs-listas.html" class="no-ch">8.2.5 Tupas vs. Listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/83-diccionarios.html" class="daddy">8.3 Diccionarios</a>
+<ul class="other-section">
+<li> <a href="../html/831-creando-diccionarios.html" class="no-ch">8.3.1 Creando diccionarios</a>
+</li>
+<li> <a href="../html/832-conversion.html" class="no-ch">8.3.2 Conversión</a>
+</li>
+<li> <a href="../html/833-operaciones-con-diccionarios.html" class="no-ch">8.3.3 Operaciones con diccionarios</a>
+</li>
+<li> <a href="../html/834-copias-en-diccionarios-mutabilidad.html" class="no-ch">8.3.4 Copias en diccionarios (mutabilidad)</a>
+</li>
+<li> <a href="../html/835-diccionarios-por-comprension.html" class="no-ch">8.3.5 Diccionarios por comprensión</a>
+</li>
+<li> <a href="../html/836-objetos-hashables.html" class="no-ch">8.3.6 Objetos &quot;hashables&quot;</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> <a href="../html/9-modularidad.html" class="daddy">9. Modularidad</a>
+<ul class="other-section">
+<li> <a href="../html/91-funciones.html" class="no-ch">9.1 Funciones</a>
+</li>
+<li> <a href="../html/92-objetos-y-clases.html" class="no-ch">9.2 Objetos y clases</a>
+</li>
+<li> <a href="../html/93-excepciones.html" class="no-ch">9.3 Excepciones</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav><main id="page-mw3p57mh-p6dbroidi" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">PYTH01</p></div>
+<div class="page-header"><h1 class="page-title">3. Datos</h1></div>
+</header><div id="page-content-page-mw3p57mh-p6dbroidi" class="page-content">
+<article id="block-mw3p57mk-9qhcavv5c" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/casopracticofpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Situation</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mk-1bce0qjg3" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mk-1bce0qjg3&quot;}">
+<div class="elemento_izquierda">
+<div class="elemento_centrado"><img src="../content/resources/PYTH01_CONT_R03_CASO_workmeeting.jpg" alt="Reunión del equipo para analizar los requisitos antes de comenzar el desarrollo, compartiendo ideas y objetivos." width="200" height="150" title="Equipo planificando el desarrollo del proyecto." /></div>
+<div class="elemento_centrado credenciales"><a class="cc-by" title="Acceder a los términos de la Licencia CC BY (se abre en una nueva ventana)." href="http://creativecommons.org/licenses/by/3.0/deed.es" target="_blank" rel="noopener"><span class="transparente">CC by</span></a> <a title="Acceder a la web descarga de la imagen de Jopwell en Pexels (se abre en una nueva ventana)." href="https://www.pexels.com/es-es/foto/mujer-en-chaqueta-de-traje-azul-2422293/" target="_blank" rel="noopener">Jopwell</a></div>
+</div>
+<section aria-labelledby="caso-datos">
+<p align="justify"><strong>Marta</strong> explica a su equipo que, en Python, todo dato que creen se trata como un <strong>objeto</strong>, con un <strong>tipo</strong>, un <strong>identificador único</strong> y un <strong>valor</strong>. Esto permite manejar los datos de manera uniforme y consistente.</p>
+<p align="justify">Para practicar, propone crear variables simples y observar cómo se comportan, combinando código y anotaciones en un cuaderno Jupyter. Así, el equipo se familiariza con los datos en Python y se prepara para organizar proyectos futuros de forma clara y eficiente.</p>
+</section>
+</div>
+</div>
+</article><article id="block-mw3p57mk-qe174f00a" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">FPD - Free Text</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mk-ncujgexfo" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mk-ncujgexfo&quot;}">
+<p align="justify">Los programas están formados por <strong>código</strong> y <strong>datos</strong>. A nivel interno de la memoria del ordenador, ambos no son más que una <strong>secuencia de bits</strong>. La interpretación de estos bits depende del lenguaje de programación, que almacena en la memoria no solo el dato en sí, sino también distintos <strong>metadatos</strong>.</p>
+<p align="justify">En Python, cada «trozo» de memoria contiene realmente un <strong><a class="glosario">objeto<span><em>Entidad que combina datos (atributos) y funciones (métodos) que operan sobre esos datos, y que forma la base de la programación orientada a objetos.</em></span></a></strong>, de ahí la afirmación de que <strong>en Python todo son objetos</strong>. Cada objeto tiene, al menos, los siguientes campos:</p>
+<ul>
+<li><strong>Tipo</strong> del dato almacenado.</li>
+<li><strong>Identificador único</strong> para distinguirlo de otros objetos.</li>
+<li><strong>Valor</strong> consistente con su tipo.</li>
+</ul>
+<p class="destacado" align="justify"><strong>En Python, cada elemento de memoria es un objeto completo con tipo, identificador y valor, lo que permite un manejo consistente y uniforme de los datos.</strong></p>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/25-jupyter-notebook.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/31-tipos-de-datos.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter" class="siteFooter-empty"><div id="siteFooterContent"></div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

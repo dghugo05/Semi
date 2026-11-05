@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mw3p57mi-50bg87nvx">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<title>7. Estructuras de repetición | PYTH01</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Unidad 1">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../idevices/trueorfalse/trueorfalse.js"></script><link rel="stylesheet" href="../idevices/trueorfalse/trueorfalse.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mw3p57mi-50bg87nvx" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Fundamentos de python y estructuras avanzadas</a>
+</li>
+<li> <a href="../html/1-introduccion.html" class="no-ch">1. Introducción</a>
+</li>
+<li> <a href="../html/2-entornos-de-desarrollo.html" class="daddy">2. Entornos de desarrollo</a>
+<ul class="other-section">
+<li> <a href="../html/21-instalacion-del-interprete-de-python.html" class="no-ch">2.1 Instalación del intérprete de Python</a>
+</li>
+<li> <a href="../html/22-gestion-de-paquetes.html" class="no-ch">2.2 Gestión de paquetes</a>
+</li>
+<li> <a href="../html/23-entornos-virtuales.html" class="no-ch">2.3 Entornos virtuales</a>
+</li>
+<li> <a href="../html/24-editores-para-python-ides.html" class="no-ch">2.4 Editores para Python (IDEs)</a>
+</li>
+<li> <a href="../html/25-jupyter-notebook.html" class="no-ch">2.5 Jupyter Notebook</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/3-datos.html" class="daddy">3. Datos</a>
+<ul class="other-section">
+<li> <a href="../html/31-tipos-de-datos.html" class="no-ch">3.1 Tipos de datos</a>
+</li>
+<li> <a href="../html/32-variables.html" class="no-ch">3.2 Variables</a>
+</li>
+<li> <a href="../html/33-asignacion.html" class="no-ch">3.3 Asignación</a>
+</li>
+<li> <a href="../html/34-mutabilidad.html" class="no-ch">3.4 Mutabilidad</a>
+</li>
+<li> <a href="../html/35-funciones-built-in.html" class="no-ch">3.5 Funciones built-in</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/4-numeros.html" class="daddy">4. Números</a>
+<ul class="other-section">
+<li> <a href="../html/41-booleanos.html" class="no-ch">4.1 Booleanos</a>
+</li>
+<li> <a href="../html/42-enteros.html" class="no-ch">4.2 Enteros</a>
+</li>
+<li> <a href="../html/43-flotantes.html" class="no-ch">4.3 Flotantes</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/5-cadenas-de-texto.html" class="daddy">5. Cadenas de texto</a>
+<ul class="other-section">
+<li> <a href="../html/51-entrada-y-salida-por-teclado.html" class="no-ch">5.1 Entrada y salida por teclado</a>
+</li>
+<li> <a href="../html/52-operaciones-principales.html" class="no-ch">5.2 Operaciones principales</a>
+</li>
+<li> <a href="../html/53-caracteres-unicode.html" class="no-ch">5.3 Caracteres UNICODE</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/6-condicionales.html" class="daddy">6. Condicionales</a>
+<ul class="other-section">
+<li> <a href="../html/61-bloques-de-codigo.html" class="no-ch">6.1 Bloques de código</a>
+</li>
+<li> <a href="../html/62-comentarios.html" class="no-ch">6.2 Comentarios</a>
+</li>
+<li> <a href="../html/63-la-sentencia-if.html" class="no-ch">6.3 La sentencia if</a>
+</li>
+<li> <a href="../html/64-operadores-de-comparacion.html" class="no-ch">6.4 Operadores de comparación</a>
+</li>
+<li> <a href="../html/65-sentencias-match-case.html" class="no-ch">6.5 Sentencias match-case</a>
+</li>
+</ul>
+</li>
+<li class="active"> <a href="../html/7-estructuras-de-repeticion.html" class="active daddy">7. Estructuras de repetición</a>
+<ul class="other-section">
+<li> <a href="../html/71-la-sentencia-while.html" class="no-ch">7.1 La sentencia while</a>
+</li>
+<li> <a href="../html/72-la-sentencia-for.html" class="no-ch">7.2 La sentencia for</a>
+</li>
+<li> <a href="../html/73-bucles-anidados.html" class="no-ch">7.3 Bucles anidados</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/8-estructuras-avanzadas.html" class="daddy">8. Estructuras avanzadas</a>
+<ul class="other-section">
+<li> <a href="../html/81-listas.html" class="daddy">8.1 Listas</a>
+<ul class="other-section">
+<li> <a href="../html/811-creando-listas.html" class="no-ch">8.1.1 Creando listas</a>
+</li>
+<li> <a href="../html/812-conversion.html" class="no-ch">8.1.2 Conversión</a>
+</li>
+<li> <a href="../html/813-operaciones-con-listas.html" class="no-ch">8.1.3 Operaciones con listas</a>
+</li>
+<li> <a href="../html/814-copias-en-listas-mutabilidad.html" class="no-ch">8.1.4 Copias en listas (mutabilidad)</a>
+</li>
+<li> <a href="../html/815-veracidad-multiple.html" class="no-ch">8.1.5 Veracidad múltiple</a>
+</li>
+<li> <a href="../html/816-listas-por-comprension.html" class="no-ch">8.1.6 Listas por comprensión</a>
+</li>
+<li> <a href="../html/817-ejecucion-desde-linea-de-comandos.html" class="no-ch">8.1.7 Ejecución desde línea de comandos</a>
+</li>
+<li> <a href="../html/818-funciones-matematicas.html" class="no-ch">8.1.8 Funciones matemáticas</a>
+</li>
+<li> <a href="../html/819-listas-de-listas.html" class="no-ch">8.1.9 Listas de listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/82-tuplas.html" class="daddy">8.2 Tuplas</a>
+<ul class="other-section">
+<li> <a href="../html/821-creando-tuplas.html" class="no-ch">8.2.1 Creando tuplas</a>
+</li>
+<li> <a href="../html/822-modificar-una-tupla.html" class="no-ch">8.2.2 Modificar una tupla</a>
+</li>
+<li> <a href="../html/823-conversion.html" class="no-ch">8.2.3 Conversión</a>
+</li>
+<li> <a href="../html/824-operaciones-con-tuplas.html" class="no-ch">8.2.4 Operaciones con tuplas</a>
+</li>
+<li> <a href="../html/825-tupas-vs-listas.html" class="no-ch">8.2.5 Tupas vs. Listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/83-diccionarios.html" class="daddy">8.3 Diccionarios</a>
+<ul class="other-section">
+<li> <a href="../html/831-creando-diccionarios.html" class="no-ch">8.3.1 Creando diccionarios</a>
+</li>
+<li> <a href="../html/832-conversion.html" class="no-ch">8.3.2 Conversión</a>
+</li>
+<li> <a href="../html/833-operaciones-con-diccionarios.html" class="no-ch">8.3.3 Operaciones con diccionarios</a>
+</li>
+<li> <a href="../html/834-copias-en-diccionarios-mutabilidad.html" class="no-ch">8.3.4 Copias en diccionarios (mutabilidad)</a>
+</li>
+<li> <a href="../html/835-diccionarios-por-comprension.html" class="no-ch">8.3.5 Diccionarios por comprensión</a>
+</li>
+<li> <a href="../html/836-objetos-hashables.html" class="no-ch">8.3.6 Objetos &quot;hashables&quot;</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> <a href="../html/9-modularidad.html" class="daddy">9. Modularidad</a>
+<ul class="other-section">
+<li> <a href="../html/91-funciones.html" class="no-ch">9.1 Funciones</a>
+</li>
+<li> <a href="../html/92-objetos-y-clases.html" class="no-ch">9.2 Objetos y clases</a>
+</li>
+<li> <a href="../html/93-excepciones.html" class="no-ch">9.3 Excepciones</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav><main id="page-mw3p57mi-50bg87nvx" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">PYTH01</p></div>
+<div class="page-header"><h1 class="page-title">7. Estructuras de repetición</h1></div>
+</header><div id="page-content-page-mw3p57mi-50bg87nvx" class="page-content">
+<article id="block-mw3p57ml-p7gb0w7ye" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/casopracticofpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Situation</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57ml-t0y8du3fg" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57ml-t0y8du3fg&quot;}">
+<div class="elemento_izquierda">
+<div class="elemento_centrado"><img src="../content/resources/PYTH01_CONT_R08_CASO_divitechgirl.jpg" alt="Proceso repetitivo en una cadena de producción, ilustrando el concepto de repetición y bucles en programación." width="200" height="150" title="Ejemplo visual del concepto de bucles (repetición)." /></div>
+<div class="elemento_centrado credenciales"><a class="cc-by" title="Acceder a los términos de la Licencia CC BY (se abre en una nueva ventana)." href="http://creativecommons.org/licenses/by/3.0/deed.es" target="_blank" rel="noopener"><span class="transparente">CC by</span></a> <a title="Acceder a la web descarga de la imagen de Christina Morillo en Pexels (se abre en una nueva ventana)." href="https://www.pexels.com/es-es/foto/mujer-con-macbook-pro-1181474/" target="_blank" rel="noopener">Christina Morillo</a></div>
+</div>
+<p><strong>Marta</strong> observa que el equipo de <strong>TechServe</strong> ha progresado mucho tras aprender los fundamentos de Python y practicar con variables, tipos de datos y condicionales. El grupo se siente más seguro escribiendo scripts que pueden tomar decisiones automáticas dentro de los programas.</p>
+<p>Ahora es el momento de avanzar hacia la automatización de tareas repetitivas. <strong>Marta</strong> explica que los bucles permitirán ejecutar una misma acción varias veces sin necesidad de repetir código manualmente, lo que resulta útil para revisar listas de productos, procesar registros de clientes o comprobar estados de servicios de manera sistemática.</p>
+<p>El equipo comprende que dominar las estructuras de repetición (<strong>while</strong>, <strong>for</strong> y <strong>bucles anidados</strong>) será fundamental para optimizar el trabajo diario, reduciendo errores y ahorrando tiempo, mientras los scripts se encargan de las tareas que antes se realizaban de forma manual.</p>
+</div>
+</div>
+</article><article id="block-mw3p57ml-hbma7wx8a" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">FPD - Free Text</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57ml-x9awimvsi" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57ml-x9awimvsi&quot;}">
+<p>Una <strong>estructura de repetición</strong> es un bloque de código que se ejecuta de manera reiterada mientras se cumpla una condición o hasta recorrer todos los elementos de una colección. Estas estructuras permiten automatizar tareas que, de otro modo, requerirían escribir instrucciones repetidas manualmente, lo que resulta tedioso y propenso a errores.</p>
+<div class="destacado">
+<p><strong>Importancia:</strong> Las estructuras de repetición surgen de la necesidad de realizar operaciones múltiples sobre datos, controlar procesos que dependen de condiciones cambiantes o generar secuencias de acciones de forma automática.</p>
+</div>
+<p>En Python, se estudiarán principalmente los siguientes tipos de bucles:</p>
+<ul>
+<li><strong>La sentencia <code>while</code>:</strong> ejecuta un bloque de código mientras se cumpla una condición determinada. Es útil cuando no se conoce de antemano cuántas veces será necesario repetir la acción. <em>Ejemplo conceptual:</em> mantener encendida una alarma hasta que se desactive manualmente.</li>
+<li><strong>La sentencia <code>for</code>:</strong> recorre elementos de una colección (como listas, tuplas, diccionarios o rangos de números) y ejecuta un bloque de código por cada elemento. Es ideal cuando se sabe cuántas iteraciones se deben realizar. <em>Ejemplo conceptual:</em> procesar todas las facturas del mes.</li>
+<li><strong>Bucles anidados:</strong> ocurren cuando un bucle se encuentra dentro de otro. Permiten trabajar con estructuras de datos más complejas, como tablas, matrices o combinaciones de listas. <em>Ejemplo conceptual:</em> recorrer las filas y columnas de una hoja de cálculo.</li>
+</ul>
+<div class="destacado">
+<p><strong>Nota:</strong> Dominar estas estructuras permite optimizar programas, evitar la duplicación de código y gestionar tareas repetitivas de forma eficiente, lo que es fundamental para cualquier proyecto de automatización o análisis de datos.</p>
+</div>
+<p>Al finalizar este capítulo, el lector será capaz de diseñar scripts que repitan acciones de manera controlada, procesen colecciones de datos y combinen bucles para resolver problemas más complejos sin necesidad de escribir código redundante.</p>
+</div>
+</div>
+</article><article id="block-mw3p57ml-o5jtt1wq2" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/autoevaluacionfpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Now it&#039;s your turn</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57ml-5kgreq5ws" class="idevice_node trueorfalse" data-idevice-path="../idevices/trueorfalse/" data-idevice-type="trueorfalse" data-idevice-component-type="json" data-idevice-template="trueorfalse.html">
+<p>Indica si las siguientes afirmaciones sobre los bucles en Python son <strong>verdaderas</strong> o <strong>falsas</strong>:</p>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/65-sentencias-match-case.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/71-la-sentencia-while.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter" class="siteFooter-empty"><div id="siteFooterContent"></div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

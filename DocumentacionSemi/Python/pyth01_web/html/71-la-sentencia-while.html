@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mw3p57mi-ve6j0rsbe">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<title>7.1 La sentencia while | PYTH01</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Unidad 1">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../idevices/casestudy/casestudy.js"></script><link rel="stylesheet" href="../idevices/casestudy/casestudy.css">
+<script src="../libs/exe_highlighter/exe_highlighter.js"> </script>
+<link rel="stylesheet" href="../libs/exe_highlighter/exe_highlighter.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mw3p57mi-ve6j0rsbe" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Fundamentos de python y estructuras avanzadas</a>
+</li>
+<li> <a href="../html/1-introduccion.html" class="no-ch">1. Introducción</a>
+</li>
+<li> <a href="../html/2-entornos-de-desarrollo.html" class="daddy">2. Entornos de desarrollo</a>
+<ul class="other-section">
+<li> <a href="../html/21-instalacion-del-interprete-de-python.html" class="no-ch">2.1 Instalación del intérprete de Python</a>
+</li>
+<li> <a href="../html/22-gestion-de-paquetes.html" class="no-ch">2.2 Gestión de paquetes</a>
+</li>
+<li> <a href="../html/23-entornos-virtuales.html" class="no-ch">2.3 Entornos virtuales</a>
+</li>
+<li> <a href="../html/24-editores-para-python-ides.html" class="no-ch">2.4 Editores para Python (IDEs)</a>
+</li>
+<li> <a href="../html/25-jupyter-notebook.html" class="no-ch">2.5 Jupyter Notebook</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/3-datos.html" class="daddy">3. Datos</a>
+<ul class="other-section">
+<li> <a href="../html/31-tipos-de-datos.html" class="no-ch">3.1 Tipos de datos</a>
+</li>
+<li> <a href="../html/32-variables.html" class="no-ch">3.2 Variables</a>
+</li>
+<li> <a href="../html/33-asignacion.html" class="no-ch">3.3 Asignación</a>
+</li>
+<li> <a href="../html/34-mutabilidad.html" class="no-ch">3.4 Mutabilidad</a>
+</li>
+<li> <a href="../html/35-funciones-built-in.html" class="no-ch">3.5 Funciones built-in</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/4-numeros.html" class="daddy">4. Números</a>
+<ul class="other-section">
+<li> <a href="../html/41-booleanos.html" class="no-ch">4.1 Booleanos</a>
+</li>
+<li> <a href="../html/42-enteros.html" class="no-ch">4.2 Enteros</a>
+</li>
+<li> <a href="../html/43-flotantes.html" class="no-ch">4.3 Flotantes</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/5-cadenas-de-texto.html" class="daddy">5. Cadenas de texto</a>
+<ul class="other-section">
+<li> <a href="../html/51-entrada-y-salida-por-teclado.html" class="no-ch">5.1 Entrada y salida por teclado</a>
+</li>
+<li> <a href="../html/52-operaciones-principales.html" class="no-ch">5.2 Operaciones principales</a>
+</li>
+<li> <a href="../html/53-caracteres-unicode.html" class="no-ch">5.3 Caracteres UNICODE</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/6-condicionales.html" class="daddy">6. Condicionales</a>
+<ul class="other-section">
+<li> <a href="../html/61-bloques-de-codigo.html" class="no-ch">6.1 Bloques de código</a>
+</li>
+<li> <a href="../html/62-comentarios.html" class="no-ch">6.2 Comentarios</a>
+</li>
+<li> <a href="../html/63-la-sentencia-if.html" class="no-ch">6.3 La sentencia if</a>
+</li>
+<li> <a href="../html/64-operadores-de-comparacion.html" class="no-ch">6.4 Operadores de comparación</a>
+</li>
+<li> <a href="../html/65-sentencias-match-case.html" class="no-ch">6.5 Sentencias match-case</a>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/7-estructuras-de-repeticion.html" class="daddy">7. Estructuras de repetición</a>
+<ul class="other-section">
+<li class="active"> <a href="../html/71-la-sentencia-while.html" class="active no-ch">7.1 La sentencia while</a>
+</li>
+<li> <a href="../html/72-la-sentencia-for.html" class="no-ch">7.2 La sentencia for</a>
+</li>
+<li> <a href="../html/73-bucles-anidados.html" class="no-ch">7.3 Bucles anidados</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/8-estructuras-avanzadas.html" class="daddy">8. Estructuras avanzadas</a>
+<ul class="other-section">
+<li> <a href="../html/81-listas.html" class="daddy">8.1 Listas</a>
+<ul class="other-section">
+<li> <a href="../html/811-creando-listas.html" class="no-ch">8.1.1 Creando listas</a>
+</li>
+<li> <a href="../html/812-conversion.html" class="no-ch">8.1.2 Conversión</a>
+</li>
+<li> <a href="../html/813-operaciones-con-listas.html" class="no-ch">8.1.3 Operaciones con listas</a>
+</li>
+<li> <a href="../html/814-copias-en-listas-mutabilidad.html" class="no-ch">8.1.4 Copias en listas (mutabilidad)</a>
+</li>
+<li> <a href="../html/815-veracidad-multiple.html" class="no-ch">8.1.5 Veracidad múltiple</a>
+</li>
+<li> <a href="../html/816-listas-por-comprension.html" class="no-ch">8.1.6 Listas por comprensión</a>
+</li>
+<li> <a href="../html/817-ejecucion-desde-linea-de-comandos.html" class="no-ch">8.1.7 Ejecución desde línea de comandos</a>
+</li>
+<li> <a href="../html/818-funciones-matematicas.html" class="no-ch">8.1.8 Funciones matemáticas</a>
+</li>
+<li> <a href="../html/819-listas-de-listas.html" class="no-ch">8.1.9 Listas de listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/82-tuplas.html" class="daddy">8.2 Tuplas</a>
+<ul class="other-section">
+<li> <a href="../html/821-creando-tuplas.html" class="no-ch">8.2.1 Creando tuplas</a>
+</li>
+<li> <a href="../html/822-modificar-una-tupla.html" class="no-ch">8.2.2 Modificar una tupla</a>
+</li>
+<li> <a href="../html/823-conversion.html" class="no-ch">8.2.3 Conversión</a>
+</li>
+<li> <a href="../html/824-operaciones-con-tuplas.html" class="no-ch">8.2.4 Operaciones con tuplas</a>
+</li>
+<li> <a href="../html/825-tupas-vs-listas.html" class="no-ch">8.2.5 Tupas vs. Listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/83-diccionarios.html" class="daddy">8.3 Diccionarios</a>
+<ul class="other-section">
+<li> <a href="../html/831-creando-diccionarios.html" class="no-ch">8.3.1 Creando diccionarios</a>
+</li>
+<li> <a href="../html/832-conversion.html" class="no-ch">8.3.2 Conversión</a>
+</li>
+<li> <a href="../html/833-operaciones-con-diccionarios.html" class="no-ch">8.3.3 Operaciones con diccionarios</a>
+</li>
+<li> <a href="../html/834-copias-en-diccionarios-mutabilidad.html" class="no-ch">8.3.4 Copias en diccionarios (mutabilidad)</a>
+</li>
+<li> <a href="../html/835-diccionarios-por-comprension.html" class="no-ch">8.3.5 Diccionarios por comprensión</a>
+</li>
+<li> <a href="../html/836-objetos-hashables.html" class="no-ch">8.3.6 Objetos &quot;hashables&quot;</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> <a href="../html/9-modularidad.html" class="daddy">9. Modularidad</a>
+<ul class="other-section">
+<li> <a href="../html/91-funciones.html" class="no-ch">9.1 Funciones</a>
+</li>
+<li> <a href="../html/92-objetos-y-clases.html" class="no-ch">9.2 Objetos y clases</a>
+</li>
+<li> <a href="../html/93-excepciones.html" class="no-ch">9.3 Excepciones</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav><main id="page-mw3p57mi-ve6j0rsbe" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">PYTH01</p></div>
+<div class="page-header"><h1 class="page-title">7.1 La sentencia while</h1></div>
+</header><div id="page-content-page-mw3p57mi-ve6j0rsbe" class="page-content">
+<article id="block-mw3p57ml-t4kiv9sfh" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">FPD - Free Text</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57ml-v5dkbur14" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57ml-v5dkbur14&quot;}">
+<p>La sentencia <code>while</code> permite ejecutar repetidamente un bloque de código mientras se cumpla una condición. Este tipo de estructura de repetición es útil cuando no se conoce de antemano cuántas veces será necesario repetir el código, pero sí la condición que debe mantenerse.</p>
+<div class="destacado">
+<p><strong>Nota:</strong> Si la condición nunca deja de cumplirse, el bucle <code>while</code> se ejecutará de forma infinita. Por ello, es fundamental asegurarse de que la condición pueda cambiar durante la ejecución del bucle.</p>
+</div>
+<p>Ejemplo de uso básico:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>value = 1
+
+while value &lt;= 4:
+    print(value)
+    value += 1</code></pre>
+</div>
+</div>
+<p style="text-align: center;"><a href="../content/resources/PYTH01_CONT_R33_while_statement.jpg" target="_blank" rel="noopener"><img src="../content/resources/PYTH01_CONT_R33_while_statement.jpg" alt="Ejemplo de diagrama de flujo del bucle while del código anterior." title="Diagrama de flujo del bucle while" width="200" height="305" /></a></p>
+<p style="text-align: center;"><span style="font-size: 10pt;">Elaboración propia. Clic para ampliar.</span></p>
+<div class="destacado">
+<p><strong>Explicación:</strong> La condición del bucle se comprueba en cada repetición. En este caso, se verifica que la variable <code>value</code> sea menor o igual a 4. Dentro del cuerpo del bucle, la variable se incrementa en 1 unidad. Cuando <code>value</code> supera 4, la condición deja de cumplirse y el bucle finaliza.</p>
+</div>
+<h3>Romper un bucle while</h3>
+<p>Python permite finalizar un bucle antes de que se cumpla la condición de parada mediante la instrucción <code>break</code>. Por ejemplo, para buscar el primer múltiplo de 3 descendiendo desde 20:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>num = 20
+while num &gt;= 1:
+    if num % 3 == 0:
+        print(num)
+        break
+    num -= 1</code></pre>
+</div>
+</div>
+<div class="destacado">
+<p><strong>Explicación:</strong> La instrucción <code>break</code> finaliza el bucle una vez encontrado el primer múltiplo de 3. Si no se hubiera encontrado, el bucle habría continuado decrementando <code>num</code> hasta llegar a 0, momento en que la condición del <code>while</code> sería falsa.</p>
+</div>
+<h3>Uso de if-else con while</h3>
+<p>La cláusula <code>else</code> se ejecuta solo si el bucle termina normalmente, es decir, sin interrupción por <code>break</code>. Esto permite diferenciar entre "encontrado" y "no encontrado":</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>num = 8
+while num &gt;= 1:
+    if num % 9 == 0:
+        print(f&quot;{num} is a multiple of 9!&quot;)
+        break
+    num -= 1
+else:
+    print(&quot;No multiples of 9 found!&quot;)</code></pre>
+</div>
+</div>
+<div class="destacado">
+<p><strong>Explicación:</strong> Como no existe ningún múltiplo de 9 en el rango [1, 8], el bucle finaliza normalmente y se ejecuta la cláusula <code>else</code>, mostrando el mensaje de que no se encontraron múltiplos.</p>
+</div>
+<h3>Bucle infinito controlado</h3>
+<p>Se puede usar <code>while True</code> para crear un bucle infinito que se interrumpe manualmente con <code>break</code>:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>numero = 0
+while True:
+    numero = int(input(&quot;Introduce un número positivo (0 para salir): &quot;))
+    if numero == 0:
+        print(&quot;Bucle terminado&quot;)
+        break
+    print(f&quot;Has introducido {numero}&quot;)</code></pre>
+</div>
+</div>
+<div class="destacado">
+<p><strong>Explicación:</strong> Este patrón es útil cuando no se conoce de antemano el número de iteraciones. El bucle se interrumpe dinámicamente mediante la instrucción <code>break</code> en función de la entrada del usuario.</p>
+</div>
+<h3>Combinación de condiciones lógicas</h3>
+<p>Se pueden combinar condiciones más complejas dentro del <code>while</code>:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>saldo = 100
+retiro = 20
+
+while saldo &gt;= retiro:
+    print(f&quot;Retiro de {retiro} realizado. Saldo actual: {saldo}&quot;)
+    saldo -= retiro
+print(&quot;Saldo insuficiente para realizar más retiros&quot;)</code></pre>
+</div>
+</div>
+<div class="destacado">
+<p><strong>Explicación:</strong> El bucle se ejecuta mientras <code>saldo >= retiro</code>. En cada iteración se descuenta el retiro del saldo. Cuando <code>saldo</code> es menor que <code>retiro</code>, la condición deja de cumplirse y el bucle termina automáticamente.</p>
+</div>
+<h3>Uso de while con incrementos y decrementos seguros</h3>
+<div class="destacado">
+<p>Es fundamental garantizar que las variables que controlan la condición del bucle se actualicen correctamente en cada iteración. Esto evita bucles infinitos accidentales y asegura que la condición pueda dejar de cumplirse en algún momento.</p>
+</div>
+<h3>Bucle infinito intencionado</h3>
+<div class="destacado">
+<p>El patrón <code>while True</code> es útil cuando no se conoce el número de iteraciones y se quiere un control dinámico mediante <code>break</code>. Se emplea frecuentemente en menús interactivos, programas que esperan entrada del usuario o servidores que procesan solicitudes continuamente.</p>
+</div>
+<h3>Nota final</h3>
+<div class="destacado">
+<p>Al dominar <code>while</code>, <code>break</code> y <code>else</code>, se puede controlar con precisión la ejecución repetitiva en Python y diferenciar entre finalización normal y finalización anticipada de un bucle.</p>
+</div>
+</div>
+</div>
+</article><article id="block-mw3p57ml-rv1yspgwa" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/recomendacionfpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">A Piece of Advice</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57ml-k07ek17mr" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57ml-k07ek17mr&quot;}">
+<p>La sentencia <code>while</code> es una de las estructuras de repetición más importantes en Python. Permite ejecutar un bloque de código mientras se cumpla una condición y se puede combinar con <code>break</code>, <code>continue</code> y <code>else</code> para un control más preciso del flujo de ejecución.</p>
+<p>Se recomienda visitar la web de documentación oficial de Python para consultar más casos de uso: <a href="https://docs.python.org/3/reference/compound_stmts.html#while" target="_blank" rel="noopener">Python: Sentencias while.</a></p>
+</div>
+</div>
+</article><article id="block-mw3p57ml-sjvkg55vf" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/ejercicioresueltofpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Caso practico</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57ml-t9kmq430i" class="idevice_node casestudy" data-idevice-path="../idevices/casestudy/" data-idevice-type="casestudy" data-idevice-component-type="json" data-idevice-json-data="{&quot;history&quot;:&quot;&lt;p&gt;Se desea simular un pequeño inventario de gadgets donde las ventas por iteración varían de forma aleatoria. Se introducirá la librería &lt;code&gt;random&lt;/code&gt; de Python, que permite generar números aleatorios, útil para simular situaciones dinámicas. Para usarla, se debe &lt;strong&gt;importar la librería&lt;/strong&gt; con la instrucción &lt;code&gt;import random&lt;/code&gt; antes de emplear sus funciones.&lt;/p&gt;\n&lt;div class=\&quot;highlighted-code language-python\&quot;&gt;\n&lt;div&gt;\n&lt;pre&gt;&lt;code&gt;import random  # Librería para generar números aleatorios\n\nstock = 20\nventas_totales = 0&lt;/code&gt;&lt;/pre&gt;\n&lt;/div&gt;\n&lt;/div&gt;&quot;,&quot;activities&quot;:[{&quot;activity&quot;:&quot;&lt;p&gt;Crear un bucle &lt;code&gt;while&lt;/code&gt; que se ejecute mientras haya stock. En cada iteración, vender entre 1 y 3 unidades (aleatorias) y actualizar el stock y las ventas totales. Se utilizará &lt;code&gt;random.randint(a, b)&lt;/code&gt; para generar un número entero aleatorio entre &lt;code&gt;a&lt;/code&gt; y &lt;code&gt;b&lt;/code&gt;.&lt;/p&gt;&quot;,&quot;feedback&quot;:&quot;&lt;div class=\&quot;highlighted-code language-python\&quot;&gt;\n&lt;div&gt;\n&lt;pre&gt;&lt;code&gt;# Solución actividad 1\nwhile stock &gt; 0:\n    # Se genera un número aleatorio entre 1 y 3\n    unidades_vendidas = random.randint(1, 3)\n    if unidades_vendidas &gt; stock:\n        unidades_vendidas = stock\n    ventas_totales += unidades_vendidas\n    stock -= unidades_vendidas\n    print(f\&quot;Vendidas {unidades_vendidas} unidades. Total vendidos: {ventas_totales}, stock restante: {stock}\&quot;)&lt;/code&gt;&lt;/pre&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;strong&gt;Explicación:&lt;/strong&gt; La función &lt;code&gt;random.randint(1, 3)&lt;/code&gt; genera un número aleatorio entero entre 1 y 3, simulando ventas variables. La condición &lt;code&gt;if unidades_vendidas &gt; stock&lt;/code&gt; evita vender más unidades de las disponibles. Cada iteración actualiza &lt;code&gt;ventas_totales&lt;/code&gt; y &lt;code&gt;stock&lt;/code&gt;, mostrando los resultados por pantalla.&lt;/p&gt;&quot;,&quot;buttonCaption&quot;:&quot;Mostrar retroalimentación&quot;},{&quot;activity&quot;:&quot;&lt;p&gt;Modificar el bucle para que, si el stock es menor que 3 unidades, se muestre un mensaje de alerta “Stock bajo” antes de continuar con la venta.&lt;/p&gt;&quot;,&quot;feedback&quot;:&quot;&lt;div class=\&quot;highlighted-code language-python\&quot;&gt;\n&lt;div&gt;\n&lt;pre&gt;&lt;code&gt;# Solución actividad 2\nstock = 20\nventas_totales = 0\n\nwhile stock &gt; 0:\n    if stock &lt; 3:\n        print(\&quot;¡Stock bajo! Solo quedan pocas unidades.\&quot;)\n    unidades_vendidas = random.randint(1, 3)\n    if unidades_vendidas &gt; stock:\n        unidades_vendidas = stock\n    ventas_totales += unidades_vendidas\n    stock -= unidades_vendidas\n    print(f\&quot;Vendidas {unidades_vendidas} unidades. Total vendidos: {ventas_totales}, stock restante: {stock}\&quot;)&lt;/code&gt;&lt;/pre&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;strong&gt;Explicación:&lt;/strong&gt; Se añade un &lt;code&gt;if&lt;/code&gt; que verifica si &lt;code&gt;stock &lt; 3&lt;/code&gt; para mostrar un mensaje de alerta. La función aleatoria y la actualización de variables se mantienen igual, pero ahora los estudiantes ven cómo añadir condiciones adicionales dentro de un bucle &lt;code&gt;while&lt;/code&gt;.&lt;/p&gt;&quot;,&quot;buttonCaption&quot;:&quot;Mostrar retroalimentación&quot;},{&quot;activity&quot;:&quot;&lt;p&gt;Introducir un límite máximo de ventas: si se superan 12 unidades vendidas, el bucle debe pausar temporalmente mostrando un mensaje “Esperando reposición” y reiniciar &lt;code&gt;ventas_totales&lt;/code&gt; antes de continuar.&lt;/p&gt;&quot;,&quot;feedback&quot;:&quot;&lt;div class=\&quot;highlighted-code language-python\&quot;&gt;\n&lt;div&gt;\n&lt;pre&gt;&lt;code&gt;stock = 20\nventas_totales = 0\n\nwhile stock &gt; 0:\n    if ventas_totales &gt;= 12:\n        print(\&quot;Esperando reposición del inventario...\&quot;)\n        ventas_totales = 0  # simulamos reposición parcial\n        continue\n    unidades_vendidas = random.randint(1, 3)\n    if unidades_vendidas &gt; stock:\n        unidades_vendidas = stock\n    ventas_totales += unidades_vendidas\n    stock -= unidades_vendidas\n    print(f\&quot;Vendidas {unidades_vendidas} unidades. Total vendidos: {ventas_totales}, stock restante: {stock}\&quot;)&lt;/code&gt;&lt;/pre&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;strong&gt;Explicación:&lt;/strong&gt; La instrucción &lt;code&gt;continue&lt;/code&gt; hace que, si se alcanza un límite de ventas, el resto del bucle se omita y se vuelva a evaluar la condición del &lt;code&gt;while&lt;/code&gt;. Esto permite pausar la simulación para \&quot;reposición\&quot;, demostrando un control dinámico dentro de bucles.&lt;/p&gt;&quot;,&quot;buttonCaption&quot;:&quot;Mostrar retroalimentación&quot;},{&quot;activity&quot;:&quot;&lt;p&gt;Crear un bucle infinito &lt;code&gt;while True&lt;/code&gt; que simule ventas continuas hasta que el stock sea 0, usando &lt;code&gt;break&lt;/code&gt; para finalizar. Mostrar un resumen final de ventas.&lt;/p&gt;&quot;,&quot;feedback&quot;:&quot;&lt;div class=\&quot;highlighted-code language-python\&quot;&gt;\n&lt;div&gt;\n&lt;pre&gt;&lt;code&gt;stock = 15\nventas_totales = 0\n\nwhile True:\n    if stock == 0:\n        print(f\&quot;Ventas finalizadas. Total de unidades vendidas: {ventas_totales}\&quot;)\n        break\n    unidades_vendidas = random.randint(1, 4)\n    if unidades_vendidas &gt; stock:\n        unidades_vendidas = stock\n    ventas_totales += unidades_vendidas\n    stock -= unidades_vendidas\n    print(f\&quot;Vendidas {unidades_vendidas} unidades. Total vendidos: {ventas_totales}, stock restante: {stock}\&quot;)&lt;/code&gt;&lt;/pre&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;strong&gt;Explicación:&lt;/strong&gt; Se crea un bucle infinito que solo se interrumpe con &lt;code&gt;break&lt;/code&gt; cuando &lt;code&gt;stock == 0&lt;/code&gt;. Se genera un número aleatorio de ventas en cada iteración. Esto permite a los estudiantes practicar &lt;code&gt;while&lt;/code&gt;, &lt;code&gt;break&lt;/code&gt;, y la actualización de variables, mientras ven cómo las librerías externas pueden introducir comportamientos dinámicos en los programas.&lt;/p&gt;&quot;,&quot;buttonCaption&quot;:&quot;Mostrar retroalimentación&quot;}],&quot;textInfoDurationInput&quot;:&quot;&quot;,&quot;textInfoDurationTextInput&quot;:&quot;&quot;,&quot;textInfoParticipantsInput&quot;:&quot;&quot;,&quot;textInfoParticipantsTextInput&quot;:&quot;&quot;}" data-idevice-template="casestudy.html">
+<p>Se desea simular un pequeño inventario de gadgets donde las ventas por iteración varían de forma aleatoria. Se introducirá la librería <code>random</code> de Python, que permite generar números aleatorios, útil para simular situaciones dinámicas. Para usarla, se debe <strong>importar la librería</strong> con la instrucción <code>import random</code> antes de emplear sus funciones.</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>import random  # Librería para generar números aleatorios
+
+stock = 20
+ventas_totales = 0</code></pre>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/7-estructuras-de-repeticion.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/72-la-sentencia-for.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter" class="siteFooter-empty"><div id="siteFooterContent"></div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

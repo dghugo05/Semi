@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mw3p57mh-e0eez28ln">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<title>2. Entornos de desarrollo | PYTH01</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Unidad 1">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../libs/exe_tooltips/exe_tooltips.js"> </script>
+<script src="../libs/exe_tooltips/jquery.qtip.min.js"> </script>
+<script src="../libs/exe_tooltips/imagesloaded.pkg.min.js"> </script>
+<link rel="stylesheet" href="../libs/exe_tooltips/jquery.qtip.min.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mw3p57mh-e0eez28ln" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Fundamentos de python y estructuras avanzadas</a>
+</li>
+<li> <a href="../html/1-introduccion.html" class="no-ch">1. Introducción</a>
+</li>
+<li class="active"> <a href="../html/2-entornos-de-desarrollo.html" class="active daddy">2. Entornos de desarrollo</a>
+<ul class="other-section">
+<li> <a href="../html/21-instalacion-del-interprete-de-python.html" class="no-ch">2.1 Instalación del intérprete de Python</a>
+</li>
+<li> <a href="../html/22-gestion-de-paquetes.html" class="no-ch">2.2 Gestión de paquetes</a>
+</li>
+<li> <a href="../html/23-entornos-virtuales.html" class="no-ch">2.3 Entornos virtuales</a>
+</li>
+<li> <a href="../html/24-editores-para-python-ides.html" class="no-ch">2.4 Editores para Python (IDEs)</a>
+</li>
+<li> <a href="../html/25-jupyter-notebook.html" class="no-ch">2.5 Jupyter Notebook</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/3-datos.html" class="daddy">3. Datos</a>
+<ul class="other-section">
+<li> <a href="../html/31-tipos-de-datos.html" class="no-ch">3.1 Tipos de datos</a>
+</li>
+<li> <a href="../html/32-variables.html" class="no-ch">3.2 Variables</a>
+</li>
+<li> <a href="../html/33-asignacion.html" class="no-ch">3.3 Asignación</a>
+</li>
+<li> <a href="../html/34-mutabilidad.html" class="no-ch">3.4 Mutabilidad</a>
+</li>
+<li> <a href="../html/35-funciones-built-in.html" class="no-ch">3.5 Funciones built-in</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/4-numeros.html" class="daddy">4. Números</a>
+<ul class="other-section">
+<li> <a href="../html/41-booleanos.html" class="no-ch">4.1 Booleanos</a>
+</li>
+<li> <a href="../html/42-enteros.html" class="no-ch">4.2 Enteros</a>
+</li>
+<li> <a href="../html/43-flotantes.html" class="no-ch">4.3 Flotantes</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/5-cadenas-de-texto.html" class="daddy">5. Cadenas de texto</a>
+<ul class="other-section">
+<li> <a href="../html/51-entrada-y-salida-por-teclado.html" class="no-ch">5.1 Entrada y salida por teclado</a>
+</li>
+<li> <a href="../html/52-operaciones-principales.html" class="no-ch">5.2 Operaciones principales</a>
+</li>
+<li> <a href="../html/53-caracteres-unicode.html" class="no-ch">5.3 Caracteres UNICODE</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/6-condicionales.html" class="daddy">6. Condicionales</a>
+<ul class="other-section">
+<li> <a href="../html/61-bloques-de-codigo.html" class="no-ch">6.1 Bloques de código</a>
+</li>
+<li> <a href="../html/62-comentarios.html" class="no-ch">6.2 Comentarios</a>
+</li>
+<li> <a href="../html/63-la-sentencia-if.html" class="no-ch">6.3 La sentencia if</a>
+</li>
+<li> <a href="../html/64-operadores-de-comparacion.html" class="no-ch">6.4 Operadores de comparación</a>
+</li>
+<li> <a href="../html/65-sentencias-match-case.html" class="no-ch">6.5 Sentencias match-case</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/7-estructuras-de-repeticion.html" class="daddy">7. Estructuras de repetición</a>
+<ul class="other-section">
+<li> <a href="../html/71-la-sentencia-while.html" class="no-ch">7.1 La sentencia while</a>
+</li>
+<li> <a href="../html/72-la-sentencia-for.html" class="no-ch">7.2 La sentencia for</a>
+</li>
+<li> <a href="../html/73-bucles-anidados.html" class="no-ch">7.3 Bucles anidados</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/8-estructuras-avanzadas.html" class="daddy">8. Estructuras avanzadas</a>
+<ul class="other-section">
+<li> <a href="../html/81-listas.html" class="daddy">8.1 Listas</a>
+<ul class="other-section">
+<li> <a href="../html/811-creando-listas.html" class="no-ch">8.1.1 Creando listas</a>
+</li>
+<li> <a href="../html/812-conversion.html" class="no-ch">8.1.2 Conversión</a>
+</li>
+<li> <a href="../html/813-operaciones-con-listas.html" class="no-ch">8.1.3 Operaciones con listas</a>
+</li>
+<li> <a href="../html/814-copias-en-listas-mutabilidad.html" class="no-ch">8.1.4 Copias en listas (mutabilidad)</a>
+</li>
+<li> <a href="../html/815-veracidad-multiple.html" class="no-ch">8.1.5 Veracidad múltiple</a>
+</li>
+<li> <a href="../html/816-listas-por-comprension.html" class="no-ch">8.1.6 Listas por comprensión</a>
+</li>
+<li> <a href="../html/817-ejecucion-desde-linea-de-comandos.html" class="no-ch">8.1.7 Ejecución desde línea de comandos</a>
+</li>
+<li> <a href="../html/818-funciones-matematicas.html" class="no-ch">8.1.8 Funciones matemáticas</a>
+</li>
+<li> <a href="../html/819-listas-de-listas.html" class="no-ch">8.1.9 Listas de listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/82-tuplas.html" class="daddy">8.2 Tuplas</a>
+<ul class="other-section">
+<li> <a href="../html/821-creando-tuplas.html" class="no-ch">8.2.1 Creando tuplas</a>
+</li>
+<li> <a href="../html/822-modificar-una-tupla.html" class="no-ch">8.2.2 Modificar una tupla</a>
+</li>
+<li> <a href="../html/823-conversion.html" class="no-ch">8.2.3 Conversión</a>
+</li>
+<li> <a href="../html/824-operaciones-con-tuplas.html" class="no-ch">8.2.4 Operaciones con tuplas</a>
+</li>
+<li> <a href="../html/825-tupas-vs-listas.html" class="no-ch">8.2.5 Tupas vs. Listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/83-diccionarios.html" class="daddy">8.3 Diccionarios</a>
+<ul class="other-section">
+<li> <a href="../html/831-creando-diccionarios.html" class="no-ch">8.3.1 Creando diccionarios</a>
+</li>
+<li> <a href="../html/832-conversion.html" class="no-ch">8.3.2 Conversión</a>
+</li>
+<li> <a href="../html/833-operaciones-con-diccionarios.html" class="no-ch">8.3.3 Operaciones con diccionarios</a>
+</li>
+<li> <a href="../html/834-copias-en-diccionarios-mutabilidad.html" class="no-ch">8.3.4 Copias en diccionarios (mutabilidad)</a>
+</li>
+<li> <a href="../html/835-diccionarios-por-comprension.html" class="no-ch">8.3.5 Diccionarios por comprensión</a>
+</li>
+<li> <a href="../html/836-objetos-hashables.html" class="no-ch">8.3.6 Objetos &quot;hashables&quot;</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> <a href="../html/9-modularidad.html" class="daddy">9. Modularidad</a>
+<ul class="other-section">
+<li> <a href="../html/91-funciones.html" class="no-ch">9.1 Funciones</a>
+</li>
+<li> <a href="../html/92-objetos-y-clases.html" class="no-ch">9.2 Objetos y clases</a>
+</li>
+<li> <a href="../html/93-excepciones.html" class="no-ch">9.3 Excepciones</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav><main id="page-mw3p57mh-e0eez28ln" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">PYTH01</p></div>
+<div class="page-header"><h1 class="page-title">2. Entornos de desarrollo</h1></div>
+</header><div id="page-content-page-mw3p57mh-e0eez28ln" class="page-content">
+<article id="block-mw3p57mj-p1likj7br" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/casopracticofpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Situation</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mj-83z4xyph0" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mj-83z4xyph0&quot;}">
+<div class="elemento_izquierda">
+<div class="elemento_centrado"><img src="../content/resources/PYTH01_CONT_R02_CASO_pythoncode_miniatura.jpg" alt="Escritorio de trabajo donde se configuran herramientas y entornos de programación." width="200" height="150" title="Preparación del entorno de desarrollo para programar." /></div>
+<div class="elemento_centrado credenciales"><a class="cc-by" title="Acceder a los términos de la Licencia CC BY (se abre en una nueva ventana)." href="http://creativecommons.org/licenses/by/3.0/deed.es" target="_blank" rel="noopener"><span class="transparente">CC by</span></a> <a title="Acceder a la web descarga de la imagen de Brian J. Matis en Flickr (se abre en una nueva ventana)." href="https://www.flickr.com/photos/brianjmatis/41157598252/in/photolist-25GXs3Y-NTVPvd-2nyHS2D-qyfEfV-2pbkZ2Y-2imyDBw-2dVnUCa-2imefS5-MYs9kk-2imyLDT-2imfySH-RxUhVt-2imyTTn-2dVnTYK-2nyHZC7-2imv8RG-2imxsdq-7z4jLL-2imxxv4-2imyHY7-2imv6HD-2imv6jY-2imfpxf-fxsmKQ-SHaKhu-2nyCGPB-2nyKh2y-8UawM3-UcSW7h-2nyLnKg-2nyKeKj-2nyKeEz-2nyLnNC-aDK2on-9aX3hP-aDNTsJ-aDNT3d-aDNThG-aDNSML-aDNSUC-aDNSRm-2nyLqdC-aDK1Ni-aDNTp9-aDNT8G-aDK29v-aDNTaL-aDNSWG-aDK23x-aDNTz1" target="_blank" rel="noopener">Brian J. Matis</a></div>
+</div>
+<!-- Caso práctico: Preparando el equipo para Python -->
+<section aria-labelledby="cp-entornos">
+<p><strong>Marta</strong> se reúne con su equipo en <strong>TechServe</strong> para explicar cómo van a empezar a usar <strong>Python</strong> en las tareas del departamento.</p>
+<p>Les cuenta que antes de escribir cualquier programa, lo primero es <strong>preparar bien los equipos de trabajo</strong>. Cada técnico tendrá que instalar Python en su ordenador y asegurarse de que todos los programas y herramientas que necesiten funcionen de la misma manera, para que nadie pierda tiempo buscando cómo hacer algo que otro ya sabe.</p>
+<p>El equipo también hablará de los <strong>editores de código</strong>, los programas donde escribirán los scripts. Marta les explica que, aunque cada uno puede elegir el que prefiera, es importante que todos tengan un entorno cómodo y ordenado para poder leer y modificar los programas de cualquier compañero.</p>
+<p>Además, quieren probar <strong>Jupyter Notebook</strong>, una herramienta que permite escribir código y anotaciones en el mismo lugar, para aprender y experimentar sin miedo a cometer errores.</p>
+<p>Marta les dice que, siguiendo estos pasos iniciales, no solo será más fácil empezar a programar, sino que <strong>los proyectos futuros se podrán organizar mejor</strong>, los scripts serán más claros y cualquier miembro del equipo podrá continuar el trabajo de otro sin problemas.</p>
+<p>Al final, el objetivo es <strong>invertir menos tiempo en cada tarea</strong> y aprovechar todo lo que ya hagan para facilitar el trabajo del equipo en los proyectos que vendrán después.</p>
+</section>
+</div>
+</div>
+</article><article id="block-mw3p57mj-g5hrvs7ep" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">FPD - Free Text</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mj-1uarovxuy" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mj-1uarovxuy&quot;}">
+<!-- Introducción al capítulo: Preparando el entorno de trabajo en Python -->
+<section aria-labelledby="intro-cap-entorno">
+<p>Antes de comenzar a programar en <strong>Python</strong>, es necesario preparar un <strong>entorno de trabajo adecuado</strong>. Esta fase inicial constituye la base sobre la que se desarrollarán las actividades posteriores.</p>
+<p>En este capítulo se describen los pasos necesarios para realizar la <strong>instalación del intérprete de Python</strong> y la configuración de las herramientas que permiten escribir, ejecutar y mantener programas de manera organizada y eficiente.</p>
+<p>En primer lugar, se presentan los <strong><a href="#t92680e8d-1fa8-0549-4965-1234ebcece54" id="link92680e8d-1fa8-0549-4965-1234ebcece54" class="exe-tooltip definition-tt titled-tt blue-tt" title="titulo bocadillo | titulo enlace">entornos</a> de desarrollo</strong>, que son los espacios donde se crea, prueba y depura el código. A continuación, se explica el funcionamiento de la <strong>gestión de paquetes</strong>, uno de los principales puntos fuertes de Python, que permite añadir nuevas funcionalidades mediante librerías desarrolladas por la comunidad.</p>
+<p>También se aborda la creación de <strong>entornos virtuales</strong>, una técnica que facilita mantener separadas las dependencias de cada proyecto, evitando conflictos entre versiones y manteniendo un sistema más limpio y ordenado.</p>
+<p>Finalmente, se revisan los principales <strong>editores e IDEs</strong> utilizados para programar en Python, así como el entorno <strong>Jupyter Notebook</strong>, especialmente útil para documentar, probar y ejecutar código de forma interactiva.</p>
+<p>Al finalizar este capítulo, se dispondrá de un entorno completamente preparado para desarrollar en Python, con las herramientas necesarias para trabajar de manera profesional y eficiente.</p>
+</section>
+<div id="t3dcffae3-67bd-8963-cd78-ae3c345a291a" class="exe-tooltip-text">
+<p>texto definición sdgfdf dfgdfgdf dfg d fgdf gdfg dfg df gdfg dfg dfg dfg dfgd fgdfgdfgdgdfgdgdgdfgdfgdgdfgdfgdfgdg</p>
+</div>
+<div id="t92680e8d-1fa8-0549-4965-1234ebcece54" class="exe-tooltip-text">
+<p>grt ertdg hgeyh tr yh yte yet yt w</p>
+</div>
+</div>
+</div>
+</article><article id="block-mw3p57mj-49doocfdf" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/parasabermasfpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">A Step Ahead</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mj-wfiqp4sn1" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mj-wfiqp4sn1&quot;}">
+<p>Si se desea profundizar sobre las distintas versiones de Python y sus características, así como en la instalación, configuración y uso de Python, se puede consultar la documentación oficial del lenguaje en: <a href="https://docs.python.org/" target="_blank" rel="noopener">documentación oficial de Pyhon</a>.</p>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/1-introduccion.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/21-instalacion-del-interprete-de-python.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter" class="siteFooter-empty"><div id="siteFooterContent"></div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

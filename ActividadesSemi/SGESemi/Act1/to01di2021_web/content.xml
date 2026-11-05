@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ode SYSTEM "content.dtd">
+<ode xmlns="http://www.intef.es/xsd/ode" version="2.0">
+<userPreferences>
+  <userPreference>
+    <key>theme</key>
+    <value>base</value>
+  </userPreference>
+</userPreferences>
+<odeResources>
+  <odeResource>
+    <key>odeId</key>
+    <value>20261105172540FFMWIX</value>
+  </odeResource>
+  <odeResource>
+    <key>odeVersionId</key>
+    <value>20261105172540DSFC16</value>
+  </odeResource>
+  <odeResource>
+    <key>exe_version</key>
+    <value>4.0.6</value>
+  </odeResource>
+</odeResources>
+<odeProperties>
+  <odeProperty>
+    <key>pp_title</key>
+    <value>TO01_DI_2021</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_author</key>
+    <value>Juan Reina</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_description</key>
+    <value>Tarea online para la UT1 de DI de DAM</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_lang</key>
+    <value>es</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_license</key>
+    <value>not appropriate</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_theme</key>
+    <value>base</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_exelearning_version</key>
+    <value>v4.0.6</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_modified</key>
+    <value>1793895940067</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addExeLink</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addPagination</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addSearchBox</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addAccessibilityToolbar</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addMathJax</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>exportSource</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_globalFont</key>
+    <value>default</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_passScore</key>
+    <value>5</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_passScoreEveryActivity</key>
+    <value>false</value>
+  </odeProperty>
+</odeProperties>
+<odeNavStructures>
+<odeNavStructure>
+  <odePageId>page-mw3rbq5e-1evxwn4f3</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Tarea online Unidad 1</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Tarea online Unidad 1</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mw3rbq5e-1evxwn4f3</odePageId>
+      <odeBlockId>block-mw3rbq5e-kmfy7d7i2</odeBlockId>
+      <blockName>FPD - Highlighted</blockName>
+      <iconName>destacadofpd</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mw3rbq5e-1evxwn4f3</odePageId>
+          <odeBlockId>block-mw3rbq5e-kmfy7d7i2</odeBlockId>
+          <odeIdeviceId>idevice-mw3rbq5e-mojgtl4x4</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="block" style="display: block; position: relative;">
+<p><strong>Título de la tarea: </strong>Introducción a los sistemas ERP/CRM</p>
+<p><strong>Unidad 1: </strong>Introducción a los sistemas ERP/CRM</p>
+<p><strong>Ciclo formativo y módulo:</strong> Desarrollo de aplicaciones multiplataforma - Sistemas de Gestión Empresarial</p>
+<p><strong>Curso académico: </strong>2026 - 2027</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"textTextarea":"<div class=\"block\" style=\"display: block; position: relative;\">\n<p><strong>Título de la tarea: </strong>Introducción a los sistemas ERP/CRM</p>\n<p><strong>Unidad 1: </strong>Introducción a los sistemas ERP/CRM</p>\n<p><strong>Ciclo formativo y módulo:</strong> Desarrollo de aplicaciones multiplataforma - Sistemas de Gestión Empresarial</p>\n<p><strong>Curso académico: </strong>2026 - 2027</p>\n</div>"}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mw3rbq5e-1evxwn4f3</odePageId>
+      <odeBlockId>block-mw3rbq5e-tvbv2qq5b</odeBlockId>
+      <blockName>FPD - Free Text</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mw3rbq5e-1evxwn4f3</odePageId>
+          <odeBlockId>block-mw3rbq5e-tvbv2qq5b</odeBlockId>
+          <odeIdeviceId>idevice-mw3rbq5e-v40aj6z65</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<h4 class="resaltado_inline" style="text-align: center;">¿Qué contenidos o resultados de aprendizaje trabajaremos?</h4>
+<p style="list-style-position: outside; display: block;"><strong style="color: #000000; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; background-color: #ffffff;"><abbr title="Resultado de Aprendizaje 1" style="text-decoration: none; border-bottom: 1px dotted;">RA1</abbr>.-</strong><span style="color: #000000; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; background-color: #ffffff; float: none; display: inline !important;">  Identifica sistemas de planificación de recursos empresariales y de gestión de relaciones con clientes (ERP-CRM) reconociendo sus características y verificando la configuración del sistema informático.</span></p>]]></htmlView>
+          <jsonProperties><![CDATA[{"textTextarea":"<h4 class=\"resaltado_inline\" style=\"text-align: center;\">¿Qué contenidos o resultados de aprendizaje trabajaremos?</h4>\n<p style=\"list-style-position: outside; display: block;\"><strong style=\"color: #000000; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; background-color: #ffffff;\"><abbr title=\"Resultado de Aprendizaje 1\" style=\"text-decoration: none; border-bottom: 1px dotted;\">RA1</abbr>.-</strong><span style=\"color: #000000; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; background-color: #ffffff; float: none; display: inline !important;\">  Identifica sistemas de planificación de recursos empresariales y de gestión de relaciones con clientes (ERP-CRM) reconociendo sus características y verificando la configuración del sistema informático.</span></p>"}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mw3rbq5e-vm9kpha7m</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>1.- Descripción de la tarea</pageName>
+  <odeNavStructureOrder>1</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>1.- Descripción de la tarea</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mw3rbq5e-vm9kpha7m</odePageId>
+      <odeBlockId>block-mw3rbq5e-kk270o5bl</odeBlockId>
+      <blockName>Caso práctico</blockName>
+      <iconName>casopracticofpd</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mw3rbq5e-vm9kpha7m</odePageId>
+          <odeBlockId>block-mw3rbq5e-kk270o5bl</odeBlockId>
+          <odeIdeviceId>idevice-mw3rbq5e-n2ew6tcus</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<p>Marta está empezando a familiarizarse con los sistema ERP-CRM y como parte de su aprendizaje va a instalar Odoo en distintos sistemas operativos, con distintas configuraciones y tiene que verificar la correcta gestión de la base de datos.</p>]]></htmlView>
+          <jsonProperties><![CDATA[{"textTextarea":"<p>Marta está empezando a familiarizarse con los sistema ERP-CRM y como parte de su aprendizaje va a instalar Odoo en distintos sistemas operativos, con distintas configuraciones y tiene que verificar la correcta gestión de la base de datos.</p>"}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mw3rbq5e-vm9kpha7m</odePageId>
+      <odeBlockId>block-mw3rbq5e-bgcr86mao</odeBlockId>
+      <blockName>FPD - Free Text</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mw3rbq5e-vm9kpha7m</odePageId>
+          <odeBlockId>block-mw3rbq5e-bgcr86mao</odeBlockId>
+          <odeIdeviceId>idevice-mw3rbq5e-fdt9vu24c</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<h4 class="resaltado_inline" style="text-align: center;">¿Qué te pedimos que hagas?</h4>
+<p>Objetivo: Aprender a instalar y configurar Odoo en diferentes entornos (Windows, Linux y Docker), documentando el proceso con pantallazos y explicaciones breves, incluyendo el usuario de Moodle para identificar la autoría.</p>
+<p><strong>Actividades a realizar:</strong></p>
+<p>Actividad 1: Instalación en Windows<br />Realiza la instalación de Odoo en Windows (10 o 11 recomendados): descarga Odoo y dependencias, instala PostgreSQL, configura Odoo y ejecuta el servidor. Incluye pantallazos de cada paso con tu usuario de Moodle visible y una breve explicación.</p>
+<p>Actividad 2: Instalación en Linux<br />Instala Odoo en una distribución Linux (Ubuntu recomendado). Configura PostgreSQL y accede a la interfaz web de Odoo. Documenta el proceso con pantallazos claros y explicaciones, incluyendo tu usuario de Moodle.</p>
+<p>Actividad 3: Instalación en Docker<br />Crea un archivo docker-compose.yml que levante un stack completo con Odoo + PostgreSQL. Configura volúmenes locales para persistencia de datos y asegúrate de que los contenedores se comuniquen correctamente. Incluye pantallazos de la ejecución y acceso a Odoo desde el navegador.</p>
+<p>Actividad 4: Configuración de puerto personalizado<br />Configura Odoo para usar un puerto distinto de 8069. Documenta cómo acceder a la aplicación desde el navegador con el nuevo puerto configurado. Incluye pantallazos.</p>
+<p>Actividad 5: Verificación final de configuraciones<br />Verifica el correcto funcionamiento en cada sistema (Windows, Linux y Docker) mostrando pantallazos de: servicio PostgreSQL activo, configuración de puertos y acceso a la interfaz web de Odoo. Incluye usuario Moodle en los pantallazos.</p>
+<p>Actividad 6: Documentación e incidencias<br />Elabora un documento ordenado con todos los pantallazos y explicaciones. Registra las incidencias producidas durante la instalación y cómo las resolviste. El usuario de Moodle debe aparecer en cada pantallazo.</p>
+<p>Actividad 7 ( Avanzada): Extensión con pgAdmin<br />Añade un contenedor adicional para pgAdmin (u otra herramienta de gestión de bases de datos). Documenta la estructura de carpetas de Docker, cómo se comunican los contenedores y prueba la persistencia de datos eliminando y reiniciando los contenedores sin perder información.</p>]]></htmlView>
+          <jsonProperties><![CDATA[{"textTextarea":"<h4 class=\"resaltado_inline\" style=\"text-align: center;\">¿Qué te pedimos que hagas?</h4>\n<p>Objetivo: Aprender a instalar y configurar Odoo en diferentes entornos (Windows, Linux y Docker), documentando el proceso con pantallazos y explicaciones breves, incluyendo el usuario de Moodle para identificar la autoría.</p>\n<p><strong>Actividades a realizar:</strong></p>\n<p>Actividad 1: Instalación en Windows<br />Realiza la instalación de Odoo en Windows (10 o 11 recomendados): descarga Odoo y dependencias, instala PostgreSQL, configura Odoo y ejecuta el servidor. Incluye pantallazos de cada paso con tu usuario de Moodle visible y una breve explicación.</p>\n<p>Actividad 2: Instalación en Linux<br />Instala Odoo en una distribución Linux (Ubuntu recomendado). Configura PostgreSQL y accede a la interfaz web de Odoo. Documenta el proceso con pantallazos claros y explicaciones, incluyendo tu usuario de Moodle.</p>\n<p>Actividad 3: Instalación en Docker<br />Crea un archivo docker-compose.yml que levante un stack completo con Odoo + PostgreSQL. Configura volúmenes locales para persistencia de datos y asegúrate de que los contenedores se comuniquen correctamente. Incluye pantallazos de la ejecución y acceso a Odoo desde el navegador.</p>\n<p>Actividad 4: Configuración de puerto personalizado<br />Configura Odoo para usar un puerto distinto de 8069. Documenta cómo acceder a la aplicación desde el navegador con el nuevo puerto configurado. Incluye pantallazos.</p>\n<p>Actividad 5: Verificación final de configuraciones<br />Verifica el correcto funcionamiento en cada sistema (Windows, Linux y Docker) mostrando pantallazos de: servicio PostgreSQL activo, configuración de puertos y acceso a la interfaz web de Odoo. Incluye usuario Moodle en los pantallazos.</p>\n<p>Actividad 6: Documentación e incidencias<br />Elabora un documento ordenado con todos los pantallazos y explicaciones. Registra las incidencias producidas durante la instalación y cómo las resolviste. El usuario de Moodle debe aparecer en cada pantallazo.</p>\n<p>Actividad 7 ( Avanzada): Extensión con pgAdmin<br />Añade un contenedor adicional para pgAdmin (u otra herramienta de gestión de bases de datos). Documenta la estructura de carpetas de Docker, cómo se comunican los contenedores y prueba la persistencia de datos eliminando y reiniciando los contenedores sin perder información.</p>"}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mw3rbq5e-gxswzojpe</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>2.- Información de interés</pageName>
+  <odeNavStructureOrder>2</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>2.- Información de interés</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mw3rbq5e-gxswzojpe</odePageId>
+      <odeBlockId>block-mw3rbq5e-ieg4kt7d7</odeBlockId>
+      <blockName>FPD - Free Text</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mw3rbq5e-gxswzojpe</odePageId>
+          <odeBlockId>block-mw3rbq5e-ieg4kt7d7</odeBlockId>
+          <odeIdeviceId>idevice-mw3rbq5e-ak0xnarmm</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<h4 class="resaltado_inline" style="text-align: center;">Recursos necesarios y recomendaciones</h4>
+<p style="margin: 0px 0px 1em; color: #000000; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;">Para la adecuada realización de la tarea pueden ser necesarios los siguientes<span> </span><strong>recursos</strong>:</p>
+<ul style="color: #000000; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;">
+<li style="list-style-position: outside;">Ordenador de sobremesa o portátil.</li>
+<li style="list-style-position: outside;">Tema de la unidad.</li>
+<li style="list-style-position: outside;">
+<p>Webs sobre ERPs.</p>
+</li>
+<li style="list-style-position: outside;">
+<p>Un procesador de textos para elaborar el documento.</p>
+</li>
+<li style="list-style-position: outside;">Procesador de texto capaz de convertir a formato PDF (p. ej. Writer de LibreOffice).</li>
+<li style="list-style-position: outside;">Mecanismo de captura de pantalla.</li>
+<li style="list-style-position: outside;">Se puede (y debe) utilizar Internet como herramienta de investigación y documentación (Google, Wikipedia, páginas oficiales de las tecnologías utilizadas, etc.).</li>
+</ul>
+<p style="margin: 0px 0px 1em; color: #000000; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;">Para la adecuada realización de la tarea deberían seguirse las siguientes<span> </span><strong>recomendaciones</strong>:</p>
+<ul style="color: #000000; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;">
+<li class="lista_verificacion" style="list-style-position: outside; list-style-image: url('https://www.juntadeandalucia.es/educacion/gestionafp/datos/tareas/ASIR/FHW_26651000/2018-19/ASIR_FHW_1_2018-19_Individual__566138/bullet.png');">Leer previamente los contenidos de la unidad de trabajo.</li>
+<li class="lista_verificacion" style="list-style-position: outside; list-style-image: url('https://www.juntadeandalucia.es/educacion/gestionafp/datos/tareas/ASIR/FHW_26651000/2018-19/ASIR_FHW_1_2018-19_Individual__566138/bullet.png');">Se puede utilizar internet como fuente de investigación y documentación.</li>
+<li class="lista_verificacion" style="list-style-position: outside; list-style-image: url('https://www.juntadeandalucia.es/educacion/gestionafp/datos/tareas/ASIR/FHW_26651000/2018-19/ASIR_FHW_1_2018-19_Individual__566138/bullet.png');">Se puede entrar en el foro de la unidad y participar en las cuestiones que allí se planteen relacionadas con la tarea, aunque procurando no pedir ni dar "soluciones directas".</li>
+</ul>
+<p></p>]]></htmlView>
+          <jsonProperties><![CDATA[{"textTextarea":"<h4 class=\"resaltado_inline\" style=\"text-align: center;\">Recursos necesarios y recomendaciones</h4>\n<p style=\"margin: 0px 0px 1em; color: #000000; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;\">Para la adecuada realización de la tarea pueden ser necesarios los siguientes<span> </span><strong>recursos</strong>:</p>\n<ul style=\"color: #000000; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;\">\n<li style=\"list-style-position: outside;\">Ordenador de sobremesa o portátil.</li>\n<li style=\"list-style-position: outside;\">Tema de la unidad.</li>\n<li style=\"list-style-position: outside;\">\n<p>Webs sobre ERPs.</p>\n</li>\n<li style=\"list-style-position: outside;\">\n<p>Un procesador de textos para elaborar el documento.</p>\n</li>\n<li style=\"list-style-position: outside;\">Procesador de texto capaz de convertir a formato PDF (p. ej. Writer de LibreOffice).</li>\n<li style=\"list-style-position: outside;\">Mecanismo de captura de pantalla.</li>\n<li style=\"list-style-position: outside;\">Se puede (y debe) utilizar Internet como herramienta de investigación y documentación (Google, Wikipedia, páginas oficiales de las tecnologías utilizadas, etc.).</li>\n</ul>\n<p style=\"margin: 0px 0px 1em; color: #000000; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;\">Para la adecuada realización de la tarea deberían seguirse las siguientes<span> </span><strong>recomendaciones</strong>:</p>\n<ul style=\"color: #000000; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;\">\n<li class=\"lista_verificacion\" style=\"list-style-position: outside; list-style-image: url('https://www.juntadeandalucia.es/educacion/gestionafp/datos/tareas/ASIR/FHW_26651000/2018-19/ASIR_FHW_1_2018-19_Individual__566138/bullet.png');\">Leer previamente los contenidos de la unidad de trabajo.</li>\n<li class=\"lista_verificacion\" style=\"list-style-position: outside; list-style-image: url('https://www.juntadeandalucia.es/educacion/gestionafp/datos/tareas/ASIR/FHW_26651000/2018-19/ASIR_FHW_1_2018-19_Individual__566138/bullet.png');\">Se puede utilizar internet como fuente de investigación y documentación.</li>\n<li class=\"lista_verificacion\" style=\"list-style-position: outside; list-style-image: url('https://www.juntadeandalucia.es/educacion/gestionafp/datos/tareas/ASIR/FHW_26651000/2018-19/ASIR_FHW_1_2018-19_Individual__566138/bullet.png');\">Se puede entrar en el foro de la unidad y participar en las cuestiones que allí se planteen relacionadas con la tarea, aunque procurando no pedir ni dar \"soluciones directas\".</li>\n</ul>\n<p></p>"}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mw3rbq5e-gxswzojpe</odePageId>
+      <odeBlockId>block-mw3rbq5e-hk29ukker</odeBlockId>
+      <blockName>Indicaciones de entrega</blockName>
+      <iconName>parasabermasfpd</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mw3rbq5e-gxswzojpe</odePageId>
+          <odeBlockId>block-mw3rbq5e-hk29ukker</odeBlockId>
+          <odeIdeviceId>idevice-mw3rbq5e-yg2l7cmyj</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<p style="margin: 0em 0px 1em; color: #66521d; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #fbfcd7; text-decoration-style: initial; text-decoration-color: initial;">La documentación de la tarea debe redactarse en un documento electrónico usando cualquier procesador de texto y dicho documento deberá contar con las siguientes características:</p>
+<ul style="color: #66521d; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #fbfcd7; text-decoration-style: initial; text-decoration-color: initial;">
+<li style="list-style-position: outside;">Una<span> </span><em><strong>primera página</strong></em><span> </span>a modo de portada donde conste el nombre del módulo, el número de la tarea y el nombre completo del alumno.</li>
+<li style="list-style-position: outside;">Los<span> </span><em><strong>enunciados</strong></em><span> </span>y numeración originales de la tarea con sus correspondientes apartados y subapartados. </li>
+<li style="list-style-position: outside;">Incluir número de páginas en el documento excepto portada.</li>
+<li style="list-style-position: outside;">Se debe incluir una  bibliografía con los enlaces a las fuentes utilizadas.</li>
+<li style="list-style-position: outside;">Se deben incluir capturas de pantallas como descripción del proceso realizado.</li>
+</ul>
+<p style="margin: 0px 0px 1em; color: #66521d; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #fbfcd7; text-decoration-style: initial; text-decoration-color: initial;">Una vez completado el documento electrónico correspondiente a la tarea deberá exportarse al<span> </span><em><strong>formato estándar PDF</strong></em>, pudiendo comprimirlo en<span> </span><em><strong>formato estándar ZIP</strong></em> <span style="text-decoration: underline;">solo si el tamaño supera los 10 MB</span><span> </span>máximos permitidos. El archivo resultante (de extensión .pdf o .zip) deberá subirse a la plataforma de la forma establecida, no sin antes modificar su nombre siguiendo el patrón siguiente:</p>
+<p class="enlace_centrado" style="margin: 1em 0em; text-align: center; color: #66521d; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #fbfcd7; text-decoration-style: initial; text-decoration-color: initial;"><strong><strong>Apellido1_Apellido2_Nombre_SGEMPxx_Tarea_onlineX</strong></strong></p>
+<p style="margin: 0px 0px 1em; color: #66521d; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #fbfcd7; text-decoration-style: initial; text-decoration-color: initial;">Asegurarse de que el nombre no contenga la letra <strong>ñ</strong>, tildes ni espacios. Por ejemplo, la alumna <strong>Begoña Sánchez Mañas para la primera unidad de SGEMP, </strong>debería nombrar el archivo de su tarea como:</p>
+<p class="enlace_centrado" style="margin: 1em 0em; text-align: center; color: #66521d; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #fbfcd7; text-decoration-style: initial; text-decoration-color: initial;"><strong>Sanchez_Manas_Begona_SGEMP01_Tarea_online1</strong></p>]]></htmlView>
+          <jsonProperties><![CDATA[{"textTextarea":"<p style=\"margin: 0em 0px 1em; color: #66521d; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #fbfcd7; text-decoration-style: initial; text-decoration-color: initial;\">La documentación de la tarea debe redactarse en un documento electrónico usando cualquier procesador de texto y dicho documento deberá contar con las siguientes características:</p>\n<ul style=\"color: #66521d; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #fbfcd7; text-decoration-style: initial; text-decoration-color: initial;\">\n<li style=\"list-style-position: outside;\">Una<span> </span><em><strong>primera página</strong></em><span> </span>a modo de portada donde conste el nombre del módulo, el número de la tarea y el nombre completo del alumno.</li>\n<li style=\"list-style-position: outside;\">Los<span> </span><em><strong>enunciados</strong></em><span> </span>y numeración originales de la tarea con sus correspondientes apartados y subapartados. </li>\n<li style=\"list-style-position: outside;\">Incluir número de páginas en el documento excepto portada.</li>\n<li style=\"list-style-position: outside;\">Se debe incluir una  bibliografía con los enlaces a las fuentes utilizadas.</li>\n<li style=\"list-style-position: outside;\">Se deben incluir capturas de pantallas como descripción del proceso realizado.</li>\n</ul>\n<p style=\"margin: 0px 0px 1em; color: #66521d; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #fbfcd7; text-decoration-style: initial; text-decoration-color: initial;\">Una vez completado el documento electrónico correspondiente a la tarea deberá exportarse al<span> </span><em><strong>formato estándar PDF</strong></em>, pudiendo comprimirlo en<span> </span><em><strong>formato estándar ZIP</strong></em> <span style=\"text-decoration: underline;\">solo si el tamaño supera los 10 MB</span><span> </span>máximos permitidos. El archivo resultante (de extensión .pdf o .zip) deberá subirse a la plataforma de la forma establecida, no sin antes modificar su nombre siguiendo el patrón siguiente:</p>\n<p class=\"enlace_centrado\" style=\"margin: 1em 0em; text-align: center; color: #66521d; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #fbfcd7; text-decoration-style: initial; text-decoration-color: initial;\"><strong><strong>Apellido1_Apellido2_Nombre_SGEMPxx_Tarea_onlineX</strong></strong></p>\n<p style=\"margin: 0px 0px 1em; color: #66521d; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #fbfcd7; text-decoration-style: initial; text-decoration-color: initial;\">Asegurarse de que el nombre no contenga la letra <strong>ñ</strong>, tildes ni espacios. Por ejemplo, la alumna <strong>Begoña Sánchez Mañas para la primera unidad de SGEMP, </strong>debería nombrar el archivo de su tarea como:</p>\n<p class=\"enlace_centrado\" style=\"margin: 1em 0em; text-align: center; color: #66521d; font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #fbfcd7; text-decoration-style: initial; text-decoration-color: initial;\"><strong>Sanchez_Manas_Begona_SGEMP01_Tarea_online1</strong></p>"}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mw3rbq5e-68zyjnrdx</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>3.- Evaluación de la tarea</pageName>
+  <odeNavStructureOrder>3</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>3.- Evaluación de la tarea</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mw3rbq5e-68zyjnrdx</odePageId>
+      <odeBlockId>block-mw3rbq5e-75u4xlo8v</odeBlockId>
+      <blockName>FPD - Free Text</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mw3rbq5e-68zyjnrdx</odePageId>
+          <odeBlockId>block-mw3rbq5e-75u4xlo8v</odeBlockId>
+          <odeIdeviceId>idevice-mw3rbq5e-iwtp7chm7</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<h4 class="resaltado_inline" style="text-align: center;">Criterios de evaluación implicados• Reconocimiento de los diferentes sistemas ERP-CRM del mercado analizando sus características.</h4>
+<p><strong>RA1:</strong> Identifica sistemas de planificación de recursos empresariales y de gestión de relaciones con clientes (ERP-CRM) reconociendo sus características y verificando la configuración del sistema informático.</p>
+<ol style="list-style-type: lower-alpha;">
+<li>Se han reconocido los diferentes sistemas ERP-CRM que existen en el<br />mercado.</li>
+<li>Se han identificado los diferentes tipos de licencia de los sistemas ERP-CRM.</li>
+<li>Se han comparado sistemas ERP-CRM en función de sus características y<br />requisitos.</li>
+<li>Se ha identificado el sistema operativo adecuado a cada sistema ERPCRM.</li>
+<li><strong>Se ha identificado el sistema gestor de datos adecuado a cada sistema </strong><strong>ERP-CRM.</strong></li>
+<li><strong>Se han verificado las configuraciones del sistema operativo y del gestor de </strong><strong>datos para garantizar la funcionalidad del ERP-CRM.</strong></li>
+<li><strong>Se han documentado las operaciones realizadas.</strong></li>
+<li><strong>Se han documentado las incidencias producidas durante el proceso.</strong></li>
+</ol>]]></htmlView>
+          <jsonProperties><![CDATA[{"textTextarea":"<h4 class=\"resaltado_inline\" style=\"text-align: center;\">Criterios de evaluación implicados• Reconocimiento de los diferentes sistemas ERP-CRM del mercado analizando sus características.</h4>\n<p><strong>RA1:</strong> Identifica sistemas de planificación de recursos empresariales y de gestión de relaciones con clientes (ERP-CRM) reconociendo sus características y verificando la configuración del sistema informático.</p>\n<ol style=\"list-style-type: lower-alpha;\">\n<li>Se han reconocido los diferentes sistemas ERP-CRM que existen en el<br />mercado.</li>\n<li>Se han identificado los diferentes tipos de licencia de los sistemas ERP-CRM.</li>\n<li>Se han comparado sistemas ERP-CRM en función de sus características y<br />requisitos.</li>\n<li>Se ha identificado el sistema operativo adecuado a cada sistema ERPCRM.</li>\n<li><strong>Se ha identificado el sistema gestor de datos adecuado a cada sistema </strong><strong>ERP-CRM.</strong></li>\n<li><strong>Se han verificado las configuraciones del sistema operativo y del gestor de </strong><strong>datos para garantizar la funcionalidad del ERP-CRM.</strong></li>\n<li><strong>Se han documentado las operaciones realizadas.</strong></li>\n<li><strong>Se han documentado las incidencias producidas durante el proceso.</strong></li>\n</ol>"}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mw3rbq5e-68zyjnrdx</odePageId>
+      <odeBlockId>block-mw3rbq5e-1vevcfaim</odeBlockId>
+      <blockName></blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mw3rbq5e-68zyjnrdx</odePageId>
+          <odeBlockId>block-mw3rbq5e-1vevcfaim</odeBlockId>
+          <odeIdeviceId>idevice-mw3rbq5e-nn0nczkys</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<h4 class="resaltado_inline" style="text-align: center;">¿Cómo valoramos y puntuamos tu tarea?</h4>
+<p style="text-align: center;"><strong>Rúbrica de la tarea</strong></p>
+<table border="1">
+<tbody>
+<tr>
+<td>
+<p><span style="font-weight: 400;">RA / Criterio</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Indicadores de logro</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Peso</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Excelente (10)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Notable (7–9)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Aprobado (5–6)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Insuficiente (<5)</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">RA1e: Instalación en Windows</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Descarga, instalación de dependencias, PostgreSQL, ejecución.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">20%</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Pasos completos, pantallazos claros con usuario Moodle, incidencias documentadas.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Documentación completa pero con pantallazos poco claros.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Instalación incompleta o explicaciones pobres.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">No se instala o no se documenta.</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">RA1e: Instalación en Linux</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Instalación en distro Linux, PostgreSQL y acceso web.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">20%</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Proceso documentado con pantallazos claros y resolución de incidencias.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Documentación aceptable pero con carencias en explicaciones.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Instalación parcial o confusa.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">No se logra instalar ni documentar.</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">RA1f: Instalación en Docker (stack Compose y persistencia)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Creación de docker-compose.yml, volúmenes, persistencia.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">20%</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Stack completo, volúmenes persistentes, pantallazos claros, usuario Moodle visible.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Stack funciona pero falta detalle (ej. volúmenes o explicación).</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Instalación parcial sin persistencia.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">No funciona el stack o no se entrega.</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">RA1g: Configuración de puerto y comunicación entre contenedores</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Cambio de puerto y acceso vía navegador.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">15%</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Puerto distinto configurado y probado en navegador, comunicación entre contenedores documentada.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Puerto cambiado pero sin explicación clara.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Puerto cambiado sin prueba en navegador.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">No hay evidencia de puerto personalizado.</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">RA1h: Verificación final de configuraciones (tarea añadida)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Demuestra funcionamiento de PostgreSQL, puertos y acceso web en cada SO.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">15%</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Pantallazos claros del servicio activo, puertos configurados y acceso a Odoo.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Pantallazos parciales o explicación breve.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Verificación incompleta.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">No se demuestra verificación.</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">RA1g: Documentación, incidencias y pantallazos</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Claridad, orden, usuario Moodle visible.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">10%</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Documento ordenado, incidencias registradas, pantallazos completos y legibles.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Documento correcto pero con pantallazos o incidencias incompletas.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Pantallazos poco claros o desorden documental.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">No hay documentación clara ni pantallazos adecuados.</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">RA1f (Avanzado, opcional): Contenedor extra pgAdmin / pruebas de persistencia</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Añade herramienta extra y prueba persistencia.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">5% extra</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Se añade pgAdmin (u otro) y se prueba persistencia eliminando contenedores.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Añade herramienta extra pero sin probar persistencia.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Solo describe sin implementar.</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">No añade nada adicional.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><br /><br /></p>]]></htmlView>
+          <jsonProperties><![CDATA[{"textTextarea":"<h4 class=\"resaltado_inline\" style=\"text-align: center;\">¿Cómo valoramos y puntuamos tu tarea?</h4>\n<p style=\"text-align: center;\"><strong>Rúbrica de la tarea</strong></p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td>\n<p><span style=\"font-weight: 400;\">RA / Criterio</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Indicadores de logro</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Peso</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Excelente (10)</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Notable (7–9)</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Aprobado (5–6)</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Insuficiente (<5)</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><span style=\"font-weight: 400;\">RA1e: Instalación en Windows</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Descarga, instalación de dependencias, PostgreSQL, ejecución.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">20%</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Pasos completos, pantallazos claros con usuario Moodle, incidencias documentadas.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Documentación completa pero con pantallazos poco claros.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Instalación incompleta o explicaciones pobres.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">No se instala o no se documenta.</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><span style=\"font-weight: 400;\">RA1e: Instalación en Linux</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Instalación en distro Linux, PostgreSQL y acceso web.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">20%</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Proceso documentado con pantallazos claros y resolución de incidencias.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Documentación aceptable pero con carencias en explicaciones.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Instalación parcial o confusa.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">No se logra instalar ni documentar.</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><span style=\"font-weight: 400;\">RA1f: Instalación en Docker (stack Compose y persistencia)</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Creación de docker-compose.yml, volúmenes, persistencia.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">20%</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Stack completo, volúmenes persistentes, pantallazos claros, usuario Moodle visible.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Stack funciona pero falta detalle (ej. volúmenes o explicación).</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Instalación parcial sin persistencia.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">No funciona el stack o no se entrega.</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><span style=\"font-weight: 400;\">RA1g: Configuración de puerto y comunicación entre contenedores</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Cambio de puerto y acceso vía navegador.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">15%</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Puerto distinto configurado y probado en navegador, comunicación entre contenedores documentada.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Puerto cambiado pero sin explicación clara.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Puerto cambiado sin prueba en navegador.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">No hay evidencia de puerto personalizado.</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><span style=\"font-weight: 400;\">RA1h: Verificación final de configuraciones (tarea añadida)</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Demuestra funcionamiento de PostgreSQL, puertos y acceso web en cada SO.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">15%</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Pantallazos claros del servicio activo, puertos configurados y acceso a Odoo.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Pantallazos parciales o explicación breve.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Verificación incompleta.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">No se demuestra verificación.</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><span style=\"font-weight: 400;\">RA1g: Documentación, incidencias y pantallazos</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Claridad, orden, usuario Moodle visible.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">10%</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Documento ordenado, incidencias registradas, pantallazos completos y legibles.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Documento correcto pero con pantallazos o incidencias incompletas.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Pantallazos poco claros o desorden documental.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">No hay documentación clara ni pantallazos adecuados.</span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p><span style=\"font-weight: 400;\">RA1f (Avanzado, opcional): Contenedor extra pgAdmin / pruebas de persistencia</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Añade herramienta extra y prueba persistencia.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">5% extra</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Se añade pgAdmin (u otro) y se prueba persistencia eliminando contenedores.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Añade herramienta extra pero sin probar persistencia.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">Solo describe sin implementar.</span></p>\n</td>\n<td>\n<p><span style=\"font-weight: 400;\">No añade nada adicional.</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p><br /><br /></p>"}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mw3rbq5e-2s9cb240m</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Anexo. Licencia de recursos</pageName>
+  <odeNavStructureOrder>4</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Anexo. Licencia de recursos</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mw3rbq5e-2s9cb240m</odePageId>
+      <odeBlockId>block-mw3rbq5e-n1hxhd6l5</odeBlockId>
+      <blockName>FPD - Highlighted</blockName>
+      <iconName>destacadofpd</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mw3rbq5e-2s9cb240m</odePageId>
+          <odeBlockId>block-mw3rbq5e-n1hxhd6l5</odeBlockId>
+          <odeIdeviceId>idevice-mw3rbq5e-xstfjlayk</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<p><strong>Nota:</strong><br /><br />Para esta tarea no es necesario incluir en este anexo la cita de las licencias de ningún recurso. Este anexo incluye exclusivamente recursos cuya licencia obliga a la cita expresa y que, por la extensión de sus credenciales o por cualquier cuestión técnica, no se pueden citar en línea. El resto de recursos son de elaboración propia y no requieren cita expresa, quedando su licencia expresada en la de los propios materiales o citada en línea, en el lugar donde aparecen en los contenidos.</p>]]></htmlView>
+          <jsonProperties><![CDATA[{"textTextarea":"<p><strong>Nota:</strong><br /><br />Para esta tarea no es necesario incluir en este anexo la cita de las licencias de ningún recurso. Este anexo incluye exclusivamente recursos cuya licencia obliga a la cita expresa y que, por la extensión de sus credenciales o por cualquier cuestión técnica, no se pueden citar en línea. El resto de recursos son de elaboración propia y no requieren cita expresa, quedando su licencia expresada en la de los propios materiales o citada en línea, en el lugar donde aparecen en los contenidos.</p>"}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+</odeNavStructures>
+</ode>

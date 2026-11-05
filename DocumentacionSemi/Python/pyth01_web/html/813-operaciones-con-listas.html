@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mw3p57mi-k6urqhzsv">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<title>8.1.3 Operaciones con listas | PYTH01</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Unidad 1">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../idevices/casestudy/casestudy.js"></script><link rel="stylesheet" href="../idevices/casestudy/casestudy.css">
+<script src="../libs/exe_highlighter/exe_highlighter.js"> </script>
+<link rel="stylesheet" href="../libs/exe_highlighter/exe_highlighter.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mw3p57mi-k6urqhzsv" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Fundamentos de python y estructuras avanzadas</a>
+</li>
+<li> <a href="../html/1-introduccion.html" class="no-ch">1. Introducción</a>
+</li>
+<li> <a href="../html/2-entornos-de-desarrollo.html" class="daddy">2. Entornos de desarrollo</a>
+<ul class="other-section">
+<li> <a href="../html/21-instalacion-del-interprete-de-python.html" class="no-ch">2.1 Instalación del intérprete de Python</a>
+</li>
+<li> <a href="../html/22-gestion-de-paquetes.html" class="no-ch">2.2 Gestión de paquetes</a>
+</li>
+<li> <a href="../html/23-entornos-virtuales.html" class="no-ch">2.3 Entornos virtuales</a>
+</li>
+<li> <a href="../html/24-editores-para-python-ides.html" class="no-ch">2.4 Editores para Python (IDEs)</a>
+</li>
+<li> <a href="../html/25-jupyter-notebook.html" class="no-ch">2.5 Jupyter Notebook</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/3-datos.html" class="daddy">3. Datos</a>
+<ul class="other-section">
+<li> <a href="../html/31-tipos-de-datos.html" class="no-ch">3.1 Tipos de datos</a>
+</li>
+<li> <a href="../html/32-variables.html" class="no-ch">3.2 Variables</a>
+</li>
+<li> <a href="../html/33-asignacion.html" class="no-ch">3.3 Asignación</a>
+</li>
+<li> <a href="../html/34-mutabilidad.html" class="no-ch">3.4 Mutabilidad</a>
+</li>
+<li> <a href="../html/35-funciones-built-in.html" class="no-ch">3.5 Funciones built-in</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/4-numeros.html" class="daddy">4. Números</a>
+<ul class="other-section">
+<li> <a href="../html/41-booleanos.html" class="no-ch">4.1 Booleanos</a>
+</li>
+<li> <a href="../html/42-enteros.html" class="no-ch">4.2 Enteros</a>
+</li>
+<li> <a href="../html/43-flotantes.html" class="no-ch">4.3 Flotantes</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/5-cadenas-de-texto.html" class="daddy">5. Cadenas de texto</a>
+<ul class="other-section">
+<li> <a href="../html/51-entrada-y-salida-por-teclado.html" class="no-ch">5.1 Entrada y salida por teclado</a>
+</li>
+<li> <a href="../html/52-operaciones-principales.html" class="no-ch">5.2 Operaciones principales</a>
+</li>
+<li> <a href="../html/53-caracteres-unicode.html" class="no-ch">5.3 Caracteres UNICODE</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/6-condicionales.html" class="daddy">6. Condicionales</a>
+<ul class="other-section">
+<li> <a href="../html/61-bloques-de-codigo.html" class="no-ch">6.1 Bloques de código</a>
+</li>
+<li> <a href="../html/62-comentarios.html" class="no-ch">6.2 Comentarios</a>
+</li>
+<li> <a href="../html/63-la-sentencia-if.html" class="no-ch">6.3 La sentencia if</a>
+</li>
+<li> <a href="../html/64-operadores-de-comparacion.html" class="no-ch">6.4 Operadores de comparación</a>
+</li>
+<li> <a href="../html/65-sentencias-match-case.html" class="no-ch">6.5 Sentencias match-case</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/7-estructuras-de-repeticion.html" class="daddy">7. Estructuras de repetición</a>
+<ul class="other-section">
+<li> <a href="../html/71-la-sentencia-while.html" class="no-ch">7.1 La sentencia while</a>
+</li>
+<li> <a href="../html/72-la-sentencia-for.html" class="no-ch">7.2 La sentencia for</a>
+</li>
+<li> <a href="../html/73-bucles-anidados.html" class="no-ch">7.3 Bucles anidados</a>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/8-estructuras-avanzadas.html" class="daddy">8. Estructuras avanzadas</a>
+<ul class="other-section">
+<li class="current-page-parent"> <a href="../html/81-listas.html" class="daddy">8.1 Listas</a>
+<ul class="other-section">
+<li> <a href="../html/811-creando-listas.html" class="no-ch">8.1.1 Creando listas</a>
+</li>
+<li> <a href="../html/812-conversion.html" class="no-ch">8.1.2 Conversión</a>
+</li>
+<li class="active"> <a href="../html/813-operaciones-con-listas.html" class="active no-ch">8.1.3 Operaciones con listas</a>
+</li>
+<li> <a href="../html/814-copias-en-listas-mutabilidad.html" class="no-ch">8.1.4 Copias en listas (mutabilidad)</a>
+</li>
+<li> <a href="../html/815-veracidad-multiple.html" class="no-ch">8.1.5 Veracidad múltiple</a>
+</li>
+<li> <a href="../html/816-listas-por-comprension.html" class="no-ch">8.1.6 Listas por comprensión</a>
+</li>
+<li> <a href="../html/817-ejecucion-desde-linea-de-comandos.html" class="no-ch">8.1.7 Ejecución desde línea de comandos</a>
+</li>
+<li> <a href="../html/818-funciones-matematicas.html" class="no-ch">8.1.8 Funciones matemáticas</a>
+</li>
+<li> <a href="../html/819-listas-de-listas.html" class="no-ch">8.1.9 Listas de listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/82-tuplas.html" class="daddy">8.2 Tuplas</a>
+<ul class="other-section">
+<li> <a href="../html/821-creando-tuplas.html" class="no-ch">8.2.1 Creando tuplas</a>
+</li>
+<li> <a href="../html/822-modificar-una-tupla.html" class="no-ch">8.2.2 Modificar una tupla</a>
+</li>
+<li> <a href="../html/823-conversion.html" class="no-ch">8.2.3 Conversión</a>
+</li>
+<li> <a href="../html/824-operaciones-con-tuplas.html" class="no-ch">8.2.4 Operaciones con tuplas</a>
+</li>
+<li> <a href="../html/825-tupas-vs-listas.html" class="no-ch">8.2.5 Tupas vs. Listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/83-diccionarios.html" class="daddy">8.3 Diccionarios</a>
+<ul class="other-section">
+<li> <a href="../html/831-creando-diccionarios.html" class="no-ch">8.3.1 Creando diccionarios</a>
+</li>
+<li> <a href="../html/832-conversion.html" class="no-ch">8.3.2 Conversión</a>
+</li>
+<li> <a href="../html/833-operaciones-con-diccionarios.html" class="no-ch">8.3.3 Operaciones con diccionarios</a>
+</li>
+<li> <a href="../html/834-copias-en-diccionarios-mutabilidad.html" class="no-ch">8.3.4 Copias en diccionarios (mutabilidad)</a>
+</li>
+<li> <a href="../html/835-diccionarios-por-comprension.html" class="no-ch">8.3.5 Diccionarios por comprensión</a>
+</li>
+<li> <a href="../html/836-objetos-hashables.html" class="no-ch">8.3.6 Objetos &quot;hashables&quot;</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> <a href="../html/9-modularidad.html" class="daddy">9. Modularidad</a>
+<ul class="other-section">
+<li> <a href="../html/91-funciones.html" class="no-ch">9.1 Funciones</a>
+</li>
+<li> <a href="../html/92-objetos-y-clases.html" class="no-ch">9.2 Objetos y clases</a>
+</li>
+<li> <a href="../html/93-excepciones.html" class="no-ch">9.3 Excepciones</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav><main id="page-mw3p57mi-k6urqhzsv" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">PYTH01</p></div>
+<div class="page-header"><h1 class="page-title">8.1.3 Operaciones con listas</h1></div>
+</header><div id="page-content-page-mw3p57mi-k6urqhzsv" class="page-content">
+<article id="block-mw3p57mm-5t3khe90x" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">FPD - Free Text</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mm-8ot7523ja" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mm-8ot7523ja&quot;}">
+<p>En Python, las listas son estructuras de datos versátiles que permiten almacenar múltiples elementos. Sobre ellas se pueden realizar una gran cantidad de operaciones, que facilitan el acceso, modificación, combinación y análisis de los datos.</p>
+<h3>Obtener un elemento</h3>
+<p>Al igual que en las cadenas de texto, se puede acceder a un elemento de una lista mediante su índice:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>fruits = [&#039;Manzana&#039;, &#039;Banana&#039;, &#039;Cereza&#039;]
+fruits[0]
+# &#039;Manzana&#039;
+fruits[1]
+# &#039;Banana&#039;
+fruits[-1]  # acceso con índice negativo
+# &#039;Cereza&#039;</code></pre>
+</div>
+</div>
+<p>Es importante que el índice esté dentro de los límites de la lista, de lo contrario se generará un <code>IndexError</code>:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>fruits[3]
+# IndexError: list index out of range
+fruits[-4]
+# IndexError: list index out of range</code></pre>
+</div>
+</div>
+<h3>Trocear una lista</h3>
+<p>El troceado de listas funciona de manera análoga al de cadenas de texto:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>fruits = [&#039;Manzana&#039;, &#039;Banana&#039;, &#039;Cereza&#039;, &#039;Kiwi&#039;, &#039;Melón&#039;]
+fruits[1:4]
+# [&#039;Banana&#039;, &#039;Cereza&#039;, &#039;Kiwi&#039;]
+fruits[:3]
+# [&#039;Manzana&#039;, &#039;Banana&#039;, &#039;Cereza&#039;]
+fruits[-1:-4:-1]
+# [&#039;Melón&#039;, &#039;Kiwi&#039;, &#039;Cereza&#039;]
+fruits[::-1]
+# [&#039;Melón&#039;, &#039;Kiwi&#039;, &#039;Cereza&#039;, &#039;Banana&#039;, &#039;Manzana&#039;]</code></pre>
+</div>
+</div>
+<p><strong>Nota:</strong> Estas operaciones no modifican la lista original, simplemente devuelven una nueva lista.</p>
+<h3>Invertir una lista</h3>
+<p>Existen varias formas de invertir una lista:</p>
+<ul>
+<li><strong>Sin modificar la original:</strong> mediante troceado con step negativo o la función <code>reversed()</code>.</li>
+<li><strong>Modificando la original:</strong> mediante <code>reverse()</code>.</li>
+</ul>
+<h4>Conservando la lista original mediante troceado con step negativo</h4>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>numbers = [10, 20, 30, 40, 50]
+numbers[::-1]
+# [50, 40, 30, 20, 10]</code></pre>
+</div>
+</div>
+<h4>Conservando la lista original mediante la función reversed()</h4>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>numbers = [10, 20, 30, 40, 50]
+list(reversed(numbers))
+# [50, 40, 30, 20, 10]</code></pre>
+</div>
+</div>
+<h4>Modificando la lista original mediante reverse()</h4>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>numbers = [10, 20, 30, 40, 50]
+numbers.reverse()
+numbers
+# [50, 40, 30, 20, 10]</code></pre>
+</div>
+</div>
+<p><strong>Nota:</strong> La diferencia entre <code>reversed()</code> y <code>reverse()</code> es que <code>reversed()</code> devuelve un nuevo iterador (se puede convertir en lista sin modificar la original), mientras que <code>reverse()</code> modifica la lista in-situ.</p>
+<h3>Añadir elementos</h3>
+<p>Para añadir elementos al final se utiliza <code>append()</code>. Para insertar en cualquier posición, <code>insert()</code>. Por ejemplo:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>numbers = [2, 4, 6]
+numbers.append(8)
+# [2, 4, 6, 8]
+
+numbers.insert(1, 3)
+# [2, 3, 4, 6, 8]</code></pre>
+</div>
+</div>
+<p><strong>Consejo:</strong> para añadir al final es más legible usar <code>append()</code> que <code>insert()</code> con <code>len(lista)</code>.</p>
+<h3>Repetir y combinar listas</h3>
+<p>Se pueden repetir elementos con el operador <code>*</code> y combinar listas con <code>+</code> o <code>extend()</code>:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>letters = [&#039;A&#039;, &#039;B&#039;]
+letters * 3
+# [&#039;A&#039;, &#039;B&#039;, &#039;A&#039;, &#039;B&#039;, &#039;A&#039;, &#039;B&#039;]
+
+list1 = [1, 2]
+list2 = [3, 4]
+list1 + list2
+# [1, 2, 3, 4]
+
+list1.extend([5, 6])
+# [1, 2, 5, 6]</code></pre>
+</div>
+</div>
+<h3>Modificar elementos</h3>
+<p>Se puede modificar un elemento individual o un trozo de la lista:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>fruits = [&#039;Manzana&#039;, &#039;Banana&#039;, &#039;Cereza&#039;]
+fruits[0] = &#039;Pera&#039;
+# [&#039;Pera&#039;, &#039;Banana&#039;, &#039;Cereza&#039;]
+
+</code></pre>
+</div>
+</div>
+<h3>Modificar con troceado</h3>
+<p>No sólo es posible modificar un elemento de cada vez, sino que también se pueden asignar valores a trozos de una lista:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>fruits = [&quot;Manzana&quot;, &quot;Banana&quot;, &quot;Cereza&quot;, &quot;Dátil&quot;, &quot;Higo&quot;]
+fruits[1:4]
+# [&#039;Banana&#039;, &#039;Cereza&#039;, &#039;Dátil&#039;]
+fruits[1:4] = [&quot;Kiwi&quot;, &quot;Mango&quot;]
+fruits
+# [&#039;Manzana&#039;, &#039;Kiwi&#039;, &#039;Mango&#039;, &#039;Higo&#039;]</code></pre>
+</div>
+</div>
+<p><strong>Nota:</strong> La lista que asignamos no necesariamente debe tener la misma longitud que el trozo que sustituimos. Python ajusta automáticamente la lista al tamaño del nuevo contenido.</p>
+<h3>Borrar elementos</h3>
+<p>Se pueden eliminar elementos por índice (<code>del</code>), por valor (<code>remove()</code>), por extracción (<code>pop()</code>) o por rango (troceado). También es posible vaciar toda la lista con <code>clear()</code> o reasignando <code>[]</code>.</p>
+<h4>Por su índice: utilizando del()</h4>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>productos = [&quot;Leche&quot;, &quot;Pan&quot;, &quot;Queso&quot;, &quot;Mantequilla&quot;, &quot;Zumo&quot;]
+del(productos[2])
+productos
+# [&#039;Leche&#039;, &#039;Pan&#039;, &#039;Mantequilla&#039;, &#039;Zumo&#039;]</code></pre>
+</div>
+</div>
+<h4>Por su valor: utilizando remove()</h4>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>productos = [&quot;Leche&quot;, &quot;Pan&quot;, &quot;Queso&quot;, &quot;Mantequilla&quot;, &quot;Zumo&quot;]
+productos.remove(&quot;Mantequilla&quot;)
+productos
+# [&#039;Leche&#039;, &#039;Pan&#039;, &#039;Queso&#039;, &#039;Zumo&#039;]</code></pre>
+</div>
+</div>
+<p><strong>Advertencia:</strong> Si existen valores duplicados, <code>remove()</code> solo eliminará la primera ocurrencia.</p>
+<h4>Por su índice con extracción: utilizando pop()</h4>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>productos = [&quot;Leche&quot;, &quot;Pan&quot;, &quot;Queso&quot;, &quot;Mantequilla&quot;, &quot;Zumo&quot;]
+productos.pop()
+# &#039;Zumo&#039;
+productos
+# [&#039;Leche&#039;, &#039;Pan&#039;, &#039;Queso&#039;, &#039;Mantequilla&#039;]
+productos.pop(1)
+# &#039;Pan&#039;
+productos
+# [&#039;Leche&#039;, &#039;Queso&#039;, &#039;Mantequilla&#039;]</code></pre>
+</div>
+</div>
+<p><strong>Nota:</strong> Si no se indica un índice, <code>pop()</code> elimina por defecto el último elemento.</p>
+<h4>Por rango: mediante troceado de listas</h4>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>productos = [&quot;Leche&quot;, &quot;Pan&quot;, &quot;Queso&quot;, &quot;Mantequilla&quot;, &quot;Zumo&quot;]
+productos[1:4] = []
+productos
+# [&#039;Leche&#039;, &#039;Zumo&#039;]</code></pre>
+</div>
+</div>
+<h4>Borrado completo de la lista</h4>
+<p>Se puede eliminar toda una lista de dos maneras:</p>
+<ol>
+<li style="list-style-type: none;">
+<ol>
+<li>Utilizando <code>clear()</code> (borrado in-situ):</li>
+</ol>
+</li>
+</ol>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>productos = [&quot;Leche&quot;, &quot;Pan&quot;, &quot;Queso&quot;, &quot;Mantequilla&quot;, &quot;Zumo&quot;]
+productos.clear()
+productos
+# []</code></pre>
+</div>
+</div>
+<ol>
+<li style="list-style-type: none;">
+<ol>
+<li>Reinicializando la lista con <code>[]</code> (creando una nueva zona de memoria):</li>
+</ol>
+</li>
+</ol>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>productos = [&quot;Leche&quot;, &quot;Pan&quot;, &quot;Queso&quot;, &quot;Mantequilla&quot;, &quot;Zumo&quot;]
+productos = []
+productos
+# []</code></pre>
+</div>
+</div>
+<p><strong>Nota:</strong> La diferencia entre ambos métodos está relacionada con la gestión de memoria y el rendimiento interno.</p>
+<h3>Otras operaciones útiles</h3>
+<p>Comprobar pertenencia, contar ocurrencias, convertir a cadena, ordenar, conocer longitud e iterar:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>items = [&#039;Pan&#039;, &#039;Leche&#039;, &#039;Huevos&#039;]
+&#039;Leche&#039; in items
+# True
+
+items.count(&#039;Pan&#039;)
+# 1
+
+&#039;, &#039;.join(items)
+# &#039;Pan, Leche, Huevos&#039;
+
+sorted(items)
+# [&#039;Huevos&#039;, &#039;Leche&#039;, &#039;Pan&#039;]
+
+len(items)
+# 3
+
+for item in items:
+    print(item)
+# Pan
+# Leche
+# Huevos</code></pre>
+</div>
+</div>
+<p>También se puede iterar con índices mediante <code>enumerate()</code> o combinar listas en paralelo con <code>zip()</code>.</p>
+</div>
+</div>
+</article><article id="block-mw3p57mm-0pkm230iv" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/debesconocerfpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">You Should Know</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mm-bn7e30vnf" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mm-bn7e30vnf&quot;}">
+<p>En Python, hay que tener cuidado con los índices al trabajar con listas, ya que algunas operaciones lanzan errores si se indica un índice fuera de rango, mientras que otras no.</p>
+<h3>Acceso a elementos individuales</h3>
+<p>Si se intenta acceder a un elemento mediante su índice y el índice está fuera del rango de la lista, Python lanza un <code>IndexError</code>. Esto aplica tanto para índices positivos como negativos.</p>
+<pre><code>productos = [&quot;Leche&quot;, &quot;Pan&quot;, &quot;Queso&quot;]
+
+# Índice válido
+print(productos[1])  # &#039;Pan&#039;
+
+# Índice fuera de rango (positivo)
+print(productos[5])
+# IndexError: list index out of range
+
+# Índice fuera de rango (negativo)
+print(productos[-4])
+# IndexError: list index out of range
+</code></pre>
+<h3>Modificación de elementos individuales</h3>
+<p>Intentar asignar un valor a un índice inexistente también genera <code>IndexError</code>.</p>
+<pre><code>productos[3] = &quot;Mantequilla&quot;
+# IndexError: list assignment index out of range
+</code></pre>
+<h3>Troceado (slicing)</h3>
+<p>Al utilizar troceado de listas (<code>lista[start:end]</code>), Python <strong>no lanza error</strong> aunque los índices estén fuera de rango. Ajusta automáticamente los límites al inicio o al final de la lista y devuelve una lista nueva.</p>
+<pre><code>productos = [&quot;Leche&quot;, &quot;Pan&quot;, &quot;Queso&quot;]
+
+print(productos[1:10])  # [&#039;Pan&#039;, &#039;Queso&#039;]
+print(productos[-10:2]) # [&#039;Leche&#039;, &#039;Pan&#039;]
+print(productos[10:20]) # []
+</code></pre>
+<p>También aplica al reemplazar trozos de la lista:</p>
+<pre><code>productos[1:5] = [&quot;Mantequilla&quot;, &quot;Zumo&quot;]
+print(productos)  # [&#039;Leche&#039;, &#039;Mantequilla&#039;, &#039;Zumo&#039;]
+</code></pre>
+<h3>Funciones insert() y pop()</h3>
+<p><strong>insert(index, valor)</strong>: si el índice está fuera de rango, Python inserta el valor al principio o al final según corresponda, sin lanzar error.</p>
+<pre><code>productos = [&quot;Leche&quot;, &quot;Pan&quot;]
+productos.insert(10, &quot;Queso&quot;)  # índice demasiado grande
+print(productos)  # [&#039;Leche&#039;, &#039;Pan&#039;, &#039;Queso&#039;]
+
+productos.insert(-10, &quot;Zumo&quot;) # índice demasiado pequeño
+print(productos)  # [&#039;Zumo&#039;, &#039;Leche&#039;, &#039;Pan&#039;, &#039;Queso&#039;]
+</code></pre>
+<p><strong>pop(index)</strong>: si no se indica índice, elimina el último elemento. Si el índice indicado está fuera de rango, lanza <code>IndexError</code>.</p>
+<pre><code>productos.pop(5)
+# IndexError: pop index out of range
+</code></pre>
+<h3>Resumen de comportamiento</h3>
+<p>La siguiente tabla resume cómo gestiona Python los índices fuera de rango:</p>
+<table border="1" cellpadding="5" summary="Esta tabla recoge las operaciones básicas que pueden aplicarse a las listas en Python, como añadir, eliminar o consultar elementos.">
+<thead>
+<tr>
+<th>Operación</th>
+<th>Índice fuera de rango</th>
+<th>Resultado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Acceso (<code>lista[i]</code>)</td>
+<td>Sí</td>
+<td><code>IndexError</code></td>
+</tr>
+<tr>
+<td>Modificación (<code>lista[i] = x</code>)</td>
+<td>Sí</td>
+<td><code>IndexError</code></td>
+</tr>
+<tr>
+<td>Troceado (<code>lista[start:end]</code>)</td>
+<td>No</td>
+<td>Ajusta al rango válido</td>
+</tr>
+<tr>
+<td>Reemplazo por troceado</td>
+<td>No</td>
+<td>Ajusta al rango válido</td>
+</tr>
+<tr>
+<td><code>insert(index, valor)</code></td>
+<td>No</td>
+<td>Inserta al inicio o final</td>
+</tr>
+<tr>
+<td><code>pop(index)</code></td>
+<td>Sí</td>
+<td><code>IndexError</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</article><article id="block-mw3p57mm-saxmu05x4" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/recomendacionfpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">A Piece of Advice</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mm-uw4cly5pr" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mm-uw4cly5pr&quot;}">
+<p>Ejecuciones paso a paso de ejemplos se pueden probar en Python Tutor. Solo debes pegar el código del ejemplo aquí y empezar a ejecutar: <a href="https://pythontutor.com/visualize.html#mode=display" target="_blank" rel="noopener">https://pythontutor.com/</a></p>
+</div>
+</div>
+</article><article id="block-mw3p57mm-7ox82ldfz" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/parasabermasfpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">A Step Ahead</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mm-cai2a3ti5" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mm-cai2a3ti5&quot;}">
+<h3>Resumen de operaciones</h3>
+<table border="1" cellspacing="0" cellpadding="4" summary="Esta tabla muestra métodos adicionales para manipular listas, especialmente los orientados a transformación y ordenación de sus elementos.">
+<tbody>
+<tr>
+<th>Operación</th>
+<th>Descripción</th>
+</tr>
+<tr>
+<td><code>append()</code></td>
+<td>Añade un elemento al final de la lista.</td>
+</tr>
+<tr>
+<td><code>insert()</code></td>
+<td>Inserta un elemento en la posición indicada.</td>
+</tr>
+<tr>
+<td><code>extend()</code></td>
+<td>Añade todos los elementos de otra lista al final.</td>
+</tr>
+<tr>
+<td><code>remove()</code></td>
+<td>Elimina la primera ocurrencia de un valor.</td>
+</tr>
+<tr>
+<td><code>pop()</code></td>
+<td>Elimina y devuelve el elemento en la posición indicada (por defecto el último).</td>
+</tr>
+<tr>
+<td><code>clear()</code></td>
+<td>Elimina todos los elementos de la lista.</td>
+</tr>
+<tr>
+<td><code>index()</code></td>
+<td>Devuelve el índice de la primera ocurrencia de un elemento.</td>
+</tr>
+<tr>
+<td><code>count()</code></td>
+<td>Cuenta cuántas veces aparece un valor en la lista.</td>
+</tr>
+<tr>
+<td><code>sort()</code></td>
+<td>Ordena la lista in-situ.</td>
+</tr>
+<tr>
+<td><code>sorted()</code></td>
+<td>Devuelve una lista ordenada sin modificar la original.</td>
+</tr>
+<tr>
+<td><code>reverse()</code></td>
+<td>Invierte la lista in-situ.</td>
+</tr>
+<tr>
+<td><code>enumerate()</code></td>
+<td>Itera sobre la lista proporcionando índice y valor.</td>
+</tr>
+<tr>
+<td><code>zip()</code></td>
+<td>Permite iterar sobre varias listas en paralelo.</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>Para consultar más métodos y documentación oficial sobre listas en Python: <a href="https://docs.python.org/3/tutorial/datastructures.html#more-on-lists" target="_blank" rel="noopener">Documentación oficial de Python</a></p>
+</div>
+</div>
+</article><article id="block-mw3p57mm-kmbezifuz" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/ejercicioresueltofpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Caso practico</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mm-0l560t37g" class="idevice_node casestudy" data-idevice-path="../idevices/casestudy/" data-idevice-type="casestudy" data-idevice-component-type="json" data-idevice-json-data="{&quot;history&quot;:&quot;&lt;p&gt;Se plantean diferentes actividades de uso de operaciones con listas en Python.&lt;/p&gt;&quot;,&quot;activities&quot;:[{&quot;activity&quot;:&quot;&lt;p&gt;Escribe un código en Python que cree una lista de valores numéricos y obtenga su valor máximo sin utilizar la función &lt;code&gt;max()&lt;/code&gt;.&lt;/p&gt;\n&lt;p&gt;Nota: Recorrer todas las posiciones de la lista buscando el máximo.&lt;/p&gt;&quot;,&quot;feedback&quot;:&quot;&lt;pre&gt;&lt;code&gt;valores = [4, 7, 1, 12, 9, 3]\n\n# Inicializar el máximo con el primer elemento\nmaximo = valores[0]\n\n# Recorrer la lista\nfor i in range(len(valores)):\n    if valores[i] &gt; maximo:\n        maximo = valores[i]\n\n# Imprimir el valor máximo\nprint(\&quot;El valor máximo es:\&quot;, maximo)\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;&lt;strong&gt;Explicación:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Se recorre la lista usando &lt;code&gt;range(len(valores))&lt;/code&gt; para acceder a cada índice.&lt;/li&gt;\n&lt;li&gt;Se compara cada elemento con la variable &lt;code&gt;maximo&lt;/code&gt; y se actualiza si se encuentra un valor mayor.&lt;/li&gt;\n&lt;li&gt;Al final, &lt;code&gt;maximo&lt;/code&gt; contiene el valor máximo de la lista.&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;buttonCaption&quot;:&quot;Mostrar retroalimentación&quot;},{&quot;activity&quot;:&quot;&lt;p&gt;Escribe un código en Python que, dada una lista de números, realice las siguientes operaciones:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Obtenga la suma de los números pares de la lista.&lt;/li&gt;\n&lt;li&gt;Reemplace todos los números impares por 0.&lt;/li&gt;\n&lt;li&gt;Agregue el número 100 al final de la lista.&lt;/li&gt;\n&lt;li&gt;Imprima la suma y la lista modificada.&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;feedback&quot;:&quot;&lt;pre&gt;&lt;code&gt;numeros = [5, 8, 3, 12, 7]\n\n# Inicializar la suma de pares\nsuma_pares = 0\n\n# Recorrer la lista para sumar pares y modificar impares\nfor i in range(len(numeros)):\n    if numeros[i] % 2 == 0:\n        suma_pares += numeros[i]\n    else:\n        numeros[i] = 0\n\n# Añadir 100 al final de la lista\nnumeros.append(100)\n\n# Imprimir resultados\nprint(\&quot;Suma de los números pares:\&quot;, suma_pares)\nprint(\&quot;Lista modificada:\&quot;, numeros)\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;&lt;strong&gt;Explicación:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Se recorre la lista con &lt;code&gt;range(len(numeros))&lt;/code&gt; para poder modificar elementos por índice.&lt;/li&gt;\n&lt;li&gt;Los números pares se suman acumulativamente en &lt;code&gt;suma_pares&lt;/code&gt;.&lt;/li&gt;\n&lt;li&gt;Los números impares se reemplazan por 0 directamente en la lista.&lt;/li&gt;\n&lt;li&gt;Se añade un nuevo elemento al final con &lt;code&gt;append()&lt;/code&gt;.&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;buttonCaption&quot;:&quot;Mostrar retroalimentación&quot;},{&quot;activity&quot;:&quot;&lt;p&gt;Escribe un código en Python que, dado un listado de números, realice las siguientes operaciones:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Obtenga todos los números mayores que 5 y los guarde en una lista nueva.&lt;/li&gt;\n&lt;li&gt;Reemplace los números mayores que 10 en la lista original por 10.&lt;/li&gt;\n&lt;li&gt;Agregue el número 0 al final de la lista original.&lt;/li&gt;\n&lt;li&gt;Imprima ambas listas al final.&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;feedback&quot;:&quot;&lt;pre&gt;&lt;code&gt;numeros = [3, 7, 12, 5, 9, 15]\n\n# Crear una lista vacía para almacenar los números mayores que 5\nmayores_cinco = []\n\n# Recorrer la lista original\nfor i in range(len(numeros)):\n    if numeros[i] &gt; 5:\n        mayores_cinco.append(numeros[i])  # Añadir a la lista nueva\n    if numeros[i] &gt; 10:\n        numeros[i] = 10  # Reemplazar valores mayores que 10\n\n# Añadir el número 0 al final de la lista original\nnumeros.append(0)\n\n# Imprimir resultados\nprint(\&quot;Lista original modificada:\&quot;, numeros)\nprint(\&quot;Lista de números mayores que 5:\&quot;, mayores_cinco)\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;&lt;strong&gt;Explicación:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Se recorre la lista original con &lt;code&gt;for i in range(len(...))&lt;/code&gt; para poder modificar elementos por índice.&lt;/li&gt;\n&lt;li&gt;Se utiliza &lt;code&gt;append()&lt;/code&gt; para construir la lista de números mayores que 5.&lt;/li&gt;\n&lt;li&gt;Se reemplazan los números mayores que 10 directamente en la lista original.&lt;/li&gt;\n&lt;li&gt;Se añade un nuevo elemento al final de la lista original con &lt;code&gt;append()&lt;/code&gt;.&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;buttonCaption&quot;:&quot;Mostrar retroalimentación&quot;}],&quot;textInfoDurationInput&quot;:&quot;&quot;,&quot;textInfoDurationTextInput&quot;:&quot;&quot;,&quot;textInfoParticipantsInput&quot;:&quot;&quot;,&quot;textInfoParticipantsTextInput&quot;:&quot;&quot;}" data-idevice-template="casestudy.html">
+<p>Se plantean diferentes actividades de uso de operaciones con listas en Python.</p>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/812-conversion.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/814-copias-en-listas-mutabilidad.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter" class="siteFooter-empty"><div id="siteFooterContent"></div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

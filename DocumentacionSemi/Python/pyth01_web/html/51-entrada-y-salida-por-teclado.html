@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mw3p57mi-cf1gfthc5">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<title>5.1 Entrada y salida por teclado | PYTH01</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Unidad 1">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../idevices/casestudy/casestudy.js"></script><link rel="stylesheet" href="../idevices/casestudy/casestudy.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mw3p57mi-cf1gfthc5" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Fundamentos de python y estructuras avanzadas</a>
+</li>
+<li> <a href="../html/1-introduccion.html" class="no-ch">1. Introducción</a>
+</li>
+<li> <a href="../html/2-entornos-de-desarrollo.html" class="daddy">2. Entornos de desarrollo</a>
+<ul class="other-section">
+<li> <a href="../html/21-instalacion-del-interprete-de-python.html" class="no-ch">2.1 Instalación del intérprete de Python</a>
+</li>
+<li> <a href="../html/22-gestion-de-paquetes.html" class="no-ch">2.2 Gestión de paquetes</a>
+</li>
+<li> <a href="../html/23-entornos-virtuales.html" class="no-ch">2.3 Entornos virtuales</a>
+</li>
+<li> <a href="../html/24-editores-para-python-ides.html" class="no-ch">2.4 Editores para Python (IDEs)</a>
+</li>
+<li> <a href="../html/25-jupyter-notebook.html" class="no-ch">2.5 Jupyter Notebook</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/3-datos.html" class="daddy">3. Datos</a>
+<ul class="other-section">
+<li> <a href="../html/31-tipos-de-datos.html" class="no-ch">3.1 Tipos de datos</a>
+</li>
+<li> <a href="../html/32-variables.html" class="no-ch">3.2 Variables</a>
+</li>
+<li> <a href="../html/33-asignacion.html" class="no-ch">3.3 Asignación</a>
+</li>
+<li> <a href="../html/34-mutabilidad.html" class="no-ch">3.4 Mutabilidad</a>
+</li>
+<li> <a href="../html/35-funciones-built-in.html" class="no-ch">3.5 Funciones built-in</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/4-numeros.html" class="daddy">4. Números</a>
+<ul class="other-section">
+<li> <a href="../html/41-booleanos.html" class="no-ch">4.1 Booleanos</a>
+</li>
+<li> <a href="../html/42-enteros.html" class="no-ch">4.2 Enteros</a>
+</li>
+<li> <a href="../html/43-flotantes.html" class="no-ch">4.3 Flotantes</a>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/5-cadenas-de-texto.html" class="daddy">5. Cadenas de texto</a>
+<ul class="other-section">
+<li class="active"> <a href="../html/51-entrada-y-salida-por-teclado.html" class="active no-ch">5.1 Entrada y salida por teclado</a>
+</li>
+<li> <a href="../html/52-operaciones-principales.html" class="no-ch">5.2 Operaciones principales</a>
+</li>
+<li> <a href="../html/53-caracteres-unicode.html" class="no-ch">5.3 Caracteres UNICODE</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/6-condicionales.html" class="daddy">6. Condicionales</a>
+<ul class="other-section">
+<li> <a href="../html/61-bloques-de-codigo.html" class="no-ch">6.1 Bloques de código</a>
+</li>
+<li> <a href="../html/62-comentarios.html" class="no-ch">6.2 Comentarios</a>
+</li>
+<li> <a href="../html/63-la-sentencia-if.html" class="no-ch">6.3 La sentencia if</a>
+</li>
+<li> <a href="../html/64-operadores-de-comparacion.html" class="no-ch">6.4 Operadores de comparación</a>
+</li>
+<li> <a href="../html/65-sentencias-match-case.html" class="no-ch">6.5 Sentencias match-case</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/7-estructuras-de-repeticion.html" class="daddy">7. Estructuras de repetición</a>
+<ul class="other-section">
+<li> <a href="../html/71-la-sentencia-while.html" class="no-ch">7.1 La sentencia while</a>
+</li>
+<li> <a href="../html/72-la-sentencia-for.html" class="no-ch">7.2 La sentencia for</a>
+</li>
+<li> <a href="../html/73-bucles-anidados.html" class="no-ch">7.3 Bucles anidados</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/8-estructuras-avanzadas.html" class="daddy">8. Estructuras avanzadas</a>
+<ul class="other-section">
+<li> <a href="../html/81-listas.html" class="daddy">8.1 Listas</a>
+<ul class="other-section">
+<li> <a href="../html/811-creando-listas.html" class="no-ch">8.1.1 Creando listas</a>
+</li>
+<li> <a href="../html/812-conversion.html" class="no-ch">8.1.2 Conversión</a>
+</li>
+<li> <a href="../html/813-operaciones-con-listas.html" class="no-ch">8.1.3 Operaciones con listas</a>
+</li>
+<li> <a href="../html/814-copias-en-listas-mutabilidad.html" class="no-ch">8.1.4 Copias en listas (mutabilidad)</a>
+</li>
+<li> <a href="../html/815-veracidad-multiple.html" class="no-ch">8.1.5 Veracidad múltiple</a>
+</li>
+<li> <a href="../html/816-listas-por-comprension.html" class="no-ch">8.1.6 Listas por comprensión</a>
+</li>
+<li> <a href="../html/817-ejecucion-desde-linea-de-comandos.html" class="no-ch">8.1.7 Ejecución desde línea de comandos</a>
+</li>
+<li> <a href="../html/818-funciones-matematicas.html" class="no-ch">8.1.8 Funciones matemáticas</a>
+</li>
+<li> <a href="../html/819-listas-de-listas.html" class="no-ch">8.1.9 Listas de listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/82-tuplas.html" class="daddy">8.2 Tuplas</a>
+<ul class="other-section">
+<li> <a href="../html/821-creando-tuplas.html" class="no-ch">8.2.1 Creando tuplas</a>
+</li>
+<li> <a href="../html/822-modificar-una-tupla.html" class="no-ch">8.2.2 Modificar una tupla</a>
+</li>
+<li> <a href="../html/823-conversion.html" class="no-ch">8.2.3 Conversión</a>
+</li>
+<li> <a href="../html/824-operaciones-con-tuplas.html" class="no-ch">8.2.4 Operaciones con tuplas</a>
+</li>
+<li> <a href="../html/825-tupas-vs-listas.html" class="no-ch">8.2.5 Tupas vs. Listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/83-diccionarios.html" class="daddy">8.3 Diccionarios</a>
+<ul class="other-section">
+<li> <a href="../html/831-creando-diccionarios.html" class="no-ch">8.3.1 Creando diccionarios</a>
+</li>
+<li> <a href="../html/832-conversion.html" class="no-ch">8.3.2 Conversión</a>
+</li>
+<li> <a href="../html/833-operaciones-con-diccionarios.html" class="no-ch">8.3.3 Operaciones con diccionarios</a>
+</li>
+<li> <a href="../html/834-copias-en-diccionarios-mutabilidad.html" class="no-ch">8.3.4 Copias en diccionarios (mutabilidad)</a>
+</li>
+<li> <a href="../html/835-diccionarios-por-comprension.html" class="no-ch">8.3.5 Diccionarios por comprensión</a>
+</li>
+<li> <a href="../html/836-objetos-hashables.html" class="no-ch">8.3.6 Objetos &quot;hashables&quot;</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> <a href="../html/9-modularidad.html" class="daddy">9. Modularidad</a>
+<ul class="other-section">
+<li> <a href="../html/91-funciones.html" class="no-ch">9.1 Funciones</a>
+</li>
+<li> <a href="../html/92-objetos-y-clases.html" class="no-ch">9.2 Objetos y clases</a>
+</li>
+<li> <a href="../html/93-excepciones.html" class="no-ch">9.3 Excepciones</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav><main id="page-mw3p57mi-cf1gfthc5" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">PYTH01</p></div>
+<div class="page-header"><h1 class="page-title">5.1 Entrada y salida por teclado</h1></div>
+</header><div id="page-content-page-mw3p57mi-cf1gfthc5" class="page-content">
+<article id="block-mw3p57ml-k6tt1j3ii" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">FPD - Free Text</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57ml-heyyh7c3z" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57ml-heyyh7c3z&quot;}">
+<!-- Entrada y salida de cadenas por teclado -->
+<section aria-labelledby="entrada-salida-cadenas">
+<p>En Python, la interacción con el usuario se realiza principalmente mediante la <strong>entrada y salida de datos</strong>. La <strong>entrada por teclado</strong> permite al programa recibir información del usuario, mientras que la <strong>salida</strong> muestra resultados o mensajes en pantalla.</p>
+<p style="text-align: center;"><a href="../content/resources/PYTH01_CONT_R25_input_output.png" target="_blank" rel="noopener"><img src="../content/resources/PYTH01_CONT_R25_input_output.png" alt="Esquema entrada salida por teclado básico en Python." title="Esquema entrada salida básico." width="200" height="133" /></a></p>
+<p style="text-align: center;"><span style="font-size: 10pt;">Elaboración propia. Clic para ampliar.</span></p>
+<p class="destacado" align="justify">La función <strong>input()</strong> se utiliza para leer datos desde el teclado. Siempre devuelve <em>cadenas de texto</em>, independientemente de lo que el usuario introduzca.</p>
+<p>Ejemplo de lectura de datos por teclado:</p>
+<pre><code>nombre = input(&quot;Introduce tu nombre: &quot;)
+print(&quot;Hola, &quot; + nombre + &quot;!&quot;)</code></pre>
+<p>En este ejemplo, el programa solicita al usuario que escriba su nombre y, a continuación, muestra un mensaje personalizado combinando texto literal con la variable <code>nombre</code>.</p>
+<p class="destacado" align="justify">La función <strong>print()</strong> permite mostrar información en pantalla. Puede recibir uno o varios valores, separados por comas, y los convierte automáticamente en cadenas si es necesario.</p>
+<p>Ejemplo de salida múltiple:</p>
+<pre><code>edad = input(&quot;Introduce tu edad: &quot;)
+ciudad = input(&quot;Introduce tu ciudad: &quot;)
+print(&quot;Hola,&quot;, nombre, &quot;tienes&quot;, edad, &quot;años y vives en&quot;, ciudad + &quot;.&quot;)</code></pre>
+<p>Además, <strong>print()</strong> admite parámetros adicionales muy útiles:</p>
+<pre><code>1  msg1 = &quot;¡Bienvenido al curso!&quot;
+2  msg2 = &quot;Python es fascinante&quot;
+3  # Imprimir varias variables
+4  print(msg1, msg2)
+5  # Salida: ¡Bienvenido al curso! Python es fascinante
+6  # Cambiar el separador entre variables
+7  print(msg1, msg2, sep=&quot; | &quot;)
+8  # Salida: ¡Bienvenido al curso! | Python es fascinante
+9  # Cambiar el final del texto
+10 print(msg2, end=&quot;!!&quot;)
+11 # Salida: Python es fascinante!!</code></pre>
+<p><strong>Línea 4:</strong> Podemos imprimir todas las variables que queramos separándolas por comas.<br /><strong>Línea 7:</strong> El separador por defecto entre las variables es un espacio, pero se puede cambiar usando <code>sep</code>.<br /><strong>Línea 10:</strong> El carácter de final de línea es un salto de línea por defecto, pero se puede modificar usando <code>end</code>.</p>
+<p>Cabe destacar que si se necesitan realizar operaciones matemáticas u otros tipos de procesamiento con los datos introducidos, será necesario convertir las cadenas obtenidas mediante <code>input()</code> a otros tipos de datos, como <code>int()</code> o <code>float()</code>.</p>
+</section>
+</div>
+</div>
+</article><article id="block-mw3p57ml-u4dui9i8z" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/parasabermasfpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">A Step Ahead</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57ml-fcygg0ml4" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57ml-fcygg0ml4&quot;}">
+<p>Para profundizar en la entrada y salida de datos en Python, se puede consultar la documentación oficial en: <a href="https://docs.python.org/3/tutorial/inputoutput.html" target="_blank" rel="noopener">Python – Input and Output (official)</a>.</p>
+</div>
+</div>
+</article><article id="block-mw3p57ml-b4qo694yr" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/ejercicioresueltofpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Caso practico</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57ml-rudmj7g9b" class="idevice_node casestudy" data-idevice-path="../idevices/casestudy/" data-idevice-type="casestudy" data-idevice-component-type="json" data-idevice-json-data="{&quot;history&quot;:&quot;&lt;p&gt;Disponemos de tres variables: &lt;strong&gt;name&lt;/strong&gt;, &lt;strong&gt;age&lt;/strong&gt; y &lt;strong&gt;city&lt;/strong&gt;, que inicialmente no contienen ningún valor.&lt;code&gt;&lt;/code&gt;&lt;/p&gt;&quot;,&quot;activities&quot;:[{&quot;activity&quot;:&quot;&lt;p&gt;Escribe el código necesario para:&lt;/p&gt;\n&lt;ol&gt;\n&lt;li&gt;Pedir al usuario que introduzca su nombre, edad y ciudad mediante &lt;strong&gt;input()&lt;/strong&gt;.&lt;/li&gt;\n&lt;li&gt;Almacenar cada dato en la variable correspondiente.&lt;/li&gt;\n&lt;li&gt;Mostrar por pantalla un mensaje con todos los datos, usando &lt;strong&gt;print()&lt;/strong&gt;, en el formato:&lt;/li&gt;\n&lt;/ol&gt;\n&lt;pre&gt;&lt;code&gt;Hola, me llamo &lt;name&gt;, tengo &lt;age&gt; años y vivo en &lt;city&gt;.&lt;/code&gt;&lt;/pre&gt;&quot;,&quot;feedback&quot;:&quot;&lt;pre&gt;&lt;code&gt;# Pedir los datos al usuario\nname = input(\&quot;Introduce tu nombre: \&quot;)\nage = input(\&quot;Introduce tu edad: \&quot;)\ncity = input(\&quot;Introduce tu ciudad: \&quot;)\n\n# Mostrar el mensaje por pantalla\nprint(\&quot;Hola, me llamo\&quot;, name + \&quot;,\&quot;, \&quot;tengo\&quot;, age, \&quot;años y vivo en\&quot;, city + \&quot;.\&quot;)\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;En este ejercicio se utilizan las funciones &lt;strong&gt;input()&lt;/strong&gt; y &lt;strong&gt;print()&lt;/strong&gt;:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;input()&lt;/strong&gt; devuelve una cadena con el valor introducido por el usuario.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;print()&lt;/strong&gt; permite mostrar varios valores separados por comas; Python añade un espacio entre ellos automáticamente.&lt;/li&gt;\n&lt;li&gt;Se puede concatenar texto y variables usando el operador &lt;strong&gt;+&lt;/strong&gt; para añadir comas o puntos dentro de la frase.&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;buttonCaption&quot;:&quot;Mostrar retroalimentación&quot;}],&quot;textInfoDurationInput&quot;:&quot;&quot;,&quot;textInfoDurationTextInput&quot;:&quot;&quot;,&quot;textInfoParticipantsInput&quot;:&quot;&quot;,&quot;textInfoParticipantsTextInput&quot;:&quot;&quot;}" data-idevice-template="casestudy.html">
+<p>Disponemos de tres variables: <strong>name</strong>, <strong>age</strong> y <strong>city</strong>, que inicialmente no contienen ningún valor.<code></code></p>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/5-cadenas-de-texto.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/52-operaciones-principales.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter" class="siteFooter-empty"><div id="siteFooterContent"></div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

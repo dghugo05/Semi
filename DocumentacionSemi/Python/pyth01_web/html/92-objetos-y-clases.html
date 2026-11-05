@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mw3p57mi-vfvse7j14">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<title>9.2 Objetos y clases | PYTH01</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Unidad 1">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../idevices/casestudy/casestudy.js"></script><link rel="stylesheet" href="../idevices/casestudy/casestudy.css">
+<script src="../libs/exe_highlighter/exe_highlighter.js"> </script>
+<link rel="stylesheet" href="../libs/exe_highlighter/exe_highlighter.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mw3p57mi-vfvse7j14" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Fundamentos de python y estructuras avanzadas</a>
+</li>
+<li> <a href="../html/1-introduccion.html" class="no-ch">1. Introducción</a>
+</li>
+<li> <a href="../html/2-entornos-de-desarrollo.html" class="daddy">2. Entornos de desarrollo</a>
+<ul class="other-section">
+<li> <a href="../html/21-instalacion-del-interprete-de-python.html" class="no-ch">2.1 Instalación del intérprete de Python</a>
+</li>
+<li> <a href="../html/22-gestion-de-paquetes.html" class="no-ch">2.2 Gestión de paquetes</a>
+</li>
+<li> <a href="../html/23-entornos-virtuales.html" class="no-ch">2.3 Entornos virtuales</a>
+</li>
+<li> <a href="../html/24-editores-para-python-ides.html" class="no-ch">2.4 Editores para Python (IDEs)</a>
+</li>
+<li> <a href="../html/25-jupyter-notebook.html" class="no-ch">2.5 Jupyter Notebook</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/3-datos.html" class="daddy">3. Datos</a>
+<ul class="other-section">
+<li> <a href="../html/31-tipos-de-datos.html" class="no-ch">3.1 Tipos de datos</a>
+</li>
+<li> <a href="../html/32-variables.html" class="no-ch">3.2 Variables</a>
+</li>
+<li> <a href="../html/33-asignacion.html" class="no-ch">3.3 Asignación</a>
+</li>
+<li> <a href="../html/34-mutabilidad.html" class="no-ch">3.4 Mutabilidad</a>
+</li>
+<li> <a href="../html/35-funciones-built-in.html" class="no-ch">3.5 Funciones built-in</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/4-numeros.html" class="daddy">4. Números</a>
+<ul class="other-section">
+<li> <a href="../html/41-booleanos.html" class="no-ch">4.1 Booleanos</a>
+</li>
+<li> <a href="../html/42-enteros.html" class="no-ch">4.2 Enteros</a>
+</li>
+<li> <a href="../html/43-flotantes.html" class="no-ch">4.3 Flotantes</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/5-cadenas-de-texto.html" class="daddy">5. Cadenas de texto</a>
+<ul class="other-section">
+<li> <a href="../html/51-entrada-y-salida-por-teclado.html" class="no-ch">5.1 Entrada y salida por teclado</a>
+</li>
+<li> <a href="../html/52-operaciones-principales.html" class="no-ch">5.2 Operaciones principales</a>
+</li>
+<li> <a href="../html/53-caracteres-unicode.html" class="no-ch">5.3 Caracteres UNICODE</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/6-condicionales.html" class="daddy">6. Condicionales</a>
+<ul class="other-section">
+<li> <a href="../html/61-bloques-de-codigo.html" class="no-ch">6.1 Bloques de código</a>
+</li>
+<li> <a href="../html/62-comentarios.html" class="no-ch">6.2 Comentarios</a>
+</li>
+<li> <a href="../html/63-la-sentencia-if.html" class="no-ch">6.3 La sentencia if</a>
+</li>
+<li> <a href="../html/64-operadores-de-comparacion.html" class="no-ch">6.4 Operadores de comparación</a>
+</li>
+<li> <a href="../html/65-sentencias-match-case.html" class="no-ch">6.5 Sentencias match-case</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/7-estructuras-de-repeticion.html" class="daddy">7. Estructuras de repetición</a>
+<ul class="other-section">
+<li> <a href="../html/71-la-sentencia-while.html" class="no-ch">7.1 La sentencia while</a>
+</li>
+<li> <a href="../html/72-la-sentencia-for.html" class="no-ch">7.2 La sentencia for</a>
+</li>
+<li> <a href="../html/73-bucles-anidados.html" class="no-ch">7.3 Bucles anidados</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/8-estructuras-avanzadas.html" class="daddy">8. Estructuras avanzadas</a>
+<ul class="other-section">
+<li> <a href="../html/81-listas.html" class="daddy">8.1 Listas</a>
+<ul class="other-section">
+<li> <a href="../html/811-creando-listas.html" class="no-ch">8.1.1 Creando listas</a>
+</li>
+<li> <a href="../html/812-conversion.html" class="no-ch">8.1.2 Conversión</a>
+</li>
+<li> <a href="../html/813-operaciones-con-listas.html" class="no-ch">8.1.3 Operaciones con listas</a>
+</li>
+<li> <a href="../html/814-copias-en-listas-mutabilidad.html" class="no-ch">8.1.4 Copias en listas (mutabilidad)</a>
+</li>
+<li> <a href="../html/815-veracidad-multiple.html" class="no-ch">8.1.5 Veracidad múltiple</a>
+</li>
+<li> <a href="../html/816-listas-por-comprension.html" class="no-ch">8.1.6 Listas por comprensión</a>
+</li>
+<li> <a href="../html/817-ejecucion-desde-linea-de-comandos.html" class="no-ch">8.1.7 Ejecución desde línea de comandos</a>
+</li>
+<li> <a href="../html/818-funciones-matematicas.html" class="no-ch">8.1.8 Funciones matemáticas</a>
+</li>
+<li> <a href="../html/819-listas-de-listas.html" class="no-ch">8.1.9 Listas de listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/82-tuplas.html" class="daddy">8.2 Tuplas</a>
+<ul class="other-section">
+<li> <a href="../html/821-creando-tuplas.html" class="no-ch">8.2.1 Creando tuplas</a>
+</li>
+<li> <a href="../html/822-modificar-una-tupla.html" class="no-ch">8.2.2 Modificar una tupla</a>
+</li>
+<li> <a href="../html/823-conversion.html" class="no-ch">8.2.3 Conversión</a>
+</li>
+<li> <a href="../html/824-operaciones-con-tuplas.html" class="no-ch">8.2.4 Operaciones con tuplas</a>
+</li>
+<li> <a href="../html/825-tupas-vs-listas.html" class="no-ch">8.2.5 Tupas vs. Listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/83-diccionarios.html" class="daddy">8.3 Diccionarios</a>
+<ul class="other-section">
+<li> <a href="../html/831-creando-diccionarios.html" class="no-ch">8.3.1 Creando diccionarios</a>
+</li>
+<li> <a href="../html/832-conversion.html" class="no-ch">8.3.2 Conversión</a>
+</li>
+<li> <a href="../html/833-operaciones-con-diccionarios.html" class="no-ch">8.3.3 Operaciones con diccionarios</a>
+</li>
+<li> <a href="../html/834-copias-en-diccionarios-mutabilidad.html" class="no-ch">8.3.4 Copias en diccionarios (mutabilidad)</a>
+</li>
+<li> <a href="../html/835-diccionarios-por-comprension.html" class="no-ch">8.3.5 Diccionarios por comprensión</a>
+</li>
+<li> <a href="../html/836-objetos-hashables.html" class="no-ch">8.3.6 Objetos &quot;hashables&quot;</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/9-modularidad.html" class="daddy">9. Modularidad</a>
+<ul class="other-section">
+<li> <a href="../html/91-funciones.html" class="no-ch">9.1 Funciones</a>
+</li>
+<li class="active"> <a href="../html/92-objetos-y-clases.html" class="active no-ch">9.2 Objetos y clases</a>
+</li>
+<li> <a href="../html/93-excepciones.html" class="no-ch">9.3 Excepciones</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav><main id="page-mw3p57mi-vfvse7j14" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">PYTH01</p></div>
+<div class="page-header"><h1 class="page-title">9.2 Objetos y clases</h1></div>
+</header><div id="page-content-page-mw3p57mi-vfvse7j14" class="page-content">
+<article id="block-mw3p57mo-sasdi7bad" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">FPD - Free Text</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mo-gkw322czu" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mo-gkw322czu&quot;}">
+<p>Python es un lenguaje orientado a objetos. Todo en Python es un objeto, incluyendo números, cadenas, listas, funciones, e incluso clases. Comprender los conceptos de <strong>clase</strong> y <strong>objeto</strong> es fundamental para escribir programas organizados y reutilizables.</p>
+<p style="text-align: center;"><a href="../content/resources/PYTH01_CONT_R60_objetos.jpg" target="_blank" rel="noopener"><img src="../content/resources/PYTH01_CONT_R60_objetos.jpg" alt="Representación conceptual de una clase y un objeto en cualquier lenguaje de programación." title="Representación conceptual de una clase y un objeto" width="300" height="273" /></a></p>
+<p style="text-align: center;"><span style="font-size: 10pt;">Elaboración propia. Clic para ampliar.</span></p>
+<div class="destacado">
+<p>Una <strong>clase</strong> es un molde o plantilla que define atributos (propiedades) y métodos (funciones) que tendrán sus objetos.</p>
+</div>
+<div class="highlighted-code language-python">
+<pre><code># Definición de una clase sencilla
+class Persona:
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+    
+    def saludar(self):
+        print(f&quot;Hola, mi nombre es {self.nombre} y tengo {self.edad} años.&quot;)
+
+# Crear un objeto de la clase Persona
+persona1 = Persona(&quot;Ana&quot;, 20)
+persona1.saludar()
+# Salida: Hola, mi nombre es Ana y tengo 20 años.
+</code></pre>
+</div>
+<p>En este ejemplo, <code>__init__</code> es un método especial llamado <strong>constructor</strong>, que se ejecuta automáticamente al crear un objeto. Los atributos <code>nombre</code> y <code>edad</code> se asignan al objeto mediante <code>self</code>, que hace referencia a la instancia actual.</p>
+<div class="destacado">
+<p>Un <strong>objeto</strong> es una instancia de una clase. Cada objeto puede tener valores distintos en sus atributos, aunque comparta los mismos métodos.</p>
+</div>
+<div class="highlighted-code language-python">
+<pre><code>persona2 = Persona(&quot;Luis&quot;, 25)
+persona2.saludar()
+# Salida: Hola, mi nombre es Luis y tengo 25 años.
+</code></pre>
+</div>
+<h3>Comparativa con otros lenguajes</h3>
+<p>En lenguajes como Java, las clases y objetos funcionan de manera similar, pero hay diferencias:</p>
+<ul>
+<li>En Java, es obligatorio declarar el tipo de cada atributo.</li>
+<li>Los constructores en Java tienen el mismo nombre que la clase y no usan <code>self</code>.</li>
+<li>Python permite la creación de objetos dinámicamente, mientras que en Java se requiere tipado estático.</li>
+</ul>
+<div class="highlighted-code language-java">
+<pre><code>public class Persona {
+    String nombre;
+    int edad;
+
+    public Persona(String nombre, int edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+
+    public void saludar() {
+        System.out.println(&quot;Hola, mi nombre es &quot; + nombre + &quot; y tengo &quot; + edad + &quot; años.&quot;);
+    }
+}
+</code></pre>
+</div>
+<h3>Herencia</h3>
+<p>La <strong>herencia</strong> permite crear nuevas clases basadas en otras existentes, reutilizando atributos y métodos.</p>
+<div class="highlighted-code language-python">
+<pre><code># Clase base
+class Animal:
+    def __init__(self, nombre):
+        self.nombre = nombre
+    
+    def hablar(self):
+        pass
+
+# Clase derivada
+class Perro(Animal):
+    def hablar(self):
+        print(f&quot;{self.nombre} dice: ¡Guau!&quot;)
+
+mi_perro = Perro(&quot;Firulais&quot;)
+mi_perro.hablar()
+# Salida: Firulais dice: ¡Guau!
+</code></pre>
+</div>
+<h3>Polimorfismo</h3>
+<p>El <strong>polimorfismo</strong> permite que distintas clases implementen métodos con el mismo nombre, pero con comportamientos específicos.</p>
+<div class="highlighted-code language-python">
+<pre><code>class Gato(Animal):
+    def hablar(self):
+        print(f&quot;{self.nombre} dice: ¡Miau!&quot;)
+
+animales = [Perro(&quot;Rex&quot;), Gato(&quot;Misi&quot;)]
+
+for a in animales:
+    a.alimentar()  # Cada objeto responde según su clase
+</code></pre>
+</div>
+<h3>Resumen de conceptos clave</h3>
+<ul>
+<li><strong>Clase:</strong> plantilla que define atributos y métodos.</li>
+<li><strong>Objeto:</strong> instancia concreta de una clase.</li>
+<li><strong>Atributos:</strong> variables asociadas a un objeto.</li>
+<li><strong>Métodos:</strong> funciones asociadas a un objeto.</li>
+<li><strong>Herencia:</strong> permite que una clase derive de otra.</li>
+<li><strong>Polimorfismo:</strong> permite usar métodos con el mismo nombre en distintas clases, con comportamientos distintos.</li>
+</ul>
+<p>Al comprender y aplicar estos conceptos, los alumnos podrán diseñar programas más organizados y reutilizables en Python, aplicando conocimientos previos de programación orientada a objetos en otros lenguajes.</p>
+</div>
+</div>
+</article><article id="block-mw3p57mo-8suktla42" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/parasabermasfpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">A Step Ahead</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mo-fdgnynh4a" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mo-fdgnynh4a&quot;}">
+<p>Este apartado ofrece enlaces a la documentación oficial de Python para profundizar en los contenidos del capítulo y ampliar conocimientos sobre clases, objetos, funciones, excepciones y buenas prácticas.</p>
+<h3>Clases y objetos</h3>
+<ul>
+<li><a href="https://docs.python.org/3/tutorial/classes.html?utm_source=chatgpt.com" target="_blank" rel="noopener">Tutorial oficial sobre clases</a>: Introducción a la definición de clases, objetos, atributos, métodos y herencia en Python.</li>
+<li><a href="https://docs.python.org/3/reference/datamodel.html?utm_source=chatgpt.com" target="_blank" rel="noopener">Modelo de datos de Python</a>: Explicación detallada de cómo Python maneja objetos, valores y tipos.</li>
+<li><a href="https://docs.python.org/3/library/dataclasses.html?utm_source=chatgpt.com" target="_blank" rel="noopener">Módulo dataclasses</a>: Definición sencilla de clases con atributos sin necesidad de escribir métodos especiales como __init__ o __repr__.</li>
+</ul>
+</div>
+</div>
+</article><article id="block-mw3p57mo-1xhyefch0" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/ejercicioresueltofpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Caso practico</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mo-vlq1neylx" class="idevice_node casestudy db-no-data" data-idevice-path="../idevices/casestudy/" data-idevice-type="casestudy" data-idevice-component-type="json" data-idevice-json-data="{&quot;history&quot;:&quot;&quot;,&quot;activities&quot;:[{&quot;activity&quot;:&quot;&lt;p&gt;Se desea crear un sistema que permita al usuario añadir distintos tipos de vehículos y mostrar sus descripciones mediante un menú interactivo. Se requiere:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Una clase base &lt;code&gt;Vehiculo&lt;/code&gt; con atributos &lt;code&gt;marca&lt;/code&gt; y &lt;code&gt;modelo&lt;/code&gt; y un método &lt;code&gt;descripcion()&lt;/code&gt;.&lt;/li&gt;\n&lt;li&gt;Clases derivadas &lt;code&gt;Coche&lt;/code&gt; y &lt;code&gt;Motocicleta&lt;/code&gt; que añadan atributos específicos y sobrescriban &lt;code&gt;descripcion()&lt;/code&gt;.&lt;/li&gt;\n&lt;li&gt;Funciones que permitan añadir vehículos y mostrar sus descripciones, utilizando polimorfismo.&lt;/li&gt;\n&lt;li&gt;Un menú interactivo que permita al usuario elegir acciones hasta que seleccione salir.&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;feedback&quot;:&quot;&lt;div class=\&quot;highlighted-code language-python\&quot;&gt;\n&lt;pre&gt;&lt;code&gt;# Clase base\nclass Vehiculo:\n    \&quot;\&quot;\&quot;Clase base para todos los vehículos\&quot;\&quot;\&quot;\n    def __init__(self, marca, modelo):\n        self.marca = marca\n        self.modelo = modelo\n\n    def descripcion(self):\n        \&quot;\&quot;\&quot;Muestra la descripción del vehículo\&quot;\&quot;\&quot;\n        print(f\&quot;Vehículo: {self.marca} {self.modelo}\&quot;)\n\n# Clase derivada Coche\nclass Coche(Vehiculo):\n    \&quot;\&quot;\&quot;Clase para coches\&quot;\&quot;\&quot;\n    def __init__(self, marca, modelo, puertas):\n        super().__init__(marca, modelo)\n        self.puertas = puertas\n\n    def descripcion(self):\n        \&quot;\&quot;\&quot;Muestra la descripción del coche incluyendo puertas\&quot;\&quot;\&quot;\n        print(f\&quot;Coche: {self.marca} {self.modelo}, {self.puertas} puertas\&quot;)\n\n# Clase derivada Motocicleta\nclass Motocicleta(Vehiculo):\n    \&quot;\&quot;\&quot;Clase para motocicletas\&quot;\&quot;\&quot;\n    def __init__(self, marca, modelo, tipo):\n        super().__init__(marca, modelo)\n        self.tipo = tipo\n\n    def descripcion(self):\n        \&quot;\&quot;\&quot;Muestra la descripción de la motocicleta incluyendo el tipo\&quot;\&quot;\&quot;\n        print(f\&quot;Motocicleta: {self.marca} {self.modelo}, tipo {self.tipo}\&quot;)\n\n# Lista para almacenar vehículos\nvehiculos = []\n\n# Funciones para el menú\ndef añadir_coche():\n    marca = input(\&quot;Marca del coche: \&quot;)\n    modelo = input(\&quot;Modelo del coche: \&quot;)\n    puertas = int(input(\&quot;Número de puertas: \&quot;))\n    c = Coche(marca, modelo, puertas)\n    vehiculos.append(c)\n    print(\&quot;Coche añadido correctamente.\n\&quot;)\n\ndef añadir_motocicleta():\n    marca = input(\&quot;Marca de la motocicleta: \&quot;)\n    modelo = input(\&quot;Modelo de la motocicleta: \&quot;)\n    tipo = input(\&quot;Tipo de motocicleta: \&quot;)\n    m = Motocicleta(marca, modelo, tipo)\n    vehiculos.append(m)\n    print(\&quot;Motocicleta añadida correctamente.\n\&quot;)\n\ndef listar_vehiculos():\n    if not vehiculos:\n        print(\&quot;No hay vehículos registrados.\n\&quot;)\n    else:\n        for v in vehiculos:\n            v.descripcion()\n        print()\n\ndef menu():\n    while True:\n        print(\&quot;Menú de gestión de vehículos\&quot;)\n        print(\&quot;1. Añadir coche\&quot;)\n        print(\&quot;2. Añadir motocicleta\&quot;)\n        print(\&quot;3. Listar vehículos\&quot;)\n        print(\&quot;4. Salir\&quot;)\n        opcion = input(\&quot;Seleccione una opción (1-4): \&quot;)\n        if opcion == \&quot;1\&quot;:\n            añadir_coche()\n        elif opcion == \&quot;2\&quot;:\n            añadir_motocicleta()\n        elif opcion == \&quot;3\&quot;:\n            listar_vehiculos()\n        elif opcion == \&quot;4\&quot;:\n            print(\&quot;Saliendo del programa...\&quot;)\n            break\n        else:\n            print(\&quot;Opción no válida, pruebe de nuevo.\n\&quot;)\n\n# Ejecutar el menú\nmenu()\n&lt;/code&gt;&lt;/pre&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;strong&gt;Explicación:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Se definen las clases &lt;code&gt;Vehiculo&lt;/code&gt;, &lt;code&gt;Coche&lt;/code&gt; y &lt;code&gt;Motocicleta&lt;/code&gt; con atributos y métodos documentados mediante &lt;code&gt;docstrings&lt;/code&gt;.&lt;/li&gt;\n&lt;li&gt;Se usa &lt;strong&gt;polimorfismo&lt;/strong&gt;: la lista &lt;code&gt;vehiculos&lt;/code&gt; puede contener cualquier objeto derivado de &lt;code&gt;Vehiculo&lt;/code&gt;, y el método correcto &lt;code&gt;descripcion()&lt;/code&gt; se ejecuta según el tipo real.&lt;/li&gt;\n&lt;li&gt;Las funciones &lt;code&gt;añadir_coche()&lt;/code&gt;, &lt;code&gt;añadir_motocicleta()&lt;/code&gt; y &lt;code&gt;listar_vehiculos()&lt;/code&gt; estructuran el código y separan responsabilidades.&lt;/li&gt;\n&lt;li&gt;El menú interactivo permite al usuario realizar acciones de forma repetitiva hasta seleccionar salir.&lt;/li&gt;\n&lt;li&gt;Este ejercicio combina &lt;strong&gt;herencia&lt;/strong&gt;, &lt;strong&gt;polimorfismo&lt;/strong&gt;, &lt;strong&gt;modularidad&lt;/strong&gt; mediante funciones y &lt;strong&gt;documentación&lt;/strong&gt; de métodos, preparando para sistemas más complejos.&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;buttonCaption&quot;:&quot;Mostrar retroalimentación&quot;}],&quot;textInfoDurationInput&quot;:&quot;&quot;,&quot;textInfoDurationTextInput&quot;:&quot;&quot;,&quot;textInfoParticipantsInput&quot;:&quot;&quot;,&quot;textInfoParticipantsTextInput&quot;:&quot;&quot;}" data-idevice-template="casestudy.html">
+
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/91-funciones.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/93-excepciones.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter" class="siteFooter-empty"><div id="siteFooterContent"></div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

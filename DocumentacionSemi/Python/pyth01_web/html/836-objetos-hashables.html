@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mw3p57mi-bsgp7p1ih">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<title>8.3.6 Objetos &quot;hashables&quot; | PYTH01</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Unidad 1">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../idevices/form/form.js"></script><link rel="stylesheet" href="../idevices/form/form.css">
+<script src="../libs/exe_highlighter/exe_highlighter.js"> </script>
+<link rel="stylesheet" href="../libs/exe_highlighter/exe_highlighter.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mw3p57mi-bsgp7p1ih" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Fundamentos de python y estructuras avanzadas</a>
+</li>
+<li> <a href="../html/1-introduccion.html" class="no-ch">1. Introducción</a>
+</li>
+<li> <a href="../html/2-entornos-de-desarrollo.html" class="daddy">2. Entornos de desarrollo</a>
+<ul class="other-section">
+<li> <a href="../html/21-instalacion-del-interprete-de-python.html" class="no-ch">2.1 Instalación del intérprete de Python</a>
+</li>
+<li> <a href="../html/22-gestion-de-paquetes.html" class="no-ch">2.2 Gestión de paquetes</a>
+</li>
+<li> <a href="../html/23-entornos-virtuales.html" class="no-ch">2.3 Entornos virtuales</a>
+</li>
+<li> <a href="../html/24-editores-para-python-ides.html" class="no-ch">2.4 Editores para Python (IDEs)</a>
+</li>
+<li> <a href="../html/25-jupyter-notebook.html" class="no-ch">2.5 Jupyter Notebook</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/3-datos.html" class="daddy">3. Datos</a>
+<ul class="other-section">
+<li> <a href="../html/31-tipos-de-datos.html" class="no-ch">3.1 Tipos de datos</a>
+</li>
+<li> <a href="../html/32-variables.html" class="no-ch">3.2 Variables</a>
+</li>
+<li> <a href="../html/33-asignacion.html" class="no-ch">3.3 Asignación</a>
+</li>
+<li> <a href="../html/34-mutabilidad.html" class="no-ch">3.4 Mutabilidad</a>
+</li>
+<li> <a href="../html/35-funciones-built-in.html" class="no-ch">3.5 Funciones built-in</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/4-numeros.html" class="daddy">4. Números</a>
+<ul class="other-section">
+<li> <a href="../html/41-booleanos.html" class="no-ch">4.1 Booleanos</a>
+</li>
+<li> <a href="../html/42-enteros.html" class="no-ch">4.2 Enteros</a>
+</li>
+<li> <a href="../html/43-flotantes.html" class="no-ch">4.3 Flotantes</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/5-cadenas-de-texto.html" class="daddy">5. Cadenas de texto</a>
+<ul class="other-section">
+<li> <a href="../html/51-entrada-y-salida-por-teclado.html" class="no-ch">5.1 Entrada y salida por teclado</a>
+</li>
+<li> <a href="../html/52-operaciones-principales.html" class="no-ch">5.2 Operaciones principales</a>
+</li>
+<li> <a href="../html/53-caracteres-unicode.html" class="no-ch">5.3 Caracteres UNICODE</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/6-condicionales.html" class="daddy">6. Condicionales</a>
+<ul class="other-section">
+<li> <a href="../html/61-bloques-de-codigo.html" class="no-ch">6.1 Bloques de código</a>
+</li>
+<li> <a href="../html/62-comentarios.html" class="no-ch">6.2 Comentarios</a>
+</li>
+<li> <a href="../html/63-la-sentencia-if.html" class="no-ch">6.3 La sentencia if</a>
+</li>
+<li> <a href="../html/64-operadores-de-comparacion.html" class="no-ch">6.4 Operadores de comparación</a>
+</li>
+<li> <a href="../html/65-sentencias-match-case.html" class="no-ch">6.5 Sentencias match-case</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/7-estructuras-de-repeticion.html" class="daddy">7. Estructuras de repetición</a>
+<ul class="other-section">
+<li> <a href="../html/71-la-sentencia-while.html" class="no-ch">7.1 La sentencia while</a>
+</li>
+<li> <a href="../html/72-la-sentencia-for.html" class="no-ch">7.2 La sentencia for</a>
+</li>
+<li> <a href="../html/73-bucles-anidados.html" class="no-ch">7.3 Bucles anidados</a>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/8-estructuras-avanzadas.html" class="daddy">8. Estructuras avanzadas</a>
+<ul class="other-section">
+<li> <a href="../html/81-listas.html" class="daddy">8.1 Listas</a>
+<ul class="other-section">
+<li> <a href="../html/811-creando-listas.html" class="no-ch">8.1.1 Creando listas</a>
+</li>
+<li> <a href="../html/812-conversion.html" class="no-ch">8.1.2 Conversión</a>
+</li>
+<li> <a href="../html/813-operaciones-con-listas.html" class="no-ch">8.1.3 Operaciones con listas</a>
+</li>
+<li> <a href="../html/814-copias-en-listas-mutabilidad.html" class="no-ch">8.1.4 Copias en listas (mutabilidad)</a>
+</li>
+<li> <a href="../html/815-veracidad-multiple.html" class="no-ch">8.1.5 Veracidad múltiple</a>
+</li>
+<li> <a href="../html/816-listas-por-comprension.html" class="no-ch">8.1.6 Listas por comprensión</a>
+</li>
+<li> <a href="../html/817-ejecucion-desde-linea-de-comandos.html" class="no-ch">8.1.7 Ejecución desde línea de comandos</a>
+</li>
+<li> <a href="../html/818-funciones-matematicas.html" class="no-ch">8.1.8 Funciones matemáticas</a>
+</li>
+<li> <a href="../html/819-listas-de-listas.html" class="no-ch">8.1.9 Listas de listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/82-tuplas.html" class="daddy">8.2 Tuplas</a>
+<ul class="other-section">
+<li> <a href="../html/821-creando-tuplas.html" class="no-ch">8.2.1 Creando tuplas</a>
+</li>
+<li> <a href="../html/822-modificar-una-tupla.html" class="no-ch">8.2.2 Modificar una tupla</a>
+</li>
+<li> <a href="../html/823-conversion.html" class="no-ch">8.2.3 Conversión</a>
+</li>
+<li> <a href="../html/824-operaciones-con-tuplas.html" class="no-ch">8.2.4 Operaciones con tuplas</a>
+</li>
+<li> <a href="../html/825-tupas-vs-listas.html" class="no-ch">8.2.5 Tupas vs. Listas</a>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/83-diccionarios.html" class="daddy">8.3 Diccionarios</a>
+<ul class="other-section">
+<li> <a href="../html/831-creando-diccionarios.html" class="no-ch">8.3.1 Creando diccionarios</a>
+</li>
+<li> <a href="../html/832-conversion.html" class="no-ch">8.3.2 Conversión</a>
+</li>
+<li> <a href="../html/833-operaciones-con-diccionarios.html" class="no-ch">8.3.3 Operaciones con diccionarios</a>
+</li>
+<li> <a href="../html/834-copias-en-diccionarios-mutabilidad.html" class="no-ch">8.3.4 Copias en diccionarios (mutabilidad)</a>
+</li>
+<li> <a href="../html/835-diccionarios-por-comprension.html" class="no-ch">8.3.5 Diccionarios por comprensión</a>
+</li>
+<li class="active"> <a href="../html/836-objetos-hashables.html" class="active no-ch">8.3.6 Objetos &quot;hashables&quot;</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> <a href="../html/9-modularidad.html" class="daddy">9. Modularidad</a>
+<ul class="other-section">
+<li> <a href="../html/91-funciones.html" class="no-ch">9.1 Funciones</a>
+</li>
+<li> <a href="../html/92-objetos-y-clases.html" class="no-ch">9.2 Objetos y clases</a>
+</li>
+<li> <a href="../html/93-excepciones.html" class="no-ch">9.3 Excepciones</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav><main id="page-mw3p57mi-bsgp7p1ih" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">PYTH01</p></div>
+<div class="page-header"><h1 class="page-title">8.3.6 Objetos &quot;hashables&quot;</h1></div>
+</header><div id="page-content-page-mw3p57mi-bsgp7p1ih" class="page-content">
+<article id="block-mw3p57mo-a0atjvooy" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">FPD - Free Text</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mo-b3y6uqkjv" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mo-b3y6uqkjv&quot;}">
+<p>En Python, las claves de un diccionario deben ser <strong>hashables</strong>. Un objeto se considera <em>hashable</em> si se le puede asignar un valor <strong>hash</strong> que permanezca constante durante toda su vida útil.</p>
+<p>La función <code>hash()</code> permite obtener el valor hash de un objeto. Este valor entero se utiliza internamente para indexar la tabla hash del diccionario.</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code># Números enteros y flotantes
+hash(42)
+# 42
+
+hash(3.1415)
+# 87592698408193
+
+# Cadenas de texto
+hash(&#039;python&#039;)
+# -5748392018482193421
+
+# Tuplas inmutables
+hash((&#039;x&#039;, &#039;y&#039;, &#039;z&#039;))
+# 901827364918273645</code></pre>
+</div>
+</div>
+<p>Para que un objeto sea hashable, debe ser <strong>inmutable</strong>. La imagen siguiente ilustra este concepto.</p>
+<p style="text-align: center;"><a href="../content/resources/PYTH01_CONT_R57_hashables.jpg" target="_blank" rel="noopener"><img src="../content/resources/PYTH01_CONT_R57_hashables.jpg" alt="Representación conceptual de que sólo los objetos inmutables pueden ser claves de un diccionario." title="Objetos hashables como claves de un diccionario" width="301" height="147" /></a></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"><span style="font-size: 10pt;">Elaboración propia. Clic para ampliar.</span></p>
+<p>Por ejemplo, las listas no son hashables y producirán un error si se intenta obtener su hash:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code>hash([&#039;apple&#039;, &#039;banana&#039;, &#039;cherry&#039;])
+# TypeError: unhashable type: &#039;list&#039;</code></pre>
+</div>
+</div>
+<p class="destacado">Nota: Como consecuencia, las claves de los diccionarios sólo pueden ser objetos inmutables, como números, cadenas, tuplas o booleanos.</p>
+<p>La función <code>hash()</code> realiza internamente una llamada al método mágico <code>__hash__()</code> del objeto:</p>
+<div class="highlighted-code language-python">
+<div>
+<pre><code# Hash de una cadena
+hash('superhero')
+# -234981234908123498
+
+# Llamada al método mágico __hash__() del mismo objeto
+'superhero'.__hash__()
+# -234981234908123498</pre>
+</div>
+</div>
+<p class="destacado">Nota: Cualquier intento de usar un objeto mutable como clave, como listas, diccionarios o conjuntos, provocará un <strong>TypeError</strong>.</p>
+<p class="destacado">Resumen: Las claves hashables garantizan que los diccionarios puedan acceder a sus valores de manera eficiente mediante la tabla hash interna.</p>
+</div>
+</div>
+</article><article id="block-mw3p57mo-hetknu6pj" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/parasabermasfpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">A Step Ahead</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mo-ztw3xyy3z" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mo-ztw3xyy3z&quot;}">
+<h2>Para saber más: Objetos hashables</h2>
+<p>Para profundizar en el concepto de objetos <strong>hashables</strong> y en las restricciones de las claves de los diccionarios, se recomienda consultar la documentación oficial de Python. La sección de <strong>diccionarios</strong> explica las restricciones sobre las claves y el comportamiento de los diccionarios: <a href="https://docs.python.org/3/library/stdtypes.html#mapping-types-dict" target="_blank" rel="noopener">https://docs.python.org/3/library/stdtypes.html#mapping-types-dict</a>.</p>
+<p>La <strong>función <code>hash()</code></strong> muestra cómo se calcula el hash de un objeto y su relación con la tabla hash interna: <a href="https://docs.python.org/3/library/functions.html#hash" target="_blank" rel="noopener">https://docs.python.org/3/library/functions.html#hash</a>.</p>
+<p>Para entender qué objetos pueden ser utilizados como claves, conviene revisar los <strong>tipos inmutables y mutables</strong>: <a href="https://docs.python.org/3/library/stdtypes.html#common-sequence-operations" target="_blank" rel="noopener">https://docs.python.org/3/library/stdtypes.html#common-sequence-operations</a>.</p>
+<p>Por último, la documentación sobre el <strong>método mágico <code>__hash__()</code></strong> explica cómo los objetos definen su valor hash: <a href="https://docs.python.org/3/reference/datamodel.html#object.__hash__" target="_blank" rel="noopener">https://docs.python.org/3/reference/datamodel.html#object.__hash__</a>.</p>
+<p>Revisar estas secciones permite comprender por qué algunos objetos son hashables y otros no, y cómo esto afecta al uso de diccionarios en Python.</p>
+</div>
+</div>
+</article><article id="block-mw3p57mo-f5lwsh8sh" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/autoevaluacionfpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Now it&#039;s your turn</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mo-pzs52jat2" class="idevice_node form" data-idevice-path="../idevices/form/" data-idevice-type="form" data-idevice-component-type="json" data-idevice-template="form.html">
+<p>¿Cuál de las siguientes afirmaciones sobre claves de diccionarios en Python es <strong>correcta</strong>?</p>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/835-diccionarios-por-comprension.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/9-modularidad.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter" class="siteFooter-empty"><div id="siteFooterContent"></div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mw3p57mh-ifqolcxv9">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<title>2.3 Entornos virtuales | PYTH01</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Unidad 1">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../idevices/complete/complete.js"></script><link rel="stylesheet" href="../idevices/complete/complete.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mw3p57mh-ifqolcxv9" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Fundamentos de python y estructuras avanzadas</a>
+</li>
+<li> <a href="../html/1-introduccion.html" class="no-ch">1. Introducción</a>
+</li>
+<li class="current-page-parent"> <a href="../html/2-entornos-de-desarrollo.html" class="daddy">2. Entornos de desarrollo</a>
+<ul class="other-section">
+<li> <a href="../html/21-instalacion-del-interprete-de-python.html" class="no-ch">2.1 Instalación del intérprete de Python</a>
+</li>
+<li> <a href="../html/22-gestion-de-paquetes.html" class="no-ch">2.2 Gestión de paquetes</a>
+</li>
+<li class="active"> <a href="../html/23-entornos-virtuales.html" class="active no-ch">2.3 Entornos virtuales</a>
+</li>
+<li> <a href="../html/24-editores-para-python-ides.html" class="no-ch">2.4 Editores para Python (IDEs)</a>
+</li>
+<li> <a href="../html/25-jupyter-notebook.html" class="no-ch">2.5 Jupyter Notebook</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/3-datos.html" class="daddy">3. Datos</a>
+<ul class="other-section">
+<li> <a href="../html/31-tipos-de-datos.html" class="no-ch">3.1 Tipos de datos</a>
+</li>
+<li> <a href="../html/32-variables.html" class="no-ch">3.2 Variables</a>
+</li>
+<li> <a href="../html/33-asignacion.html" class="no-ch">3.3 Asignación</a>
+</li>
+<li> <a href="../html/34-mutabilidad.html" class="no-ch">3.4 Mutabilidad</a>
+</li>
+<li> <a href="../html/35-funciones-built-in.html" class="no-ch">3.5 Funciones built-in</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/4-numeros.html" class="daddy">4. Números</a>
+<ul class="other-section">
+<li> <a href="../html/41-booleanos.html" class="no-ch">4.1 Booleanos</a>
+</li>
+<li> <a href="../html/42-enteros.html" class="no-ch">4.2 Enteros</a>
+</li>
+<li> <a href="../html/43-flotantes.html" class="no-ch">4.3 Flotantes</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/5-cadenas-de-texto.html" class="daddy">5. Cadenas de texto</a>
+<ul class="other-section">
+<li> <a href="../html/51-entrada-y-salida-por-teclado.html" class="no-ch">5.1 Entrada y salida por teclado</a>
+</li>
+<li> <a href="../html/52-operaciones-principales.html" class="no-ch">5.2 Operaciones principales</a>
+</li>
+<li> <a href="../html/53-caracteres-unicode.html" class="no-ch">5.3 Caracteres UNICODE</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/6-condicionales.html" class="daddy">6. Condicionales</a>
+<ul class="other-section">
+<li> <a href="../html/61-bloques-de-codigo.html" class="no-ch">6.1 Bloques de código</a>
+</li>
+<li> <a href="../html/62-comentarios.html" class="no-ch">6.2 Comentarios</a>
+</li>
+<li> <a href="../html/63-la-sentencia-if.html" class="no-ch">6.3 La sentencia if</a>
+</li>
+<li> <a href="../html/64-operadores-de-comparacion.html" class="no-ch">6.4 Operadores de comparación</a>
+</li>
+<li> <a href="../html/65-sentencias-match-case.html" class="no-ch">6.5 Sentencias match-case</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/7-estructuras-de-repeticion.html" class="daddy">7. Estructuras de repetición</a>
+<ul class="other-section">
+<li> <a href="../html/71-la-sentencia-while.html" class="no-ch">7.1 La sentencia while</a>
+</li>
+<li> <a href="../html/72-la-sentencia-for.html" class="no-ch">7.2 La sentencia for</a>
+</li>
+<li> <a href="../html/73-bucles-anidados.html" class="no-ch">7.3 Bucles anidados</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/8-estructuras-avanzadas.html" class="daddy">8. Estructuras avanzadas</a>
+<ul class="other-section">
+<li> <a href="../html/81-listas.html" class="daddy">8.1 Listas</a>
+<ul class="other-section">
+<li> <a href="../html/811-creando-listas.html" class="no-ch">8.1.1 Creando listas</a>
+</li>
+<li> <a href="../html/812-conversion.html" class="no-ch">8.1.2 Conversión</a>
+</li>
+<li> <a href="../html/813-operaciones-con-listas.html" class="no-ch">8.1.3 Operaciones con listas</a>
+</li>
+<li> <a href="../html/814-copias-en-listas-mutabilidad.html" class="no-ch">8.1.4 Copias en listas (mutabilidad)</a>
+</li>
+<li> <a href="../html/815-veracidad-multiple.html" class="no-ch">8.1.5 Veracidad múltiple</a>
+</li>
+<li> <a href="../html/816-listas-por-comprension.html" class="no-ch">8.1.6 Listas por comprensión</a>
+</li>
+<li> <a href="../html/817-ejecucion-desde-linea-de-comandos.html" class="no-ch">8.1.7 Ejecución desde línea de comandos</a>
+</li>
+<li> <a href="../html/818-funciones-matematicas.html" class="no-ch">8.1.8 Funciones matemáticas</a>
+</li>
+<li> <a href="../html/819-listas-de-listas.html" class="no-ch">8.1.9 Listas de listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/82-tuplas.html" class="daddy">8.2 Tuplas</a>
+<ul class="other-section">
+<li> <a href="../html/821-creando-tuplas.html" class="no-ch">8.2.1 Creando tuplas</a>
+</li>
+<li> <a href="../html/822-modificar-una-tupla.html" class="no-ch">8.2.2 Modificar una tupla</a>
+</li>
+<li> <a href="../html/823-conversion.html" class="no-ch">8.2.3 Conversión</a>
+</li>
+<li> <a href="../html/824-operaciones-con-tuplas.html" class="no-ch">8.2.4 Operaciones con tuplas</a>
+</li>
+<li> <a href="../html/825-tupas-vs-listas.html" class="no-ch">8.2.5 Tupas vs. Listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/83-diccionarios.html" class="daddy">8.3 Diccionarios</a>
+<ul class="other-section">
+<li> <a href="../html/831-creando-diccionarios.html" class="no-ch">8.3.1 Creando diccionarios</a>
+</li>
+<li> <a href="../html/832-conversion.html" class="no-ch">8.3.2 Conversión</a>
+</li>
+<li> <a href="../html/833-operaciones-con-diccionarios.html" class="no-ch">8.3.3 Operaciones con diccionarios</a>
+</li>
+<li> <a href="../html/834-copias-en-diccionarios-mutabilidad.html" class="no-ch">8.3.4 Copias en diccionarios (mutabilidad)</a>
+</li>
+<li> <a href="../html/835-diccionarios-por-comprension.html" class="no-ch">8.3.5 Diccionarios por comprensión</a>
+</li>
+<li> <a href="../html/836-objetos-hashables.html" class="no-ch">8.3.6 Objetos &quot;hashables&quot;</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> <a href="../html/9-modularidad.html" class="daddy">9. Modularidad</a>
+<ul class="other-section">
+<li> <a href="../html/91-funciones.html" class="no-ch">9.1 Funciones</a>
+</li>
+<li> <a href="../html/92-objetos-y-clases.html" class="no-ch">9.2 Objetos y clases</a>
+</li>
+<li> <a href="../html/93-excepciones.html" class="no-ch">9.3 Excepciones</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav><main id="page-mw3p57mh-ifqolcxv9" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">PYTH01</p></div>
+<div class="page-header"><h1 class="page-title">2.3 Entornos virtuales</h1></div>
+</header><div id="page-content-page-mw3p57mh-ifqolcxv9" class="page-content">
+<article id="block-mw3p57mj-3n4pfpi75" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">FPD - Free Text</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mj-xpxukoa26" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mj-xpxukoa26&quot;}">
+<section aria-labelledby="entornos-virtuales">
+<p>Cuando se trabaja en distintos proyectos, no todos requieren los mismos paquetes ni la misma versión de Python. Gestionar estas diferencias a nivel global puede resultar complejo, por lo que surge el concepto de <strong><a class="glosario">entornos virtuales<span><em>Espacio aislado en un sistema informático que permite ejecutar programas y gestionar sus dependencias de manera independiente del resto del sistema, evitando conflictos con otras aplicaciones o configuraciones.</em></span></a></strong>. Estos entornos permiten establecer qué versión de Python se utilizará y qué paquetes se instalarán en cada proyecto, manteniendo el sistema principal limpio y ordenado.</p>
+<h3>Crear un entorno virtual con <code>venv</code></h3>
+<p>La manera más sencilla de crear un entorno virtual utilizando el módulo incluido en Python 3 es la siguiente:</p>
+<h4>En Linux/macOS:</h4>
+<pre><code>$ cd myproject
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+(.venv) $</code></pre>
+<h4>En Windows (CMD):</h4>
+<pre><code>&gt; cd myproject
+&gt; python -m venv .venv
+&gt; .venv\Scripts\activate
+(.venv) &gt;</code></pre>
+<h4>En Windows (PowerShell):</h4>
+<pre><code>&gt; cd myproject
+&gt; python -m venv .venv
+&gt; .\.venv\Scripts\Activate.ps1
+(.venv) &gt;</code></pre>
+<ul>
+<li><strong>Línea 1:</strong> Entrar en la carpeta del proyecto.</li>
+<li><strong>Línea 2:</strong> Crear la carpeta <code>.venv</code> con los archivos que constituyen el entorno virtual.</li>
+<li><strong>Línea 3:</strong> Activar el entorno virtual. El prompt cambia para indicar que el entorno virtual está activo (<code>(.venv) $</code> o <code>(.venv) ></code>).</li>
+</ul>
+<p>Una vez activo, se puede instalar un paquete, por ejemplo:</p>
+<pre><code>(.venv) $ pip install requests
+Collecting requests
+  Using cached requests-2.24.0-py2.py3-none-any.whl (61 kB)
+Collecting idna&lt;3,&gt;=2.5
+  Using cached idna-2.10-py2.py3-none-any.whl (58 kB)
+Collecting certifi&gt;=2017.4.17
+  Using cached certifi-2020.6.20-py2.py3-none-any.whl (156 kB)
+Collecting urllib3!=1.25.0,!=1.25.1,&lt;1.26,&gt;=1.21.1
+  Using cached urllib3-1.25.10-py2.py3-none-any.whl (127 kB)
+Collecting chardet&lt;4,&gt;=3.0.2
+  Using cached chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Installing collected packages: idna, certifi, urllib3, chardet, requests
+Successfully installed certifi-2020.6.20 chardet-3.0.4 idna-2.10 requests-2.24.0 urllib3-1.25.10</code></pre>
+<h3>Crear un entorno virtual con <code>virtualenv</code></h3>
+<p>Para proyectos más avanzados o compatibles con versiones antiguas de Python, se puede utilizar <strong>virtualenv</strong>. Primero se instala la herramienta:</p>
+<pre><code>$ pip install virtualenv</code></pre>
+<p>A continuación se crea y activa el entorno virtual:</p>
+<h4>En Linux/macOS:</h4>
+<pre><code>$ cd myproject
+$ virtualenv .venv
+$ source .venv/bin/activate
+(.venv) $</code></pre>
+<h4>En Windows (CMD):</h4>
+<pre><code>&gt; cd myproject
+&gt; virtualenv .venv
+&gt; .venv\Scripts\activate
+(.venv) &gt;</code></pre>
+<p>En la siguiente imagen se puede ver el ejemplo completo ejecutado en CMD de Windows.</p>
+<p style="text-align: center;"><a href="../content/resources/PYTH01_CONT_R14_virtualenv_tool.jpg" target="_blank" rel="noopener"><img src="../content/resources/PYTH01_CONT_R14_virtualenv_tool.jpg" alt="Consola de Windows mostrando la creación de un entorno virtual, activación, instalación de Pandas y desactivación final." title="Ejemplo de uso completo de virtualenv" width="200" height="104" /></a></p>
+<p style="text-align: center;"><span style="font-size: 10pt;">Elaboración propia. Clic para ampliar.</span></p>
+<h4>En Windows (PowerShell):</h4>
+<pre><code>&gt; cd myproject
+&gt; virtualenv .venv
+&gt; .\.venv\Scripts\Activate.ps1
+(.venv) &gt;</code></pre>
+<p>Una vez activo, se puede instalar un paquete de la misma manera que con <code>venv</code>.</p>
+<p class="destacado" align="justify"><strong>Los entornos virtuales permiten trabajar de forma organizada en Python, manteniendo separadas las dependencias de cada proyecto y evitando conflictos entre versiones de paquetes. Tanto <code>venv</code> como <code>virtualenv</code> cumplen esta función, siendo <code>virtualenv</code> más flexible y compatible con versiones antiguas.</strong></p>
+<h3>Gestión avanzada con <code>virtualenvwrapper</code></h3>
+<p>La herramienta <strong>virtualenvwrapper</strong> funciona sobre <code>virtualenv</code> y facilita la administración de entornos virtuales. Se instala mediante:</p>
+<pre><code>$ pip install virtualenvwrapper</code></pre>
+<p>Algunos comandos básicos incluyen:</p>
+<ul>
+<li><code>mkvirtualenv env1</code>: crea un entorno virtual llamado <code>env1</code>.</li>
+<li><code>workon env1</code>: activa el entorno virtual <code>env1</code>.</li>
+<li><code>deactivate</code>: desactiva el entorno virtual activo.</li>
+<li><code>lssitepackages</code>: lista los paquetes instalados en el entorno virtual activo.</li>
+<li><code>pip install paquete</code>: instala un paquete dentro del entorno virtual activo.</li>
+</ul>
+<p>Estas herramientas permiten gestionar de forma eficiente las dependencias de cada proyecto y garantizan que los proyectos puedan mantenerse actualizados sin afectar al resto del sistema.</p>
+</section>
+</div>
+</div>
+</article><article id="block-mw3p57mj-nxjjypf0m" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/parasabermasfpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">A Step Ahead</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mj-cepmow9j2" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mj-cepmow9j2&quot;}">
+<aside>
+<p>La herramienta <code>virtualenv</code> permite crear entornos virtuales aislados en Python. Para obtener más información y acceder a la documentación oficial, visita su sitio web:</p>
+<p><a href="https://virtualenv.pypa.io/" target="_blank" rel="noopener noreferrer">https://virtualenv.pypa.io/</a></p>
+</aside>
+</div>
+</div>
+</article><article id="block-mw3p57mj-tj3lf7r6j" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/autoevaluacionfpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Now it&#039;s your turn</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mj-52xqullm1" class="idevice_node complete" data-idevice-path="../idevices/complete/" data-idevice-type="complete">
+<p>Un  <u>entorno virtual</u>  permite mantener separadas las dependencias de cada proyecto.</p>
+<p>La herramienta  <u>virtualenvwrapper</u>  funciona sobre <code>virtualenv</code> y facilita la administración de entornos virtuales.</p>
+<p>En Windows CMD, el comando para activar un entorno virtual creado con <code>venv</code> es  <u>.venv\Scripts\activate</u>  .</p>
+<p>Con <code>venv</code>, no es necesario  <u>instalar</u>  la herramienta antes de crear el entorno virtual.</p>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/22-gestion-de-paquetes.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/24-editores-para-python-ides.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter" class="siteFooter-empty"><div id="siteFooterContent"></div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

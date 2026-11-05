@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mw3p57mh-qo8l0fstz">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<title>2.4 Editores para Python (IDEs) | PYTH01</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Unidad 1">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../idevices/complete/complete.js"></script><link rel="stylesheet" href="../idevices/complete/complete.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mw3p57mh-qo8l0fstz" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Fundamentos de python y estructuras avanzadas</a>
+</li>
+<li> <a href="../html/1-introduccion.html" class="no-ch">1. Introducción</a>
+</li>
+<li class="current-page-parent"> <a href="../html/2-entornos-de-desarrollo.html" class="daddy">2. Entornos de desarrollo</a>
+<ul class="other-section">
+<li> <a href="../html/21-instalacion-del-interprete-de-python.html" class="no-ch">2.1 Instalación del intérprete de Python</a>
+</li>
+<li> <a href="../html/22-gestion-de-paquetes.html" class="no-ch">2.2 Gestión de paquetes</a>
+</li>
+<li> <a href="../html/23-entornos-virtuales.html" class="no-ch">2.3 Entornos virtuales</a>
+</li>
+<li class="active"> <a href="../html/24-editores-para-python-ides.html" class="active no-ch">2.4 Editores para Python (IDEs)</a>
+</li>
+<li> <a href="../html/25-jupyter-notebook.html" class="no-ch">2.5 Jupyter Notebook</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/3-datos.html" class="daddy">3. Datos</a>
+<ul class="other-section">
+<li> <a href="../html/31-tipos-de-datos.html" class="no-ch">3.1 Tipos de datos</a>
+</li>
+<li> <a href="../html/32-variables.html" class="no-ch">3.2 Variables</a>
+</li>
+<li> <a href="../html/33-asignacion.html" class="no-ch">3.3 Asignación</a>
+</li>
+<li> <a href="../html/34-mutabilidad.html" class="no-ch">3.4 Mutabilidad</a>
+</li>
+<li> <a href="../html/35-funciones-built-in.html" class="no-ch">3.5 Funciones built-in</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/4-numeros.html" class="daddy">4. Números</a>
+<ul class="other-section">
+<li> <a href="../html/41-booleanos.html" class="no-ch">4.1 Booleanos</a>
+</li>
+<li> <a href="../html/42-enteros.html" class="no-ch">4.2 Enteros</a>
+</li>
+<li> <a href="../html/43-flotantes.html" class="no-ch">4.3 Flotantes</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/5-cadenas-de-texto.html" class="daddy">5. Cadenas de texto</a>
+<ul class="other-section">
+<li> <a href="../html/51-entrada-y-salida-por-teclado.html" class="no-ch">5.1 Entrada y salida por teclado</a>
+</li>
+<li> <a href="../html/52-operaciones-principales.html" class="no-ch">5.2 Operaciones principales</a>
+</li>
+<li> <a href="../html/53-caracteres-unicode.html" class="no-ch">5.3 Caracteres UNICODE</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/6-condicionales.html" class="daddy">6. Condicionales</a>
+<ul class="other-section">
+<li> <a href="../html/61-bloques-de-codigo.html" class="no-ch">6.1 Bloques de código</a>
+</li>
+<li> <a href="../html/62-comentarios.html" class="no-ch">6.2 Comentarios</a>
+</li>
+<li> <a href="../html/63-la-sentencia-if.html" class="no-ch">6.3 La sentencia if</a>
+</li>
+<li> <a href="../html/64-operadores-de-comparacion.html" class="no-ch">6.4 Operadores de comparación</a>
+</li>
+<li> <a href="../html/65-sentencias-match-case.html" class="no-ch">6.5 Sentencias match-case</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/7-estructuras-de-repeticion.html" class="daddy">7. Estructuras de repetición</a>
+<ul class="other-section">
+<li> <a href="../html/71-la-sentencia-while.html" class="no-ch">7.1 La sentencia while</a>
+</li>
+<li> <a href="../html/72-la-sentencia-for.html" class="no-ch">7.2 La sentencia for</a>
+</li>
+<li> <a href="../html/73-bucles-anidados.html" class="no-ch">7.3 Bucles anidados</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/8-estructuras-avanzadas.html" class="daddy">8. Estructuras avanzadas</a>
+<ul class="other-section">
+<li> <a href="../html/81-listas.html" class="daddy">8.1 Listas</a>
+<ul class="other-section">
+<li> <a href="../html/811-creando-listas.html" class="no-ch">8.1.1 Creando listas</a>
+</li>
+<li> <a href="../html/812-conversion.html" class="no-ch">8.1.2 Conversión</a>
+</li>
+<li> <a href="../html/813-operaciones-con-listas.html" class="no-ch">8.1.3 Operaciones con listas</a>
+</li>
+<li> <a href="../html/814-copias-en-listas-mutabilidad.html" class="no-ch">8.1.4 Copias en listas (mutabilidad)</a>
+</li>
+<li> <a href="../html/815-veracidad-multiple.html" class="no-ch">8.1.5 Veracidad múltiple</a>
+</li>
+<li> <a href="../html/816-listas-por-comprension.html" class="no-ch">8.1.6 Listas por comprensión</a>
+</li>
+<li> <a href="../html/817-ejecucion-desde-linea-de-comandos.html" class="no-ch">8.1.7 Ejecución desde línea de comandos</a>
+</li>
+<li> <a href="../html/818-funciones-matematicas.html" class="no-ch">8.1.8 Funciones matemáticas</a>
+</li>
+<li> <a href="../html/819-listas-de-listas.html" class="no-ch">8.1.9 Listas de listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/82-tuplas.html" class="daddy">8.2 Tuplas</a>
+<ul class="other-section">
+<li> <a href="../html/821-creando-tuplas.html" class="no-ch">8.2.1 Creando tuplas</a>
+</li>
+<li> <a href="../html/822-modificar-una-tupla.html" class="no-ch">8.2.2 Modificar una tupla</a>
+</li>
+<li> <a href="../html/823-conversion.html" class="no-ch">8.2.3 Conversión</a>
+</li>
+<li> <a href="../html/824-operaciones-con-tuplas.html" class="no-ch">8.2.4 Operaciones con tuplas</a>
+</li>
+<li> <a href="../html/825-tupas-vs-listas.html" class="no-ch">8.2.5 Tupas vs. Listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/83-diccionarios.html" class="daddy">8.3 Diccionarios</a>
+<ul class="other-section">
+<li> <a href="../html/831-creando-diccionarios.html" class="no-ch">8.3.1 Creando diccionarios</a>
+</li>
+<li> <a href="../html/832-conversion.html" class="no-ch">8.3.2 Conversión</a>
+</li>
+<li> <a href="../html/833-operaciones-con-diccionarios.html" class="no-ch">8.3.3 Operaciones con diccionarios</a>
+</li>
+<li> <a href="../html/834-copias-en-diccionarios-mutabilidad.html" class="no-ch">8.3.4 Copias en diccionarios (mutabilidad)</a>
+</li>
+<li> <a href="../html/835-diccionarios-por-comprension.html" class="no-ch">8.3.5 Diccionarios por comprensión</a>
+</li>
+<li> <a href="../html/836-objetos-hashables.html" class="no-ch">8.3.6 Objetos &quot;hashables&quot;</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> <a href="../html/9-modularidad.html" class="daddy">9. Modularidad</a>
+<ul class="other-section">
+<li> <a href="../html/91-funciones.html" class="no-ch">9.1 Funciones</a>
+</li>
+<li> <a href="../html/92-objetos-y-clases.html" class="no-ch">9.2 Objetos y clases</a>
+</li>
+<li> <a href="../html/93-excepciones.html" class="no-ch">9.3 Excepciones</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav><main id="page-mw3p57mh-qo8l0fstz" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">PYTH01</p></div>
+<div class="page-header"><h1 class="page-title">2.4 Editores para Python (IDEs)</h1></div>
+</header><div id="page-content-page-mw3p57mh-qo8l0fstz" class="page-content">
+<article id="block-mw3p57mj-1zmn2qnj7" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">FPD - Free Text</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mj-n1nkqpw4c" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mj-n1nkqpw4c&quot;}">
+<section aria-labelledby="editores-python">
+<h2 id="editores-python">Editores de código y Entornos de Desarrollo Integrado (IDEs)</h2>
+<p>Existen multitud de editores en el mercado que permiten escribir código en <strong>Python</strong>. Algunos de ellos incorporan funcionalidades adicionales, mientras que otros simplemente permiten editar ficheros.</p>
+<p class="destacado" align="justify"><strong>Un <em>Entorno de Desarrollo Integrado</em> (IDE, por sus siglas en inglés) es una aplicación informática que proporciona servicios integrales para el desarrollo de software, incluyendo edición de código, depuración y ejecución de programas.</strong></p>
+<p>Por ejemplo, <strong>Thonny</strong> es un IDE orientado al aprendizaje de Python, aunque existen muchas otras opciones adaptadas a distintos niveles de experiencia y necesidades de desarrollo. A continuación, se muestra un listado de los más utilizados, destacando la característica más distintiva de algunos de ellos.</p>
+<h3>Listado de editores y IDEs utilizados para Python</h3>
+<ul>
+<li><strong>Editores generales o IDEs con soporte para Python:</strong>
+<ul>
+<li>Eclipse + PyDev</li>
+<li>Sublime Text</li>
+<li>Atom</li>
+<li>GNU Emacs</li>
+<li>Vi / Vim</li>
+<li>Visual Studio (+ Python Tools)</li>
+<li>Visual Studio Code (+ Python Tools) - Permite extensiones para Python y Jupyter Notebooks.</li>
+</ul>
+</li>
+<li><strong>Editores o IDEs específicos para Python:</strong>
+<ul>
+<li>PyCharm - Específico para Python, con funcionalidades avanzadas.</li>
+<li>Spyder - Permite escribir código en muchos lenguajes, incluyendo Python.</li>
+<li>Thonny - Muy orientado al aprendizaje.</li>
+</ul>
+</li>
+</ul>
+<p>Cada editor presenta características diferentes, con sus ventajas e inconvenientes. La elección de uno u otro depende de la experiencia del usuario y de las necesidades específicas de cada proyecto. La diversidad de opciones permite adaptar el entorno de desarrollo al estilo de trabajo propio. A continuación, se muestra una clasificación de los IDEs más populares para Python según Stack Overflow en 2025.</p>
+<p style="text-align: center;"><a href="../content/resources/PYTH01_CONT_R15_most_popular_ides.jpg" target="_blank" rel="noopener"><img src="../content/resources/PYTH01_CONT_R15_most_popular_ides.jpg" alt="IDEs más populares para Python en 2025. Fuente: Stack Overflow" title="IDEs más populares Python 2025" width="200" height="157" /></a></p>
+<p style="text-align: center;"><span style="font-size: 10pt;">Elaboración propia. Clic para ampliar.</span></p>
+<p style="text-align: center;"><span style="font-size: 10pt;">Fuente: Stack Overflow.</span></p>
+</section>
+</div>
+</div>
+</article><article id="block-mw3p57mj-gok02ex6o" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/autoevaluacionfpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Now it&#039;s your turn</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mj-rqqs7aodq" class="idevice_node complete" data-idevice-path="../idevices/complete/" data-idevice-type="complete">
+<table class="tabla" summary="Ejercicio de relacionar editores e IDEs de Python con descripciones generales. 
+Título: Ejercicio de relacionar. "><caption>Ejercicio de relacionar: Editores e IDEs de Python</caption>
+<thead>
+<tr>
+<th scope="col">Editor / IDE</th>
+<th scope="col">Relación</th>
+<th scope="col">Tiene la característica de que …</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Visual Studio Code</td>
+<td class="texto_centrado"><u>3</u></td>
+<td>1.- Es un IDE específico para Python, orientado al aprendizaje.</td>
+</tr>
+<tr>
+<td>Thonny</td>
+<td class="texto_centrado"><u>1</u></td>
+<td>2.- Es un IDE específico para Python, con funcionalidades avanzadas.</td>
+</tr>
+<tr>
+<td>Sublime Text</td>
+<td class="texto_centrado"><u>4</u></td>
+<td>3.- Es un editor general que puede configurarse para Python mediante extensiones.</td>
+</tr>
+<tr>
+<td>PyCharm</td>
+<td class="texto_centrado"><u>2</u></td>
+<td>4.- Es un editor general que permite escribir código en muchos lenguajes, incluyendo Python.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</article><article id="block-mw3p57mj-dyjg0s6p0" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/parasabermasfpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">A Step Ahead</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mj-wreu2c8zv" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mj-wreu2c8zv&quot;}">
+<p>En la documentación oficial de Python se incluye una sección dedicada a los <strong>editores e IDEs</strong> más utilizados, con información sobre cómo configurarlos para trabajar con Python.</p>
+<p>Puedes consultarla en el siguiente enlace:</p>
+<p><a href="https://docs.python.org/3/using/editors.html" target="_blank" rel="noopener"> Editors and IDEs — Python 3 documentation </a></p>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/23-entornos-virtuales.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/25-jupyter-notebook.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter" class="siteFooter-empty"><div id="siteFooterContent"></div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mw3p57mi-wjzdox6f2">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<title>9.1 Funciones | PYTH01</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Unidad 1">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../idevices/casestudy/casestudy.js"></script><link rel="stylesheet" href="../idevices/casestudy/casestudy.css">
+<script src="../libs/exe_highlighter/exe_highlighter.js"> </script>
+<link rel="stylesheet" href="../libs/exe_highlighter/exe_highlighter.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mw3p57mi-wjzdox6f2" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Fundamentos de python y estructuras avanzadas</a>
+</li>
+<li> <a href="../html/1-introduccion.html" class="no-ch">1. Introducción</a>
+</li>
+<li> <a href="../html/2-entornos-de-desarrollo.html" class="daddy">2. Entornos de desarrollo</a>
+<ul class="other-section">
+<li> <a href="../html/21-instalacion-del-interprete-de-python.html" class="no-ch">2.1 Instalación del intérprete de Python</a>
+</li>
+<li> <a href="../html/22-gestion-de-paquetes.html" class="no-ch">2.2 Gestión de paquetes</a>
+</li>
+<li> <a href="../html/23-entornos-virtuales.html" class="no-ch">2.3 Entornos virtuales</a>
+</li>
+<li> <a href="../html/24-editores-para-python-ides.html" class="no-ch">2.4 Editores para Python (IDEs)</a>
+</li>
+<li> <a href="../html/25-jupyter-notebook.html" class="no-ch">2.5 Jupyter Notebook</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/3-datos.html" class="daddy">3. Datos</a>
+<ul class="other-section">
+<li> <a href="../html/31-tipos-de-datos.html" class="no-ch">3.1 Tipos de datos</a>
+</li>
+<li> <a href="../html/32-variables.html" class="no-ch">3.2 Variables</a>
+</li>
+<li> <a href="../html/33-asignacion.html" class="no-ch">3.3 Asignación</a>
+</li>
+<li> <a href="../html/34-mutabilidad.html" class="no-ch">3.4 Mutabilidad</a>
+</li>
+<li> <a href="../html/35-funciones-built-in.html" class="no-ch">3.5 Funciones built-in</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/4-numeros.html" class="daddy">4. Números</a>
+<ul class="other-section">
+<li> <a href="../html/41-booleanos.html" class="no-ch">4.1 Booleanos</a>
+</li>
+<li> <a href="../html/42-enteros.html" class="no-ch">4.2 Enteros</a>
+</li>
+<li> <a href="../html/43-flotantes.html" class="no-ch">4.3 Flotantes</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/5-cadenas-de-texto.html" class="daddy">5. Cadenas de texto</a>
+<ul class="other-section">
+<li> <a href="../html/51-entrada-y-salida-por-teclado.html" class="no-ch">5.1 Entrada y salida por teclado</a>
+</li>
+<li> <a href="../html/52-operaciones-principales.html" class="no-ch">5.2 Operaciones principales</a>
+</li>
+<li> <a href="../html/53-caracteres-unicode.html" class="no-ch">5.3 Caracteres UNICODE</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/6-condicionales.html" class="daddy">6. Condicionales</a>
+<ul class="other-section">
+<li> <a href="../html/61-bloques-de-codigo.html" class="no-ch">6.1 Bloques de código</a>
+</li>
+<li> <a href="../html/62-comentarios.html" class="no-ch">6.2 Comentarios</a>
+</li>
+<li> <a href="../html/63-la-sentencia-if.html" class="no-ch">6.3 La sentencia if</a>
+</li>
+<li> <a href="../html/64-operadores-de-comparacion.html" class="no-ch">6.4 Operadores de comparación</a>
+</li>
+<li> <a href="../html/65-sentencias-match-case.html" class="no-ch">6.5 Sentencias match-case</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/7-estructuras-de-repeticion.html" class="daddy">7. Estructuras de repetición</a>
+<ul class="other-section">
+<li> <a href="../html/71-la-sentencia-while.html" class="no-ch">7.1 La sentencia while</a>
+</li>
+<li> <a href="../html/72-la-sentencia-for.html" class="no-ch">7.2 La sentencia for</a>
+</li>
+<li> <a href="../html/73-bucles-anidados.html" class="no-ch">7.3 Bucles anidados</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/8-estructuras-avanzadas.html" class="daddy">8. Estructuras avanzadas</a>
+<ul class="other-section">
+<li> <a href="../html/81-listas.html" class="daddy">8.1 Listas</a>
+<ul class="other-section">
+<li> <a href="../html/811-creando-listas.html" class="no-ch">8.1.1 Creando listas</a>
+</li>
+<li> <a href="../html/812-conversion.html" class="no-ch">8.1.2 Conversión</a>
+</li>
+<li> <a href="../html/813-operaciones-con-listas.html" class="no-ch">8.1.3 Operaciones con listas</a>
+</li>
+<li> <a href="../html/814-copias-en-listas-mutabilidad.html" class="no-ch">8.1.4 Copias en listas (mutabilidad)</a>
+</li>
+<li> <a href="../html/815-veracidad-multiple.html" class="no-ch">8.1.5 Veracidad múltiple</a>
+</li>
+<li> <a href="../html/816-listas-por-comprension.html" class="no-ch">8.1.6 Listas por comprensión</a>
+</li>
+<li> <a href="../html/817-ejecucion-desde-linea-de-comandos.html" class="no-ch">8.1.7 Ejecución desde línea de comandos</a>
+</li>
+<li> <a href="../html/818-funciones-matematicas.html" class="no-ch">8.1.8 Funciones matemáticas</a>
+</li>
+<li> <a href="../html/819-listas-de-listas.html" class="no-ch">8.1.9 Listas de listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/82-tuplas.html" class="daddy">8.2 Tuplas</a>
+<ul class="other-section">
+<li> <a href="../html/821-creando-tuplas.html" class="no-ch">8.2.1 Creando tuplas</a>
+</li>
+<li> <a href="../html/822-modificar-una-tupla.html" class="no-ch">8.2.2 Modificar una tupla</a>
+</li>
+<li> <a href="../html/823-conversion.html" class="no-ch">8.2.3 Conversión</a>
+</li>
+<li> <a href="../html/824-operaciones-con-tuplas.html" class="no-ch">8.2.4 Operaciones con tuplas</a>
+</li>
+<li> <a href="../html/825-tupas-vs-listas.html" class="no-ch">8.2.5 Tupas vs. Listas</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/83-diccionarios.html" class="daddy">8.3 Diccionarios</a>
+<ul class="other-section">
+<li> <a href="../html/831-creando-diccionarios.html" class="no-ch">8.3.1 Creando diccionarios</a>
+</li>
+<li> <a href="../html/832-conversion.html" class="no-ch">8.3.2 Conversión</a>
+</li>
+<li> <a href="../html/833-operaciones-con-diccionarios.html" class="no-ch">8.3.3 Operaciones con diccionarios</a>
+</li>
+<li> <a href="../html/834-copias-en-diccionarios-mutabilidad.html" class="no-ch">8.3.4 Copias en diccionarios (mutabilidad)</a>
+</li>
+<li> <a href="../html/835-diccionarios-por-comprension.html" class="no-ch">8.3.5 Diccionarios por comprensión</a>
+</li>
+<li> <a href="../html/836-objetos-hashables.html" class="no-ch">8.3.6 Objetos &quot;hashables&quot;</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/9-modularidad.html" class="daddy">9. Modularidad</a>
+<ul class="other-section">
+<li class="active"> <a href="../html/91-funciones.html" class="active no-ch">9.1 Funciones</a>
+</li>
+<li> <a href="../html/92-objetos-y-clases.html" class="no-ch">9.2 Objetos y clases</a>
+</li>
+<li> <a href="../html/93-excepciones.html" class="no-ch">9.3 Excepciones</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav><main id="page-mw3p57mi-wjzdox6f2" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">PYTH01</p></div>
+<div class="page-header"><h1 class="page-title">9.1 Funciones</h1></div>
+</header><div id="page-content-page-mw3p57mi-wjzdox6f2" class="page-content">
+<article id="block-mw3p57mo-32j2ycf94" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">FPD - Free Text</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mo-e3spd253c" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mo-e3spd253c&quot;}">
+<p>En Python, las <strong>funciones</strong> permiten encapsular bloques de código que realizan una tarea específica. Esto facilita la <u>modularidad</u> del programa, la reutilización del código y su mantenimiento.</p>
+<p style="text-align: center;"><a href="../content/resources/PYTH01_CONT_R59_funciones.jpg" target="_blank" rel="noopener"><img src="../content/resources/PYTH01_CONT_R59_funciones.jpg" alt="Representación conceptual de una función en cualquier lenguaje de programación." title="Representación conceptual de una función" width="300" height="187" /></a></p>
+<p style="text-align: center;"><span style="font-size: 10pt;">Elaboración propia. Clic para ampliar.</span></p>
+<div class="destacado">
+<p>Definir una función se realiza mediante la palabra clave <code>def</code>, seguida del nombre de la función y paréntesis que pueden incluir <u>parámetros</u>. La sintaxis completa es:</p>
+<pre><code>def nombre_funcion(parámetro1, parámetro2, ...):
+    # cuerpo de la función
+    instrucciones</code></pre>
+</div>
+<p>Por ejemplo, una función sencilla que saluda se define así:</p>
+<div class="highlighted-code language-python">
+<pre><code>def saludar():
+    print(&quot;¡Hola a todos!&quot;)</code></pre>
+</div>
+<p>La función se llama utilizando su nombre seguido de paréntesis:</p>
+<div class="highlighted-code language-python">
+<pre><code>saludar()
+# Salida: ¡Hola a todos!</code></pre>
+</div>
+<p>Se pueden definir funciones con parámetros para recibir información y usarla dentro del bloque de código:</p>
+<div class="highlighted-code language-python">
+<pre><code>def saludar_persona(nombre):
+    print(f&quot;¡Hola, {nombre}!&quot;)
+
+def sumar(a, b):
+    return a + b</code></pre>
+</div>
+<p>Se llaman pasando los <u>argumentos</u> correspondientes, que son los valores reales que se asignan a los parámetros:</p>
+<div class="highlighted-code language-python">
+<pre><code>saludar_persona(&quot;Ana&quot;)
+# Salida: ¡Hola, Ana!
+
+resultado = sumar(5, 7)
+print(resultado)
+# Salida: 12</code></pre>
+</div>
+<p>En resumen, los <strong>parámetros</strong> son las variables definidas en la función para recibir datos, mientras que los <strong>argumentos</strong> son los valores concretos que se pasan al llamar a la función.</p>
+<h3>Veracidad</h3>
+<p>Las funciones pueden devolver valores utilizando la palabra clave <code>return</code>. Si no se devuelve nada explícitamente, Python retorna <code>None</code>.</p>
+<div class="highlighted-code language-python">
+<pre><code>def sumar(a, b):
+    return a + b
+
+resultado = sumar(3, 5)
+print(resultado)
+# Salida: 8</code></pre>
+</div>
+<h3>Parámetros y argumentos</h3>
+<p>Los <strong>parámetros</strong> son variables definidas en la declaración de la función, mientras que los <strong>argumentos</strong> son los valores que se pasan al llamar la función.</p>
+<h4>Argumentos nominales</h4>
+<p>Se pueden pasar los argumentos indicando explícitamente el nombre del parámetro:</p>
+<div class="highlighted-code language-python">
+<pre><code>def presentar(nombre, edad):
+    print(f&quot;{nombre} tiene {edad} años&quot;)
+
+presentar(nombre=&quot;Ana&quot;, edad=25)
+# Salida: Ana tiene 25 años</code></pre>
+</div>
+<h4>Argumentos posicionales y nominales</h4>
+<p>Es posible combinar ambos tipos de argumentos, siempre indicando primero los posicionales:</p>
+<div class="highlighted-code language-python">
+<pre><code>presentar(&quot;Luis&quot;, edad=30)
+# Salida: Luis tiene 30 años</code></pre>
+</div>
+<h4>Parámetros por defecto</h4>
+<p>Se pueden definir valores por defecto para los parámetros, de modo que no sea obligatorio proporcionarlos al llamar la función:</p>
+<div class="highlighted-code language-python">
+<pre><code>def presentar(nombre, edad=18):
+    print(f&quot;{nombre} tiene {edad} años&quot;)
+
+presentar(&quot;Marta&quot;)
+# Salida: Marta tiene 18 años</code></pre>
+</div>
+<h4>Modificando parámetros mutables</h4>
+<p>Si un parámetro es un objeto mutable, como una lista o un diccionario, las modificaciones realizadas dentro de la función afectan al objeto original:</p>
+<div class="highlighted-code language-python">
+<pre><code>def agregar_item(lista, item):
+    lista.append(item)
+
+mi_lista = [1, 2, 3]
+agregar_item(mi_lista, 4)
+print(mi_lista)
+# Salida: [1, 2, 3, 4]</code></pre>
+</div>
+<p>Para evitar modificar el objeto original, se puede trabajar con una <strong>copia</strong> del mismo dentro de la función.</p>
+</div>
+</div>
+</article><article id="block-mw3p57mo-54xnwoff9" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">FPD - Free Text</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mo-a0cvfez9v" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mo-a0cvfez9v&quot;}">
+<h2>Avanzando con funciones en Python</h2>
+<h3>Empaquetar y desempaquetar argumentos</h3>
+<p>Python permite recibir un número variable de argumentos mediante el empaquetado con <code>*</code> para tuplas y <code>**</code> para diccionarios. Esto facilita trabajar con funciones flexibles que no requieren un número fijo de parámetros.</p>
+<div class="highlighted-code language-python">
+<pre><code>def mostrar_numeros(*numeros):
+    print(numeros)
+
+mostrar_numeros(1, 2, 3, 4)
+# Salida: (1, 2, 3, 4)</code></pre>
+</div>
+<p>De manera análoga, los argumentos pueden desempaquetarse al llamar a la función:</p>
+<div class="highlighted-code language-python">
+<pre><code>nums = (10, 20, 30)
+mostrar_numeros(*nums)
+# Salida: (10, 20, 30)</code></pre>
+</div>
+<h3>Empaquetar y desempaquetar argumentos nominales</h3>
+<p>Los argumentos nominales se pueden empaquetar en un diccionario usando <code>**kwargs</code> y desempaquetar al llamar a la función:</p>
+<div class="highlighted-code language-python">
+<pre><code>def mostrar_info(**info):
+    for clave, valor in info.items():
+        print(f&quot;{clave}: {valor}&quot;)
+
+mostrar_info(nombre=&quot;Ana&quot;, edad=25)
+# Salida:
+# nombre: Ana
+# edad: 25
+
+data = {&quot;nombre&quot;: &quot;Luis&quot;, &quot;edad&quot;: 30}
+mostrar_info(**data)</code></pre>
+</div>
+<h3>Forzando modo de paso de argumentos</h3>
+<p>Python permite definir parámetros que sólo pueden recibir argumentos por posición o por nombre. Esto ayuda a que las funciones sean más claras y eviten errores de llamada.</p>
+<h4>Argumentos sólo nominales</h4>
+<p>Se colocan después de un <code>*</code> en la definición de la función:</p>
+<div class="highlighted-code language-python">
+<pre><code>def registrar_usuario(*, nombre, edad):
+    print(f&quot;{nombre} tiene {edad} años&quot;)
+
+registrar_usuario(nombre=&quot;Marta&quot;, edad=28)
+# Salida: Marta tiene 28 años
+# registrar_usuario(&quot;Marta&quot;, 28)  -&gt; Error</code></pre>
+</div>
+<h4>Fijando argumentos posicionales y nominales</h4>
+<p>Se pueden obligar algunos parámetros a ser posicionales, mientras que otros sólo se pasan por nombre:</p>
+<div class="highlighted-code language-python">
+<pre><code>def ejemplo(a, b, *, c, d):
+    print(a, b, c, d)
+
+ejemplo(1, 2, c=3, d=4)
+# Salida: 1 2 3 4</code></pre>
+</div>
+<h3>Argumentos mutables e inmutables</h3>
+<p>Cuando se pasan argumentos mutables (listas, diccionarios), las funciones pueden modificar el objeto original. Los argumentos inmutables (números, cadenas, tuplas) no se modifican dentro de la función.</p>
+<div class="highlighted-code language-python">
+<pre><code>def modificar_lista(lista):
+    lista.append(99)
+
+mi_lista = [1, 2]
+modificar_lista(mi_lista)
+print(mi_lista)
+# Salida: [1, 2, 99]
+
+def sumar_valor(x):
+    x += 5
+    return x
+
+num = 10
+nuevo = sumar_valor(num)
+print(num, nuevo)
+# Salida: 10 15</code></pre>
+</div>
+<h3>Funciones como parámetros</h3>
+<p>En Python, las funciones son objetos de primera clase, por lo que pueden pasarse como argumentos a otras funciones:</p>
+<div class="highlighted-code language-python">
+<pre><code>def aplicar(func, valor):
+    return func(valor)
+
+def cuadrado(x):
+    return x ** 2
+
+resultado = aplicar(cuadrado, 5)
+print(resultado)
+# Salida: 25</code></pre>
+</div>
+<p>Esto permite crear funciones más generales y reutilizables, combinando comportamientos mediante parámetros de tipo función.</p>
+</div>
+</div>
+</article><article id="block-mw3p57mo-qiuj93v4m" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">FPD - Free Text</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mo-n2akt9fvp" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mo-n2akt9fvp&quot;}">
+<h1>Documentación</h1>
+<p>En Python, la <strong>documentación</strong> es fundamental para que el código sea comprensible, mantenible y reutilizable. Documentar correctamente funciones, clases y módulos permite a otros desarrolladores, o al propio autor, entender rápidamente qué hace cada parte del programa.</p>
+<div class="destacado">
+<p>La forma estándar de documentar una función o clase es mediante <strong>docstrings</strong>, que son cadenas de texto multilínea incluidas justo después de la definición.</p>
+</div>
+<div class="highlighted-code language-python">
+<pre><code>def saludar(nombre):
+    &quot;&quot;&quot;
+    Saluda a la persona cuyo nombre se recibe como parámetro.
+    
+    Parámetros:
+    nombre (str): El nombre de la persona a saludar.
+    
+    Retorna:
+    None
+    &quot;&quot;&quot;
+    print(f&quot;¡Hola, {nombre}!&quot;)</code></pre>
+</div>
+<p>El docstring puede incluir información sobre los <u>parámetros</u> de la función, los valores de retorno y cualquier detalle adicional que sea útil para entender su funcionamiento. Este tipo de documentación puede consultarse en tiempo de ejecución mediante la función <code>help()</code>:</p>
+<div class="highlighted-code language-python">
+<pre><code>help(saludar)</code></pre>
+</div>
+<p>Para proyectos más grandes, se puede utilizar <strong>Sphinx</strong>, una herramienta que genera documentación automática en HTML, PDF u otros formatos a partir de los docstrings y comentarios en el código.</p>
+<div class="destacado">
+<p>Python también permite utilizar <strong>anotaciones de tipos</strong> para indicar el tipo de los parámetros y del valor de retorno, mejorando la legibilidad y ayudando a herramientas de análisis estático:</p>
+</div>
+<div class="highlighted-code language-python">
+<pre><code>def sumar(a: int, b: int) -&gt; int:
+    &quot;&quot;&quot;
+    Suma dos números enteros y devuelve el resultado.
+    &quot;&quot;&quot;
+    return a + b</code></pre>
+</div>
+<p>Los docstrings pueden documentar también <u>valores por defecto</u> de los parámetros:</p>
+<div class="highlighted-code language-python">
+<pre><code>def saludar_persona(nombre: str = &quot;Invitado&quot;):
+    &quot;&quot;&quot;
+    Saluda a una persona. Si no se proporciona nombre, se utiliza &#039;Invitado&#039;.
+    &quot;&quot;&quot;
+    print(f&quot;¡Hola, {nombre}!&quot;)</code></pre>
+</div>
+<p>De este modo, los parámetros por defecto se explican en la documentación, lo que facilita su comprensión y evita errores al llamar a la función.</p>
+</div>
+</div>
+</article><article id="block-mw3p57mo-j6vxj0q4o" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/parasabermasfpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">A Step Ahead</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mo-579bu9vmf" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mw3p57mo-579bu9vmf&quot;}">
+<p>Para ampliar conocimientos sobre funciones en Python, documentación y buenas prácticas, se recomienda consultar los siguientes recursos oficiales y complementarios:</p>
+<ul>
+<li><a href="https://docs.python.org/3/tutorial/controlflow.html#defining-functions" target="_blank" rel="noopener">Tutorial de Python: Definición de funciones</a> – Explicación oficial sobre cómo definir y usar funciones.</li>
+<li><a href="https://docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions" target="_blank" rel="noopener">Documentación oficial sobre parámetros y valores por defecto</a>.</li>
+<li><a href="https://www.python.org/dev/peps/pep-0257/" target="_blank" rel="noopener">PEP 257 – Docstring Conventions</a> – Guía de estilo para la documentación de funciones y clases en Python.</li>
+<li><a href="https://www.sphinx-doc.org/en/master/" target="_blank" rel="noopener">Sphinx</a> – Herramienta para generar documentación automática a partir de docstrings.</li>
+<li><a href="https://docs.python.org/3/library/typing.html" target="_blank" rel="noopener">Módulo typing</a> – Información sobre anotaciones de tipos en Python.</li>
+</ul>
+<p>Consultar estos recursos permite profundizar en la correcta definición de funciones, documentación de parámetros, valores por defecto, anotaciones de tipos y la generación de documentación profesional con Sphinx.</p>
+</div>
+</div>
+</article><article id="block-mw3p57mo-g2rrnb4kr" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/ejercicioresueltofpd.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Caso practico</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mw3p57mo-ygtblyrci" class="idevice_node casestudy" data-idevice-path="../idevices/casestudy/" data-idevice-type="casestudy" data-idevice-component-type="json" data-idevice-json-data="{&quot;history&quot;:&quot;&lt;p&gt;Se desea escribir un programa en Python que muestre un menú con operaciones básicas y permita al usuario elegir una opción. &lt;strong&gt;Aún no se controlarán errores o excepciones&lt;/strong&gt;, ya que no se han visto en este punto del temario. Se recomienda estructurar el código utilizando funciones documentadas para cada operación y para el control del menú.&lt;/p&gt;&quot;,&quot;activities&quot;:[{&quot;activity&quot;:&quot;&lt;p&gt;El programa debe realizar lo siguiente:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Mostrar un menú con 5 opciones:\n&lt;ol&gt;\n&lt;li&gt;Sumar dos números.&lt;/li&gt;\n&lt;li&gt;Restar dos números.&lt;/li&gt;\n&lt;li&gt;Multiplicar dos números.&lt;/li&gt;\n&lt;li&gt;Dividir dos números.&lt;/li&gt;\n&lt;li&gt;Salir.&lt;/li&gt;\n&lt;/ol&gt;\n&lt;/li&gt;\n&lt;li&gt;Pedir al usuario la opción deseada (dato carácter), validando que sea mayor o igual que '1' y menor o igual que '5'.&lt;/li&gt;\n&lt;li&gt;Ejecutar la opción seleccionada, solicitando siempre dos números para operar.&lt;/li&gt;\n&lt;li&gt;Repetir los pasos anteriores hasta que se seleccione la opción 5 (Salir).&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;feedback&quot;:&quot;&lt;div class=\&quot;highlighted-code language-python\&quot;&gt;\n&lt;pre&gt;&lt;code&gt;# Definición de funciones para cada operación con documentación\ndef sumar(a, b):\n    \&quot;\&quot;\&quot;\n    Suma dos números.\n\n    Parámetros:\n    a (float): Primer número.\n    b (float): Segundo número.\n\n    Retorna:\n    float: Resultado de la suma.\n    \&quot;\&quot;\&quot;\n    return a + b\n\ndef restar(a, b):\n    \&quot;\&quot;\&quot;\n    Resta dos números.\n\n    Parámetros:\n    a (float): Primer número.\n    b (float): Segundo número.\n\n    Retorna:\n    float: Resultado de la resta.\n    \&quot;\&quot;\&quot;\n    return a - b\n\ndef multiplicar(a, b):\n    \&quot;\&quot;\&quot;\n    Multiplica dos números.\n\n    Parámetros:\n    a (float): Primer número.\n    b (float): Segundo número.\n\n    Retorna:\n    float: Resultado de la multiplicación.\n    \&quot;\&quot;\&quot;\n    return a * b\n\ndef dividir(a, b):\n    \&quot;\&quot;\&quot;\n    Divide dos números.\n\n    Parámetros:\n    a (float): Numerador.\n    b (float): Denominador.\n\n    Retorna:\n    float: Resultado de la división.\n    \&quot;\&quot;\&quot;\n    return a / b\n\n# Función para mostrar el menú con documentación\ndef mostrar_menu():\n    \&quot;\&quot;\&quot;\n    Imprime el menú de operaciones disponibles.\n    \&quot;\&quot;\&quot;\n    print(\&quot;\nMenú de operaciones:\&quot;)\n    print(\&quot;1. Sumar dos números\&quot;)\n    print(\&quot;2. Restar dos números\&quot;)\n    print(\&quot;3. Multiplicar dos números\&quot;)\n    print(\&quot;4. Dividir dos números\&quot;)\n    print(\&quot;5. Salir\&quot;)\n\n# Función principal del programa con documentación\ndef main():\n    \&quot;\&quot;\&quot;\n    Controla la ejecución de la calculadora mediante un menú.\n\n    Permite al usuario seleccionar una operación, ingresar dos números,\n    y muestra el resultado. El programa se repite hasta que se selecciona\n    la opción 'Salir'.\n    \&quot;\&quot;\&quot;\n    opcion = '0'\n    while opcion != '5':\n        mostrar_menu()\n        opcion = input(\&quot;Seleccione una opción (1-5): \&quot;)\n\n        if opcion &lt; '1' or opcion &gt; '5':\n            print(\&quot;Opción no válida. Intente nuevamente.\&quot;)\n            continue\n\n        if opcion == '5':\n            print(\&quot;Saliendo del programa...\&quot;)\n            break\n\n        # Pedir los dos números al usuario\n        num1 = float(input(\&quot;Ingrese el primer número: \&quot;))\n        num2 = float(input(\&quot;Ingrese el segundo número: \&quot;))\n\n        if opcion == '1':\n            resultado = sumar(num1, num2)\n        elif opcion == '2':\n            resultado = restar(num1, num2)\n        elif opcion == '3':\n            resultado = multiplicar(num1, num2)\n        elif opcion == '4':\n            resultado = dividir(num1, num2)\n\n        print(f\&quot;El resultado es: {resultado}\&quot;)\n\n# Ejecución del programa\nmain()&lt;/code&gt;&lt;/pre&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;strong&gt;Explicación:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Cada operación matemática tiene su propia función documentada con un &lt;code&gt;docstring&lt;/code&gt; que describe los parámetros y el valor de retorno.&lt;/li&gt;\n&lt;li&gt;La función &lt;code&gt;mostrar_menu()&lt;/code&gt; también contiene documentación breve.&lt;/li&gt;\n&lt;li&gt;La función &lt;code&gt;main()&lt;/code&gt; organiza el flujo del programa, con docstring que explica su propósito y funcionamiento.&lt;/li&gt;\n&lt;li&gt;Se solicita al usuario la opción del menú y los dos números para la operación seleccionada.&lt;/li&gt;\n&lt;li&gt;No se controlan excepciones; se asume que el usuario introduce datos válidos y que no se realiza división entre cero.&lt;/li&gt;\n&lt;li&gt;Se imprime el resultado de cada operación.&lt;/li&gt;\n&lt;/ul&gt;&quot;,&quot;buttonCaption&quot;:&quot;Mostrar retroalimentación&quot;}],&quot;textInfoDurationInput&quot;:&quot;&quot;,&quot;textInfoDurationTextInput&quot;:&quot;&quot;,&quot;textInfoParticipantsInput&quot;:&quot;&quot;,&quot;textInfoParticipantsTextInput&quot;:&quot;&quot;}" data-idevice-template="casestudy.html">
+<p>Se desea escribir un programa en Python que muestre un menú con operaciones básicas y permita al usuario elegir una opción. <strong>Aún no se controlarán errores o excepciones</strong>, ya que no se han visto en este punto del temario. Se recomienda estructurar el código utilizando funciones documentadas para cada operación y para el control del menú.</p>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/9-modularidad.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/92-objetos-y-clases.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter" class="siteFooter-empty"><div id="siteFooterContent"></div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>
