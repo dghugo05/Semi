@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ode SYSTEM "content.dtd">
+<ode xmlns="http://www.intef.es/xsd/ode" version="2.0">
+<userPreferences>
+  <userPreference>
+    <key>theme</key>
+    <value>base</value>
+  </userPreference>
+</userPreferences>
+<odeResources>
+  <odeResource>
+    <key>odeId</key>
+    <value>20261105183427I6X33Z</value>
+  </odeResource>
+  <odeResource>
+    <key>odeVersionId</key>
+    <value>20261105183427MSFGT9</value>
+  </odeResource>
+  <odeResource>
+    <key>exe_version</key>
+    <value>4.0.6</value>
+  </odeResource>
+</odeResources>
+<odeProperties>
+  <odeProperty>
+    <key>pp_title</key>
+    <value>PYTH01</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_description</key>
+    <value>Unidad 1</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_lang</key>
+    <value>es</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_theme</key>
+    <value>base</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_exelearning_version</key>
+    <value>v4.0.6</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_modified</key>
+    <value>1793900067720</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addExeLink</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addPagination</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addSearchBox</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addAccessibilityToolbar</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addMathJax</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>exportSource</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_globalFont</key>
+    <value>default</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_passScore</key>
+    <value>5</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_passScoreEveryActivity</key>
+    <value>false</value>
+  </odeProperty>
+</odeProperties>
+<odeNavStructures>
+<odeNavStructure>
+  <odePageId>page-mw3ts73e-ykqsqmeks</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Tarea online</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Tarea online</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mw3ts73e-ykqsqmeks</odePageId>
+      <odeBlockId>block-mw3ts73e-c4dsnby5u</odeBlockId>
+      <blockName>FPD - Highlighted</blockName>
+      <iconName>destacadofpd</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mw3ts73e-ykqsqmeks</odePageId>
+          <odeBlockId>block-mw3ts73e-c4dsnby5u</odeBlockId>
+          <odeIdeviceId>idevice-mw3ts73e-g65lrtu79</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<p><strong>Título de la tarea:</strong> Interfaz visual de usuario sencillo: Contador.</p>
+<p><strong>Unidad:</strong> DI01. Confección de interfaces de usuario.</p>
+<p><strong>Ciclo formativo y módulo:</strong> Desarrollo de Aplicaciones Multiplataforma, Desarrollo de interfaces.</p>
+<p><strong>Curso académico:</strong> 2026-2027</p>]]></htmlView>
+          <jsonProperties><![CDATA[{"textTextarea":"<p><strong>Título de la tarea:</strong> Interfaz visual de usuario sencillo: Contador.</p>\n<p><strong>Unidad:</strong> DI01. Confección de interfaces de usuario.</p>\n<p><strong>Ciclo formativo y módulo:</strong> Desarrollo de Aplicaciones Multiplataforma, Desarrollo de interfaces.</p>\n<p><strong>Curso académico:</strong> 2026-2027</p>"}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mw3ts73e-ykqsqmeks</odePageId>
+      <odeBlockId>block-mw3ts73f-7tjdaasel</odeBlockId>
+      <blockName>FPD - Free Text</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mw3ts73e-ykqsqmeks</odePageId>
+          <odeBlockId>block-mw3ts73f-7tjdaasel</odeBlockId>
+          <odeIdeviceId>idevice-mw3ts73f-3vr8v29if</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<h5><strong title="Resultados de Aprendizaje 1 y 2.">Resultados de aprendizaje</strong></h5>
+<ul class="lista_verificacion">
+<li><abbr title="Resultado de Aprendizaje 1.">RA1</abbr>. Genera interfaces gráficos de usuario mediante editores visuales utilizando las funcionalidades del editor y adaptando el código generado.</li>
+</ul>]]></htmlView>
+          <jsonProperties><![CDATA[{"textTextarea":"<h5><strong title=\"Resultados de Aprendizaje 1 y 2.\">Resultados de aprendizaje</strong></h5>\n<ul class=\"lista_verificacion\">\n<li><abbr title=\"Resultado de Aprendizaje 1.\">RA1</abbr>. Genera interfaces gráficos de usuario mediante editores visuales utilizando las funcionalidades del editor y adaptando el código generado.</li>\n</ul>"}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mw3ts73e-43qarurvv</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>1. Descripción de la tarea</pageName>
+  <odeNavStructureOrder>1</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>1. Descripción de la tarea</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mw3ts73e-43qarurvv</odePageId>
+      <odeBlockId>block-mw3ts73f-5i4twqp0z</odeBlockId>
+      <blockName>Situation</blockName>
+      <iconName>casopracticofpd</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mw3ts73e-43qarurvv</odePageId>
+          <odeBlockId>block-mw3ts73f-5i4twqp0z</odeBlockId>
+          <odeIdeviceId>idevice-mw3ts73f-ev720upep</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<p style="text-align: left;"><strong>Marta</strong> continúa con su aprendizaje y formación en NetBeans, trabajando dentro de su equipo en la empresa para automatizar tareas sencillas y practicar con estructuras de datos avanzadas.</p>
+<p>Como parte de su entrenamiento, le propone a su equipo un reto sencillo: implementar un JFrame con un contador.</p>
+<p style="text-align: left;">El objetivo de este reto es afianzar los conocimientos adquiridos sobre el manejo de clases y componentes de Java Swing y Java AWT.</p>]]></htmlView>
+          <jsonProperties><![CDATA[{"textTextarea":"<p style=\"text-align: left;\"><strong>Marta</strong> continúa con su aprendizaje y formación en NetBeans, trabajando dentro de su equipo en la empresa para automatizar tareas sencillas y practicar con estructuras de datos avanzadas.</p>\n<p>Como parte de su entrenamiento, le propone a su equipo un reto sencillo: implementar un JFrame con un contador.</p>\n<p style=\"text-align: left;\">El objetivo de este reto es afianzar los conocimientos adquiridos sobre el manejo de clases y componentes de Java Swing y Java AWT.</p>"}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mw3ts73e-43qarurvv</odePageId>
+      <odeBlockId>block-mw3ts73f-pspptwhj5</odeBlockId>
+      <blockName>FPD - Free Text</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mw3ts73e-43qarurvv</odePageId>
+          <odeBlockId>block-mw3ts73f-pspptwhj5</odeBlockId>
+          <odeIdeviceId>idevice-mw3ts73f-8oej8w6oi</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<h4 class="resaltado_inline" style="text-align: center;">¿Qué te pedimos que hagas?</h4>
+<p style="text-align: center;"><span style="font-size: large;"><strong><span style="color: #008000;">ENUNCIADO DE LA TAREA</span> <br /></strong></span></p>
+<p style="margin-bottom: 0cm; text-align: left;">Ya se debe tener instalado NetBeans y las librerias AWT y Swing, para poder crear y ejecutar programas.</p>
+<p style="margin-bottom: 0cm; text-align: left;">Se debe crear un programa en Java con interfaz gráfico que implemente un contador.</p>
+<p style="margin-bottom: 0cm; text-align: left;">Cada parte del código deberá estar comentada adecuadamente y se valorará la presentación clara de la información mostrada al usuario, así como la corrección ortográfica y gramatical de los mensajes.</p>
+<h3 style="text-align: left;">1.- Contador</h3>
+<p>Cada vez que se haga click en el botón "Contar", el valor del contador aumentará en 1.</p>
+<p>El programa debe tener 3 componentes y se debe usar Flow Layout:</p>
+<p>    1. java.awt.Label "Counter";<br />    2. non-editable java.awt.TextField para mostrar el valor del contador; <br />    3. java.awt.Button "Count".</p>
+<p><img src="{{context_path}}/content/resources/imagen.png" width="720" height="292" alt="Ejemplo de contador" /></p>]]></htmlView>
+          <jsonProperties><![CDATA[{"textTextarea":"<h4 class=\"resaltado_inline\" style=\"text-align: center;\">¿Qué te pedimos que hagas?</h4>\n<p style=\"text-align: center;\"><span style=\"font-size: large;\"><strong><span style=\"color: #008000;\">ENUNCIADO DE LA TAREA</span> <br /></strong></span></p>\n<p style=\"margin-bottom: 0cm; text-align: left;\">Ya se debe tener instalado NetBeans y las librerias AWT y Swing, para poder crear y ejecutar programas.</p>\n<p style=\"margin-bottom: 0cm; text-align: left;\">Se debe crear un programa en Java con interfaz gráfico que implemente un contador.</p>\n<p style=\"margin-bottom: 0cm; text-align: left;\">Cada parte del código deberá estar comentada adecuadamente y se valorará la presentación clara de la información mostrada al usuario, así como la corrección ortográfica y gramatical de los mensajes.</p>\n<h3 style=\"text-align: left;\">1.- Contador</h3>\n<p>Cada vez que se haga click en el botón \"Contar\", el valor del contador aumentará en 1.</p>\n<p>El programa debe tener 3 componentes y se debe usar Flow Layout:</p>\n<p>    1. java.awt.Label \"Counter\";<br />    2. non-editable java.awt.TextField para mostrar el valor del contador; <br />    3. java.awt.Button \"Count\".</p>\n<p><img src=\"{{context_path}}/content/resources/imagen.png\" width=\"720\" height=\"292\" alt=\"Ejemplo de contador\" /></p>"}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mw3ts73e-gk2f8hjuq</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>2. Información de interés</pageName>
+  <odeNavStructureOrder>2</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>2. Información de interés</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mw3ts73e-gk2f8hjuq</odePageId>
+      <odeBlockId>block-mw3ts73f-ei4df463p</odeBlockId>
+      <blockName>FPD - Free Text</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mw3ts73e-gk2f8hjuq</odePageId>
+          <odeBlockId>block-mw3ts73f-ei4df463p</odeBlockId>
+          <odeIdeviceId>idevice-mw3ts73f-682w6tvh3</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<h4 class="resaltado_inline" style="text-align: center;">Recursos necesarios y recomendaciones</h4>
+<p><strong>RECURSOS NECESARIOS</strong>:</p>
+<ul class="lista_verificacion">
+<li>Ordenador personal con sistema operativo Windows o GNU/Linux.</li>
+<li>Java JDK25 o superior instalado en el ordenador.</li>
+<li>IDE como NetBeans, VS Code o cualquier otro entorno para desarrollo en Java.</li>
+<li>Los apuntes teóricos correspondientes a la unidad de trabajo DEINTH01.</li>
+</ul>
+<p><strong>RECOMENDACIONES</strong>:</p>
+<p style="text-align: left;">Es conveniente que previamente hayas repasado todos los contenidos de la unidad (y los ejemplos que contienen) y hayas practicado con algunos ejercicios sencillos, de forma que tengas confianza con las clase y los contenedores.</p>
+<p style="text-align: left;"></p>]]></htmlView>
+          <jsonProperties><![CDATA[{"textTextarea":"<h4 class=\"resaltado_inline\" style=\"text-align: center;\">Recursos necesarios y recomendaciones</h4>\n<p><strong>RECURSOS NECESARIOS</strong>:</p>\n<ul class=\"lista_verificacion\">\n<li>Ordenador personal con sistema operativo Windows o GNU/Linux.</li>\n<li>Java JDK25 o superior instalado en el ordenador.</li>\n<li>IDE como NetBeans, VS Code o cualquier otro entorno para desarrollo en Java.</li>\n<li>Los apuntes teóricos correspondientes a la unidad de trabajo DEINTH01.</li>\n</ul>\n<p><strong>RECOMENDACIONES</strong>:</p>\n<p style=\"text-align: left;\">Es conveniente que previamente hayas repasado todos los contenidos de la unidad (y los ejemplos que contienen) y hayas practicado con algunos ejercicios sencillos, de forma que tengas confianza con las clase y los contenedores.</p>\n<p style=\"text-align: left;\"></p>"}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mw3ts73e-gk2f8hjuq</odePageId>
+      <odeBlockId>block-mw3ts73f-t37ecoc2r</odeBlockId>
+      <blockName>Indicaciones de entrega</blockName>
+      <iconName>parasabermasfpd</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mw3ts73e-gk2f8hjuq</odePageId>
+          <odeBlockId>block-mw3ts73f-t37ecoc2r</odeBlockId>
+          <odeIdeviceId>idevice-mw3ts73f-16pb4z2bm</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta22_129" class="block iDevice_content">
+<p style="text-align: left;">Una vez realizada la tarea, se creará una carpeta y se guardarán en ella los archivos Java con el código fuente del contador (contador.java)</p>
+<p style="text-align: left;">Se comprimirá la carpeta en formato zip.</p>
+<p style="text-align: left;">El envío se realizará a través de la plataforma. El archivo se nombrará siguiendo las siguientes pautas (sustituyendo cada uno el primer apellido y el nombre por el suyo):</p>
+<p style="text-align: center;"><strong>Apellido1_Apellido2_Nombre_DI_TOXX_UTXX</strong></p>
+<p>Es muy importante que incluyas comentarios describiendo variables, constantes, funciones, algoritmos y cualquier decisión de diseño que hayas tomado en tu código.</p>
+<p class="enlace_centrado"><strong> </strong></p>
+</div>
+</div>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"textTextarea":"<div class=\"iDevice_inner\">\n<div class=\"iDevice_content_wrapper\">\n<div id=\"ta22_129\" class=\"block iDevice_content\">\n<p style=\"text-align: left;\">Una vez realizada la tarea, se creará una carpeta y se guardarán en ella los archivos Java con el código fuente del contador (contador.java)</p>\n<p style=\"text-align: left;\">Se comprimirá la carpeta en formato zip.</p>\n<p style=\"text-align: left;\">El envío se realizará a través de la plataforma. El archivo se nombrará siguiendo las siguientes pautas (sustituyendo cada uno el primer apellido y el nombre por el suyo):</p>\n<p style=\"text-align: center;\"><strong>Apellido1_Apellido2_Nombre_DI_TOXX_UTXX</strong></p>\n<p>Es muy importante que incluyas comentarios describiendo variables, constantes, funciones, algoritmos y cualquier decisión de diseño que hayas tomado en tu código.</p>\n<p class=\"enlace_centrado\"><strong> </strong></p>\n</div>\n</div>\n</div>"}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mw3ts73e-xnhld0j1n</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>3. Evaluación de la tarea</pageName>
+  <odeNavStructureOrder>3</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>3. Evaluación de la tarea</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mw3ts73e-xnhld0j1n</odePageId>
+      <odeBlockId>block-mw3ts73f-3wvplxk8d</odeBlockId>
+      <blockName>FPD - Free Text</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mw3ts73e-xnhld0j1n</odePageId>
+          <odeBlockId>block-mw3ts73f-3wvplxk8d</odeBlockId>
+          <odeIdeviceId>idevice-mw3ts73f-69o3mgm9i</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<h4 class="resaltado_inline" style="text-align: center;">Criterios de evaluación implicados</h4>
+<p>RA1: Genera interfaces gráficos de usuario mediante editores visuales utilizando las funcionalidades del editor y adaptando el código generado.</p>
+<p><strong>a) Se han analizado las herramientas y librerías disponibles para la generación de interfaces gráficos.</strong><br /><strong>b) Se ha creado un interfaz gráfico utilizando las herramientas de un editor visual.</strong><br /><strong>c) Se han utilizado las funciones del editor para ubicar los componentes del interfaz.</strong><br />d) Se han modificado las propiedades de los componentes para adecuarlas a las necesidades de la aplicación.<br /><strong>e) Se ha analizado el código generado por el editor visual.</strong><br /><strong>f) Se ha modificado el código generado por el editor visual.</strong><br />g) Se han asociado a los eventos las acciones correspondientes.<br />h) Se ha desarrollado una aplicación que incluye el interfaz gráfico obtenido</p>
+<p></p>]]></htmlView>
+          <jsonProperties><![CDATA[{"textTextarea":"<h4 class=\"resaltado_inline\" style=\"text-align: center;\">Criterios de evaluación implicados</h4>\n<p>RA1: Genera interfaces gráficos de usuario mediante editores visuales utilizando las funcionalidades del editor y adaptando el código generado.</p>\n<p><strong>a) Se han analizado las herramientas y librerías disponibles para la generación de interfaces gráficos.</strong><br /><strong>b) Se ha creado un interfaz gráfico utilizando las herramientas de un editor visual.</strong><br /><strong>c) Se han utilizado las funciones del editor para ubicar los componentes del interfaz.</strong><br />d) Se han modificado las propiedades de los componentes para adecuarlas a las necesidades de la aplicación.<br /><strong>e) Se ha analizado el código generado por el editor visual.</strong><br /><strong>f) Se ha modificado el código generado por el editor visual.</strong><br />g) Se han asociado a los eventos las acciones correspondientes.<br />h) Se ha desarrollado una aplicación que incluye el interfaz gráfico obtenido</p>\n<p></p>"}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mw3ts73e-xnhld0j1n</odePageId>
+      <odeBlockId>block-mw3ts73f-ppc3ac29y</odeBlockId>
+      <blockName>FPD - Free Text</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mw3ts73e-xnhld0j1n</odePageId>
+          <odeBlockId>block-mw3ts73f-ppc3ac29y</odeBlockId>
+          <odeIdeviceId>idevice-mw3ts73f-8ryh9b81c</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<h4 class="resaltado_inline" style="text-align: center;">¿Cómo valoramos y puntuamos tu tarea?</h4>
+<table style="width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 20%;">Criterio RA1</td>
+<td style="width: 3.71011%;">Peso</td>
+<td style="width: 22.1942%;">Excelente</td>
+<td style="width: 23.2579%;">Bueno</td>
+<td style="width: 15.8511%;">Aceptable</td>
+<td style="width: 14.9867%;">Deficiente</td>
+</tr>
+<tr>
+<td style="width: 20%;">a) Se han analizado las herramientas y librerías disponibles para la generación de interfaces gráficos.</td>
+<td style="width: 3.71011%;">20%</td>
+<td style="width: 22.1942%;">Compara alternativas (Swing/AWT vs. JavaFX), justifica Swing+GUI Builder para JFrame+JDialog en el caso veterinario; explica limitaciones del autogenerado; incluye captura del editor.</td>
+<td style="width: 23.2579%;">Identifica GUI Builder y Swing; justifica brevemente la elección con 1 captura.</td>
+<td style="width: 15.8511%;">Enumera herramientas sin justificar ni vincular al caso.</td>
+<td style="width: 14.9867%;">No identifica herramientas relevantes ni su pertinencia.</td>
+</tr>
+<tr>
+<td style="width: 20%;">b) Creación de la interfaz con el editor visual</td>
+<td style="width: 3.71011%;">20%</td>
+<td style="width: 22.1942%;">Construye en el GUI Builder el JFrame (menú, botón, imagen) y el JDialog con todos los campos exigidos.</td>
+<td style="width: 23.2579%;">Interfaz casi completa; falta 1 componente menor o etiqueta.</td>
+<td style="width: 15.8511%;">Interfaz parcial; faltan 2–3 campos clave o tipos incorrectos.</td>
+<td style="width: 14.9867%;">No se evidencia construcción con el editor visual.</td>
+</tr>
+<tr>
+<td style="width: 20%;">c) Ubicación de componentes con funciones del editor</td>
+<td style="width: 3.71011%;">20%</td>
+<td style="width: 22.1942%;">Usa layouts con alineaciones consistentes; sin solapes; tamaños preferidos coherentes; etiquetas y campos alineados.</td>
+<td style="width: 23.2579%;">Disposición adecuada con leves desalineaciones o espacios irregulares.</td>
+<td style="width: 15.8511%;">Distribución poco consistente; alineaciones o tamaños dispares.</td>
+<td style="width: 14.9867%;">Ubicación deficiente; superposiciones o fuera de vista.</td>
+</tr>
+<tr>
+<td style="width: 20%;">e) Análisis del código generado por el editor</td>
+<td style="width: 3.71011%;">20%</td>
+<td style="width: 22.1942%;">Explica initComponents, secciones protegidas, modelos y layouts; riesgos de editar zonas protegidas y cómo extender fuera de ellas (con fragmento comentado).</td>
+<td style="width: 23.2579%;">Describe secciones clave y relación con la UI.</td>
+<td style="width: 15.8511%;">Observaciones superficiales sin conexión con la UI.</td>
+<td style="width: 14.9867%;">No presenta análisis.</td>
+</tr>
+<tr>
+<td style="width: 20%;">f) Modificación del código generado por el editor</td>
+<td style="width: 3.71011%;">20%</td>
+<td style="width: 22.1942%;">Añade validaciones, listeners y utilidades fuera de zonas protegidas; separa UI y lógica; no rompe el autogenerado.</td>
+<td style="width: 23.2579%;">Modifica con leves advertencias sin afectar estabilidad.</td>
+<td style="width: 15.8511%;">Cambios invasivos/desordenados con warnings frecuentes.</td>
+<td style="width: 14.9867%;">Edita zonas protegidas o rompe el código.</td>
+</tr>
+</tbody>
+</table>]]></htmlView>
+          <jsonProperties><![CDATA[{"textTextarea":"<h4 class=\"resaltado_inline\" style=\"text-align: center;\">¿Cómo valoramos y puntuamos tu tarea?</h4>\n<table style=\"width: 100%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 20%;\">Criterio RA1</td>\n<td style=\"width: 3.71011%;\">Peso</td>\n<td style=\"width: 22.1942%;\">Excelente</td>\n<td style=\"width: 23.2579%;\">Bueno</td>\n<td style=\"width: 15.8511%;\">Aceptable</td>\n<td style=\"width: 14.9867%;\">Deficiente</td>\n</tr>\n<tr>\n<td style=\"width: 20%;\">a) Se han analizado las herramientas y librerías disponibles para la generación de interfaces gráficos.</td>\n<td style=\"width: 3.71011%;\">20%</td>\n<td style=\"width: 22.1942%;\">Compara alternativas (Swing/AWT vs. JavaFX), justifica Swing+GUI Builder para JFrame+JDialog en el caso veterinario; explica limitaciones del autogenerado; incluye captura del editor.</td>\n<td style=\"width: 23.2579%;\">Identifica GUI Builder y Swing; justifica brevemente la elección con 1 captura.</td>\n<td style=\"width: 15.8511%;\">Enumera herramientas sin justificar ni vincular al caso.</td>\n<td style=\"width: 14.9867%;\">No identifica herramientas relevantes ni su pertinencia.</td>\n</tr>\n<tr>\n<td style=\"width: 20%;\">b) Creación de la interfaz con el editor visual</td>\n<td style=\"width: 3.71011%;\">20%</td>\n<td style=\"width: 22.1942%;\">Construye en el GUI Builder el JFrame (menú, botón, imagen) y el JDialog con todos los campos exigidos.</td>\n<td style=\"width: 23.2579%;\">Interfaz casi completa; falta 1 componente menor o etiqueta.</td>\n<td style=\"width: 15.8511%;\">Interfaz parcial; faltan 2–3 campos clave o tipos incorrectos.</td>\n<td style=\"width: 14.9867%;\">No se evidencia construcción con el editor visual.</td>\n</tr>\n<tr>\n<td style=\"width: 20%;\">c) Ubicación de componentes con funciones del editor</td>\n<td style=\"width: 3.71011%;\">20%</td>\n<td style=\"width: 22.1942%;\">Usa layouts con alineaciones consistentes; sin solapes; tamaños preferidos coherentes; etiquetas y campos alineados.</td>\n<td style=\"width: 23.2579%;\">Disposición adecuada con leves desalineaciones o espacios irregulares.</td>\n<td style=\"width: 15.8511%;\">Distribución poco consistente; alineaciones o tamaños dispares.</td>\n<td style=\"width: 14.9867%;\">Ubicación deficiente; superposiciones o fuera de vista.</td>\n</tr>\n<tr>\n<td style=\"width: 20%;\">e) Análisis del código generado por el editor</td>\n<td style=\"width: 3.71011%;\">20%</td>\n<td style=\"width: 22.1942%;\">Explica initComponents, secciones protegidas, modelos y layouts; riesgos de editar zonas protegidas y cómo extender fuera de ellas (con fragmento comentado).</td>\n<td style=\"width: 23.2579%;\">Describe secciones clave y relación con la UI.</td>\n<td style=\"width: 15.8511%;\">Observaciones superficiales sin conexión con la UI.</td>\n<td style=\"width: 14.9867%;\">No presenta análisis.</td>\n</tr>\n<tr>\n<td style=\"width: 20%;\">f) Modificación del código generado por el editor</td>\n<td style=\"width: 3.71011%;\">20%</td>\n<td style=\"width: 22.1942%;\">Añade validaciones, listeners y utilidades fuera de zonas protegidas; separa UI y lógica; no rompe el autogenerado.</td>\n<td style=\"width: 23.2579%;\">Modifica con leves advertencias sin afectar estabilidad.</td>\n<td style=\"width: 15.8511%;\">Cambios invasivos/desordenados con warnings frecuentes.</td>\n<td style=\"width: 14.9867%;\">Edita zonas protegidas o rompe el código.</td>\n</tr>\n</tbody>\n</table>"}]]></jsonProperties>
+          <odeComponentsOrder>1</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mw3ts73e-qqaqspogf</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Anexo. Licencia de recursos</pageName>
+  <odeNavStructureOrder>4</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Anexo. Licencia de recursos</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mw3ts73e-qqaqspogf</odePageId>
+      <odeBlockId>block-mw3ts73g-15zb6hug1</odeBlockId>
+      <blockName>FPD - Free Text</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mw3ts73e-qqaqspogf</odePageId>
+          <odeBlockId>block-mw3ts73g-15zb6hug1</odeBlockId>
+          <odeIdeviceId>idevice-mw3ts73g-p9vsmuk4m</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<p style="text-align: left;"><strong>Nota:</strong><br /><br />Para esta tarea no es necesario incluir en este anexo la cita de las licencias de ningún recurso.</p>
+<p style="text-align: left;">Este anexo incluye exclusivamente recursos cuya licencia obliga a la cita expresa y que, por la extensión de sus credenciales o por cualquier cuestión técnica, no se pueden citar en línea. El resto de recursos son de elaboración propia y no requieren cita expresa, quedando su licencia expresada en la de los propios materiales o citada en línea, en el lugar donde aparecen en los contenidos.</p>]]></htmlView>
+          <jsonProperties><![CDATA[{"textTextarea":"<p style=\"text-align: left;\"><strong>Nota:</strong><br /><br />Para esta tarea no es necesario incluir en este anexo la cita de las licencias de ningún recurso.</p>\n<p style=\"text-align: left;\">Este anexo incluye exclusivamente recursos cuya licencia obliga a la cita expresa y que, por la extensión de sus credenciales o por cualquier cuestión técnica, no se pueden citar en línea. El resto de recursos son de elaboración propia y no requieren cita expresa, quedando su licencia expresada en la de los propios materiales o citada en línea, en el lugar donde aparecen en los contenidos.</p>"}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+</odeNavStructures>
+</ode>
