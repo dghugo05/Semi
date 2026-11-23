@@ -21,6 +21,29 @@ def update_statistics(resultados, acciones_ordenador, resultado, accion_ordenado
         acciones_ordenador.append(accion_ordenador)
     except AttributeError as e:
         print("Ocurrió un error al actualizar las estadísticas: ", e)
+"""Actualiza y muestra el historial de partidas de la sesión."""
+
+from Enumerations.gameActions import GameAction
+from Enumerations.gameResults import GameResult
+
+
+def update_statistics(resultados, acciones_ordenador, resultado, accion_ordenador):
+    """Añade el resultado y la jugada del ordenador al historial.
+
+    Args:
+        resultados (list[str]): Lista de resultados de las partidas.
+        acciones_ordenador (list[int]): Lista de jugadas del ordenador.
+        resultado (str): Nombre del resultado: VICTORIA, DERROTA o EMPATE.
+        accion_ordenador (int): Jugada del ordenador: 0, 1 o 2.
+
+    Modifica las listas recibidas manteniendo la correspondencia entre
+    cada resultado y su jugada. No devuelve ning?n valor explícito.
+    """
+    try:
+        resultados.append(resultado)
+        acciones_ordenador.append(accion_ordenador)
+    except AttributeError as e:
+        print("Ocurrió un error al actualizar las estadísticas: ", e)
 
 def display_statistics(resultados, acciones_ordenador):
     """Muestra el resultado y la jugada del ordenador de cada partida.

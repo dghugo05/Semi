@@ -1,0 +1,475 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 7 /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Length 4330 >>
+stream
+BT /F2 15 Tf 0.12 0.16 0.22 rg 1 0 0 1 36 557 Tm (Piedra, papel o tijeras - Codigo fuente) Tj ET
+BT /F2 10 Tf 0.12 0.16 0.22 rg 1 0 0 1 36 535 Tm (Game.py) Tj ET
+0.8 0.84 0.89 RG 36 524 m 806 524 l S
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 508 Tm (  1) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 508 Tm ("""Inicia el juego de piedra, papel o tijeras desde la consola.""") Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 498 Tm (  2) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 498 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 488 Tm (  3) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 488 Tm (from Functions import gameConduct as game_conduct) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 478 Tm (  4) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 478 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 468 Tm (  5) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 468 Tm (def game\(\):) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 458 Tm (  6) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 458 Tm (    """Muestra el menú, juega una partida y ofrece repetirla.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 448 Tm (  7) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 448 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 438 Tm (  8) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 438 Tm (    Si la respuesta es "1", llama a play_another\(\). No devuelve un valor.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 428 Tm (  9) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 428 Tm (    """) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 418 Tm ( 10) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 418 Tm (    try:) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 408 Tm ( 11) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 408 Tm (        print\("Bienvenido al juego: ¡Bienvenido al Piedra, Papel o Tijera!"\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 398 Tm ( 12) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 398 Tm (        print\("Estas son las opciones:\\n 1. Piedra\\n 2. Papel\\n 3. Tijeras"\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 388 Tm ( 13) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 388 Tm (        game_conduct.get_user_action\(\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 378 Tm ( 14) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 378 Tm (        ) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 368 Tm ( 15) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 368 Tm (        if\(input\("¿Quieres jugar otra?\\n 1. Si\\n 2. No\\n "\) == "1"\): play_another\(\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 358 Tm ( 16) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 358 Tm (    except EOFError as e:) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 348 Tm ( 17) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 348 Tm (        print\("Ocurrió un error: ", e\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 338 Tm ( 18) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 338 Tm (        game\(\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 328 Tm ( 19) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 328 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 318 Tm ( 20) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 318 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 308 Tm ( 21) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 308 Tm (def play_another\(\):) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 298 Tm ( 22) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 298 Tm (    """Inicia otra partida mediante una llamada recursiva a game\(\).""") Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 288 Tm ( 23) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 288 Tm (    game\(\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 278 Tm ( 24) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 278 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 268 Tm ( 25) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 268 Tm (game\(\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 258 Tm ( 26) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 258 Tm (print\("Gracias por jugar"\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 248 Tm ( 27) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 248 Tm () Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 36 27 Tm (Listado de los 5 archivos Python del programa) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 707 27 Tm (Pagina 1 de 7) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 7357 >>
+stream
+BT /F2 15 Tf 0.12 0.16 0.22 rg 1 0 0 1 36 557 Tm (Piedra, papel o tijeras - Codigo fuente) Tj ET
+BT /F2 10 Tf 0.12 0.16 0.22 rg 1 0 0 1 36 535 Tm (Functions/gameConduct.py) Tj ET
+0.8 0.84 0.89 RG 36 524 m 806 524 l S
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 508 Tm (  1) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 508 Tm ("""Gestiona las jugadas y el historial de la sesión.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 498 Tm (  2) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 498 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 488 Tm (  3) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 488 Tm (resultados y acciones_ordenador guardan datos de las mismas partidas) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 478 Tm (  4) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 478 Tm (en el mismo orden. El historial se conserva en memoria durante la ejecución.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 468 Tm (  5) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 468 Tm (""") Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 458 Tm (  6) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 458 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 448 Tm (  7) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 448 Tm (import random) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 438 Tm (  8) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 438 Tm (from Enumerations.gameResults import GameResult) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 428 Tm (  9) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 428 Tm (from Functions import statictics) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 418 Tm ( 10) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 418 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 408 Tm ( 11) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 408 Tm (resultados = []) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 398 Tm ( 12) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 398 Tm (acciones_ordenador = []) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 388 Tm ( 13) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 388 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 378 Tm ( 14) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 378 Tm (def get_user_action\(\):) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 368 Tm ( 15) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 368 Tm (    """Solicita una jugada y evalúa la partida contra el ordenador.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 358 Tm ( 16) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 358 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 348 Tm ( 17) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 348 Tm (    Convierte las opciones del menú \(1, 2, 3\) a valores internos \(0, 1, 2\).) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 338 Tm ( 18) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 338 Tm (    Repite la solicitud si el número queda fuera del rango permitido.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 328 Tm ( 19) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 328 Tm (    Si ocurre una excepción, muestra el error y termina esta llamada.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 318 Tm ( 20) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 318 Tm (    No devuelve ning?n valor explícito.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 308 Tm ( 21) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 308 Tm (    """) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 298 Tm ( 22) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 298 Tm (    try:) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 288 Tm ( 23) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 288 Tm (        jugada = int\(input\("Seleccione su jugada: "\)\) -1) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 278 Tm ( 24) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 278 Tm (        while\(jugada not in [0, 1, 2]\):) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 268 Tm ( 25) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 268 Tm (            print\("Elija una jugada válida"\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 258 Tm ( 26) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 258 Tm (            jugada = int\(input\("Seleccione su jugada: "\)\) -1) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 248 Tm ( 27) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 248 Tm (        asses_game\(jugada, get_computer_action\(\)\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 238 Tm ( 28) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 238 Tm (    except \(ValueError, EOFError\) as e:) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 228 Tm ( 29) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 228 Tm (        print\("Ocurrió un error: ", e\)  ) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 218 Tm ( 30) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 218 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 208 Tm ( 31) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 208 Tm (def get_computer_action\(\):) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 198 Tm ( 32) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 198 Tm (    """Genera aleatoriamente la jugada del ordenador.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 188 Tm ( 33) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 188 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 178 Tm ( 34) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 178 Tm (    Returns:) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 168 Tm ( 35) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 168 Tm (        int: Número entre 0 y 2, ambos incluidos: 0 representa piedra,) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 158 Tm ( 36) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 158 Tm (        1 representa papel y 2 representa tijeras.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 148 Tm ( 37) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 148 Tm (    """) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 138 Tm ( 38) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 138 Tm (    return random.randint\(0,2\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 128 Tm ( 39) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 128 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 118 Tm ( 40) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 118 Tm (def asses_game\(jug_usuario, jug_ordenador\):) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 108 Tm ( 41) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 108 Tm (    """Compara las jugadas, registra el resultado y muestra el historial.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 98 Tm ( 42) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 98 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 88 Tm ( 43) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 88 Tm (    Args:) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 78 Tm ( 44) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 78 Tm (        jug_usuario \(int\): Jugada del usuario: 0 \(piedra\), 1 \(papel\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 68 Tm ( 45) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 68 Tm (            o 2 \(tijeras\).) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 58 Tm ( 46) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 58 Tm (        jug_ordenador \(int\): Jugada del ordenador con la misma codificación.) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 36 27 Tm (Listado de los 5 archivos Python del programa) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 707 27 Tm (Pagina 2 de 7) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 2799 >>
+stream
+BT /F2 15 Tf 0.12 0.16 0.22 rg 1 0 0 1 36 557 Tm (Piedra, papel o tijeras - Codigo fuente) Tj ET
+BT /F2 10 Tf 0.12 0.16 0.22 rg 1 0 0 1 36 535 Tm (Functions/gameConduct.py \(continuacion\)) Tj ET
+0.8 0.84 0.89 RG 36 524 m 806 524 l S
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 508 Tm ( 47) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 508 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 498 Tm ( 48) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 498 Tm (    Guarda VICTORIA, DERROTA o EMPATE y la jugada del ordenador en las) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 488 Tm ( 49) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 488 Tm (    listas de la sesión. No devuelve ning?n valor explícito.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 478 Tm ( 50) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 478 Tm (    """) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 468 Tm ( 51) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 468 Tm (    resultado = "") Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 458 Tm ( 52) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 458 Tm (    if\(jug_usuario == jug_ordenador\):) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 448 Tm ( 53) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 448 Tm (        resultado = "EMPATE") Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 438 Tm ( 54) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 438 Tm (    elif\(\(jug_usuario == 0 and jug_ordenador == 2\) or \(jug_usuario == 1 and jug_ordenador == 0\) or \(jug_usuario == 2 and jug_ordenador == 1\)\):) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 428 Tm ( 55) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 428 Tm (        resultado = "VICTORIA") Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 418 Tm ( 56) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 418 Tm (    else:) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 408 Tm ( 57) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 408 Tm (        resultado = "DERROTA") Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 398 Tm ( 58) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 398 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 388 Tm ( 59) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 388 Tm (    print\(GameResult[resultado].value\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 378 Tm ( 60) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 378 Tm (    statictics.update_statistics\(resultados, acciones_ordenador, resultado, jug_ordenador\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 368 Tm ( 61) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 368 Tm (    statictics.display_statistics\(resultados, acciones_ordenador\)) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 36 27 Tm (Listado de los 5 archivos Python del programa) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 707 27 Tm (Pagina 3 de 7) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 7826 >>
+stream
+BT /F2 15 Tf 0.12 0.16 0.22 rg 1 0 0 1 36 557 Tm (Piedra, papel o tijeras - Codigo fuente) Tj ET
+BT /F2 10 Tf 0.12 0.16 0.22 rg 1 0 0 1 36 535 Tm (Functions/statictics.py) Tj ET
+0.8 0.84 0.89 RG 36 524 m 806 524 l S
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 508 Tm (  1) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 508 Tm ("""Actualiza y muestra el historial de partidas de la sesión.""") Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 498 Tm (  2) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 498 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 488 Tm (  3) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 488 Tm (from Enumerations.gameActions import GameAction) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 478 Tm (  4) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 478 Tm (from Enumerations.gameResults import GameResult) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 468 Tm (  5) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 468 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 458 Tm (  6) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 458 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 448 Tm (  7) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 448 Tm (def update_statistics\(resultados, acciones_ordenador, resultado, accion_ordenador\):) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 438 Tm (  8) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 438 Tm (    """Añade el resultado y la jugada del ordenador al historial.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 428 Tm (  9) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 428 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 418 Tm ( 10) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 418 Tm (    Args:) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 408 Tm ( 11) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 408 Tm (        resultados \(list[str]\): Lista de resultados de las partidas.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 398 Tm ( 12) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 398 Tm (        acciones_ordenador \(list[int]\): Lista de jugadas del ordenador.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 388 Tm ( 13) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 388 Tm (        resultado \(str\): Nombre del resultado: VICTORIA, DERROTA o EMPATE.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 378 Tm ( 14) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 378 Tm (        accion_ordenador \(int\): Jugada del ordenador: 0, 1 o 2.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 368 Tm ( 15) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 368 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 358 Tm ( 16) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 358 Tm (    Modifica las listas recibidas manteniendo la correspondencia entre) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 348 Tm ( 17) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 348 Tm (    cada resultado y su jugada. No devuelve ning?n valor explícito.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 338 Tm ( 18) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 338 Tm (    """) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 328 Tm ( 19) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 328 Tm (    try:) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 318 Tm ( 20) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 318 Tm (        resultados.append\(resultado\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 308 Tm ( 21) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 308 Tm (        acciones_ordenador.append\(accion_ordenador\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 298 Tm ( 22) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 298 Tm (    except AttributeError as e:) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 288 Tm ( 23) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 288 Tm (        print\("Ocurrió un error al actualizar las estadísticas: ", e\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 278 Tm ( 24) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 278 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 268 Tm ( 25) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 268 Tm (def display_statistics\(resultados, acciones_ordenador\):) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 258 Tm ( 26) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 258 Tm (    """Muestra el resultado y la jugada del ordenador de cada partida.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 248 Tm ( 27) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 248 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 238 Tm ( 28) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 238 Tm (    Args:) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 228 Tm ( 29) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 228 Tm (        resultados \(list[str]\): Nombres de los resultados registrados.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 218 Tm ( 30) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 218 Tm (        acciones_ordenador \(list[int]\): Jugadas del ordenador \(0, 1 o 2\),) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 208 Tm ( 31) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 208 Tm (            en el mismo orden que los resultados.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 198 Tm ( 32) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 198 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 188 Tm ( 33) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 188 Tm (    zip\(\) empareja las listas hasta agotar la más corta. enumerate\(\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 178 Tm ( 34) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 178 Tm (    numera las partidas desde cero. Las enumeraciones proporcionan) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 168 Tm ( 35) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 168 Tm (    el texto del resultado y el nombre de la jugada.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 158 Tm ( 36) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 158 Tm (    No modifica las listas ni devuelve ning?n valor explícito.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 148 Tm ( 37) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 148 Tm (    """) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 138 Tm ( 38) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 138 Tm (    try:) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 128 Tm ( 39) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 128 Tm (        for indice, \(resultado, accion_ordenador\) in enumerate\(zip\(resultados, acciones_ordenador\)\):) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 118 Tm ( 40) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 118 Tm (            print\("El resultado de la partida {} es: {} y el ordenador realizo la accion {}".format\(indice, GameResult[resultado].value, GameActi) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 108 Tm (  >) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 108 Tm (on\(accion_ordenador\).name\)\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 98 Tm ( 41) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 98 Tm (    except \(KeyError, ValueError, TypeError\) as e:) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 88 Tm ( 42) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 88 Tm (        print\("Ocurrió un error al mostrar las estadísticas: ", e\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 78 Tm ( 43) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 78 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 68 Tm ( 44) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 68 Tm (    print\("Estadísticas de la sesión:"\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 58 Tm ( 45) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 58 Tm (    print\("Nº de victorias: {}".format\(resultados.count\("VICTORIA"\)\)\)) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 36 27 Tm (Listado de los 5 archivos Python del programa) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 707 27 Tm (Pagina 4 de 7) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Length 1433 >>
+stream
+BT /F2 15 Tf 0.12 0.16 0.22 rg 1 0 0 1 36 557 Tm (Piedra, papel o tijeras - Codigo fuente) Tj ET
+BT /F2 10 Tf 0.12 0.16 0.22 rg 1 0 0 1 36 535 Tm (Functions/statictics.py \(continuacion\)) Tj ET
+0.8 0.84 0.89 RG 36 524 m 806 524 l S
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 508 Tm ( 46) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 508 Tm (    print\("Nº de derrotas: {}".format\(resultados.count\("DERROTA"\)\)\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 498 Tm ( 47) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 498 Tm (    print\("Nº de empates: {}\\n".format\(resultados.count\("EMPATE"\)\)\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 488 Tm ( 48) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 488 Tm (    print\("Nº de veces que el ordenador jugó piedra: {}".format\(acciones_ordenador.count\(0\)\)\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 478 Tm ( 49) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 478 Tm (    print\("Nº de veces que el ordenador jugó papel: {}".format\(acciones_ordenador.count\(1\)\)\)) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 468 Tm ( 50) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 468 Tm (    print\("Nº de veces que el ordenador jugó tijeras: {}".format\(acciones_ordenador.count\(2\)\)\)) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 36 27 Tm (Listado de los 5 archivos Python del programa) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 707 27 Tm (Pagina 5 de 7) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Length 2607 >>
+stream
+BT /F2 15 Tf 0.12 0.16 0.22 rg 1 0 0 1 36 557 Tm (Piedra, papel o tijeras - Codigo fuente) Tj ET
+BT /F2 10 Tf 0.12 0.16 0.22 rg 1 0 0 1 36 535 Tm (Enumerations/gameActions.py) Tj ET
+0.8 0.84 0.89 RG 36 524 m 806 524 l S
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 508 Tm (  1) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 508 Tm ("""Define los valores internos de las jugadas del juego.""") Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 498 Tm (  2) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 498 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 488 Tm (  3) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 488 Tm (from enum import IntEnum) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 478 Tm (  4) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 478 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 468 Tm (  5) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 468 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 458 Tm (  6) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 458 Tm (class GameAction\(IntEnum\):) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 448 Tm (  7) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 448 Tm (    """Representa las jugadas posibles mediante valores enteros.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 438 Tm (  8) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 438 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 428 Tm (  9) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 428 Tm (    Attributes:) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 418 Tm ( 10) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 418 Tm (        Piedra: Jugada con valor 0.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 408 Tm ( 11) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 408 Tm (        Papel: Jugada con valor 1.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 398 Tm ( 12) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 398 Tm (        Tijeras: Jugada con valor 2.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 388 Tm ( 13) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 388 Tm (    """) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 378 Tm ( 14) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 378 Tm (    Piedra = 0) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 368 Tm ( 15) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 368 Tm (    Papel = 1) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 358 Tm ( 16) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 358 Tm (    Tijeras = 2) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 36 27 Tm (Listado de los 5 archivos Python del programa) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 707 27 Tm (Pagina 6 de 7) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 15 0 R >>
+endobj
+17 0 obj
+<< /Length 2553 >>
+stream
+BT /F2 15 Tf 0.12 0.16 0.22 rg 1 0 0 1 36 557 Tm (Piedra, papel o tijeras - Codigo fuente) Tj ET
+BT /F2 10 Tf 0.12 0.16 0.22 rg 1 0 0 1 36 535 Tm (Enumerations/gameResults.py) Tj ET
+0.8 0.84 0.89 RG 36 524 m 806 524 l S
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 508 Tm (  1) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 508 Tm ("""Define los resultados posibles de una partida.""") Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 498 Tm (  2) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 498 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 488 Tm (  3) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 488 Tm (from enum import Enum) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 478 Tm (  4) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 478 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 468 Tm (  5) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 468 Tm (class GameResult\(Enum\):) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 458 Tm (  6) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 458 Tm (    """Relaciona cada resultado con el texto mostrado al usuario.) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 448 Tm (  7) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 448 Tm () Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 438 Tm (  8) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 438 Tm (    Attributes:) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 428 Tm (  9) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 428 Tm (        VICTORIA: Resultado cuyo valor es "Victoria".) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 418 Tm ( 10) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 418 Tm (        DERROTA: Resultado cuyo valor es "Derrota".) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 408 Tm ( 11) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 408 Tm (        EMPATE: Resultado cuyo valor es "Empate".) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 398 Tm ( 12) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 398 Tm (    """) Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 388 Tm ( 13) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 388 Tm (    VICTORIA = "Victoria") Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 378 Tm ( 14) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 378 Tm (    DERROTA = "Derrota") Tj ET
+BT /F1 8 Tf 0.45 0.48 0.52 rg 1 0 0 1 36 368 Tm ( 15) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 62 368 Tm (    EMPATE = "Empate") Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 36 27 Tm (Listado de los 5 archivos Python del programa) Tj ET
+BT /F1 8 Tf 0.12 0.16 0.22 rg 1 0 0 1 707 27 Tm (Pagina 7 de 7) Tj ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 17 0 R >>
+endobj
+19 0 obj
+<< /Title (Codigo fuente - Piedra, papel o tijeras) /Creator (Exportacion de codigo Python) >>
+endobj
+xref
+0 20
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000162 00000 n 
+0000000257 00000 n 
+0000000359 00000 n 
+0000004740 00000 n 
+0000004876 00000 n 
+0000012284 00000 n 
+0000012420 00000 n 
+0000015270 00000 n 
+0000015407 00000 n 
+0000023285 00000 n 
+0000023423 00000 n 
+0000024908 00000 n 
+0000025046 00000 n 
+0000027705 00000 n 
+0000027843 00000 n 
+0000030448 00000 n 
+0000030586 00000 n 
+trailer
+<< /Size 20 /Root 1 0 R /Info 19 0 R >>
+startxref
+30697
+%%EOF
